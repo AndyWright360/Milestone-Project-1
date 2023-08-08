@@ -1,6 +1,47 @@
 @font-face {
-    font-family: 'CustomFont';
-    src: url('path/to/font.woff2') format('woff2'),
-        url('path/to/font.woff') format('woff');
-    /* Add more font formats if necessary */
+    font-family: 'GlitchInside';
+    src: url('../fonts/GlitchInside.otf') format('opentype');
+}
+
+h1 {
+    font-family: 'GlitchInside', 'Orbitron', sans-serif;
+}
+
+.logo-mini {
+    height: 50px
+}
+
+.heading-home {
+    height: 500px;
+    width: 100%;
+    background: url(../images/hero-md.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/*---------------------------------------------Background Colours*/
+
+.bg-grey {
+    background-color: #3b3b3b;
+    position: relative;
+}
+
+.bg-grey i {
+    color: #ffc561;
+}
+
+.bg-grey p, li {
+    color: #f0f0f0;
+}
+
+.menu {
+    list-style-type: none;
+    position: absolute;
+    right: 50px;
+    bottom: 0;
+}
+
+.menu li {
+    display: inline-block;
 }
