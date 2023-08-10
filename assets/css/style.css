@@ -15,11 +15,13 @@ h1 {
     height: 200px;
 }
 
-.position-left {
-
+.no-margin {
+    margin: 0;
 }
 
-
+.nav-text {
+    padding: 10px;
+}
 
 .heading-home {
     height: 500px;
@@ -41,7 +43,8 @@ h1 {
     color: #ffc561;
 }
 
-.bg-grey p, li {
+.bg-grey p,
+li {
     color: #f0f0f0;
 }
 
