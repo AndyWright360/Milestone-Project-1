@@ -1,11 +1,19 @@
+/*---------------------------------------------Fonts*/
+
 @font-face {
     font-family: 'GlitchInside';
     src: url('../fonts/GlitchInside.otf') format('opentype');
 }
 
-h1 {
+body {
+    font-family: 'Orbitron', sans-serif;
+}
+
+h1 h2 {
     font-family: 'GlitchInside', 'Orbitron', sans-serif;
 }
+
+/*---------------------------------------------Logo image*/
 
 .logo-mini {
     height: 50px;
@@ -15,18 +23,45 @@ h1 {
     height: 200px;
 }
 
+/*---------------------------------------------Navigation Menu*/
+
+.padding {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 .no-margin {
     margin: 0;
 }
 
-.nav-text {
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #f0f0f0;
+    font-size: 110%;
     padding: 10px;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar a:hover {
+    color: #ffc561;
+}
+
+.active {
+    border-bottom: 1px solid #ffc561;
 }
 
 .heading-home {
-    height: 500px;
+    height: 400px;
     width: 100%;
     background: url(../images/hero-md.png);
+    background-color: #f0f0f0;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -46,15 +81,4 @@ h1 {
 .bg-grey p,
 li {
     color: #f0f0f0;
-}
-
-.menu {
-    list-style-type: none;
-    position: absolute;
-    right: 50px;
-    bottom: 0;
-}
-
-.menu li {
-    display: inline-block;
 }
