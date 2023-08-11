@@ -9,29 +9,59 @@ body {
     font-family: 'Orbitron', sans-serif;
 }
 
-h1 h2 {
+h1,
+h2 {
     font-family: 'GlitchInside', 'Orbitron', sans-serif;
 }
 
-/*---------------------------------------------Logo image*/
+/*---------------------------------------------Header*/
 
 .logo-mini {
     height: 50px;
+    padding-top: 10px;
 }
 
 .logo {
     height: 200px;
 }
 
+.book-btn {
+    border: 1px solid #3b3b3b;
+    background-color: #055557;
+    color: #f0f0f0;
+    font-weight: 500;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    transition: color 0.2s ease-in-out;
+}
+
+.book-btn:hover {
+    background-color: #053c3d;
+    color: #ffc561;
+}
+
+.heading-home {
+    height: 400px;
+    width: 100%;
+    background: url(../images/hero-md.png);
+    background-color: #f0f0f0;
+    background-size: cover;
+    background-position: center 35%;
+    background-repeat: no-repeat;
+}
+
 /*---------------------------------------------Navigation Menu*/
 
-.padding {
+.contact-info-padding {
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
-.no-margin {
+.contact-info {
     margin: 0;
+    padding-left: 10px;
+    width: 100%;
 }
 
 .navbar {
@@ -45,7 +75,6 @@ h1 h2 {
     text-decoration: none;
     color: #f0f0f0;
     font-size: 110%;
-    padding: 10px;
     transition: color 0.3s ease-in-out;
 }
 
@@ -53,18 +82,14 @@ h1 h2 {
     color: #ffc561;
 }
 
-.active {
-    border-bottom: 1px solid #ffc561;
+.navbar a:last-child {
+    padding-right: 20px;
 }
 
-.heading-home {
-    height: 400px;
-    width: 100%;
-    background: url(../images/hero-md.png);
-    background-color: #f0f0f0;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+.active {
+    text-decoration: underline #ffc561;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 2px;
 }
 
 /*---------------------------------------------Background Colours*/
@@ -81,4 +106,12 @@ h1 h2 {
 .bg-grey p,
 li {
     color: #f0f0f0;
+}
+
+/*---------------------------------------------Horizontal Rule*/
+
+.yellow-line {
+    border: 2px solid #ffc561;
+    margin: 0;
+    opacity: 1;
 }
