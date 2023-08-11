@@ -25,7 +25,7 @@ h2 {
     height: 200px;
 }
 
-.book-btn {
+.button {
     border: 1px solid #3b3b3b;
     background-color: #055557;
     color: #f0f0f0;
@@ -36,7 +36,7 @@ h2 {
     transition: color 0.2s ease-in-out;
 }
 
-.book-btn:hover {
+.button:hover {
     background-color: #053c3d;
     color: #ffc561;
 }
@@ -114,4 +114,27 @@ li {
     border: 2px solid #ffc561;
     margin: 0;
     opacity: 1;
+}
+
+/*---------------------------------------------Footer*/
+
+.footer-heading {
+    color: #ffc561;
+    font-size: 0.8rem;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.footer-text {
+    margin: 0;
+    font-size : 0.7rem;
+}
+
+.footer-spacer {
+    padding-top: 10px;
+}
+
+.copyright {
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
