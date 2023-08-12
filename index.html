@@ -46,15 +46,15 @@
         <hr class="yellow-line">
         <!--Navigation Bar-->
         <nav>
-            <div class="bg-grey">
+            <div class="container-fluid bg-grey">
                 <div class="row justify-content-end">
-                    <div class="col text-start my-auto no-gutter">
+                    <div class="col text-start my-auto no-padding">
                         <div class="contact-info-padding">
                             <p class="contact-info"><i class="fa-solid fa-phone"></i> 02920 123 456</p>
                             <p class="contact-info"><i class="fa-solid fa-envelope"></i> enquiries@vrandrhotel.co.uk</p>
                         </div>
                     </div>
-                    <div class="col-lg-5 col-md-7 my-auto text-center no-gutter">
+                    <div class="col-lg-5 col-md-7 my-auto text-center no-padding">
                         <ul class="navbar">
                             <li class="active"><a href="index.html">Home</a></li>
                             <li><a href="#">Facilities</a></li>
@@ -135,42 +135,78 @@
         <footer>
             <div class="container-fluid bg-grey">
                 <div class="row">
-                    <div class="col my-auto">
+                    <div class="col">
                         <h4 class="footer-heading">Never Miss A Thing</h4>
-                        <div class="footer-spacer">
-                            <p class="footer-text">Subscribe to our newsletter for updates and exclusive offers</p>
+                        <div>
+                            <p class="footer-text">Subscribe to our newsletter for
+                            <br>
+                            updates and exclusive offers</p>
                         </div>
-                        <div class="footer-spacer">
+                        <div>
                             <form class="footer-text">
-                                <input type="email" placeholder="Your Email">
-                                <input class="button" type="submit" value="Subscribe">
+                                <input type="email" placeholder="Your Email" class="footer-email" required>
+                                <br>
+                                <input class="footer-button" type="submit" value="Subscribe">
                             </form>
                         </div>
                     </div>
-                    <div class="col text-center">
-                        <h4 class="footer-heading">Follow Us</h4>
-                        <div class="footer-spacer">
-                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                            <a href="#"><i class="fa-brands fa-youtube"></i></a>
-                            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
-                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <div class="col">
+                        <div class="col text-center">
+                            <h4 class="footer-heading">Follow Us</h4>
+                        </div>
+                        <div class="col text-center my-auto">
+                            <div class="hex footer-icon-margin">
+                                <a href="#">
+                                    <div class="hex-background">
+                                        <i class="fa-brands fa-facebook-f"></i>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col text-center my-auto">
+                            <div class="hex footer-icon-margin">
+                                <a href="#">
+                                    <div class="hex-background">
+                                        <i class="fa-brands fa-youtube"></i>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="hex footer-icon-margin">
+                                <a href="#">
+                                    <div class="hex-background">
+                                        <i class="fa-brands fa-x-twitter"></i>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col text-center my-auto">
+                            <div class="hex">
+                                <a href="#">
+                                    <div class="hex-background">
+                                        <i class="fa-brands fa-instagram"></i>
+                                    </div>
+                                </a>
+                            </div>
                         </div>
                     </div>
                     <div class="col text-end">
                         <h4 class="footer-heading">Contact Us</h4>
-                        <div class="footer-spacer">
-                            <p class="footer-text">VR & R Hotel</p>
-                            <p class="footer-text">6 Mermaid Quay,</p>
-                            <p class="footer-text">Cardiff, CF10 5BZ</p>
+                        <div class="footer-address">
+                            <p class="footer-text">VR & R Hotel
+                            <br>
+                            6 Mermaid Quay,
+                            <br>
+                            Cardiff, CF10 5BZ</p>
                         </div>
-                        <div class="footer-spacer">
-                            <p class="footer-text"><i class="fa-solid fa-phone"></i> 02920 123 456</p>
-                            <p class="footer-text"><i class="fa-solid fa-envelope"></i> enquiries@vrandrhotel.co.uk</p>
+                        <div>
+                            <p class="footer-text"><i class="fa-solid fa-phone"></i> 02920 123 456
+                            <br>
+                            <i class="fa-solid fa-envelope"></i> enquiries@vrandrhotel.co.uk</p>
                         </div>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col text-center">
+                    <div class="col text-center my-auto">
                         <p class="footer-text copyright">Copyright &copy; 2023 VR & R Hotel. All Rights Reserved.</p>
                     </div>
                 </div>
