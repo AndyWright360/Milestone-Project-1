@@ -14,6 +14,16 @@ h2 {
     font-family: 'GlitchInside', 'Orbitron', sans-serif;
 }
 
+/*---------------------------------------------Headings*/
+
+h2 {
+    margin-top: 50px;
+    margin-bottom: 25px;
+    text-decoration: underline #ffc561;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 4px;
+}
+
 /*---------------------------------------------Hexagon Shape*/
 
 /*The code for the hexagonal container shape used throughout the website
@@ -27,9 +37,9 @@ and modified to suit the site*/
     width: 40px;
     height: 34.64px;
     /* width * 0.866 */
-    background: #f0f0f0;
+    background-color: #f0f0f0;
     box-sizing: border-box;
-    transition: color 0.2s ease-in-out;
+    transition: background-color 0.2s ease-in-out;
     -webkit-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
     -moz-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
 }
@@ -49,7 +59,7 @@ and modified to suit the site*/
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: color 0.2s ease-in-out;
+    transition: background-color 0.2s ease-in-out;
     -webkit-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
     -moz-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
 }
@@ -158,8 +168,28 @@ and modified to suit the site*/
 }
 
 .bg-grey p,
-li {
+.bg-grey li {
     color: #f0f0f0;
+}
+.bg-teal {
+    background-color: #055557;
+}
+
+.bg-teal h2,
+.bg-teal p {
+    color: #f0f0f0;
+}
+
+/*---------------------------------------------Text Boxes*/
+
+.text-box-yellow {
+    border: 2px solid #ffc561;
+    border-radius: 15px;
+    margin: 25px 25px 50px;
+}
+
+.text-box-yellow p {
+    padding: 20px 20px 0;
 }
 
 /*---------------------------------------------Horizontal Rule*/
