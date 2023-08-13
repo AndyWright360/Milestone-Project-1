@@ -171,6 +171,7 @@ and modified to suit the site*/
 .bg-grey li {
     color: #f0f0f0;
 }
+
 .bg-teal {
     background-color: #055557;
 }
@@ -211,7 +212,7 @@ and modified to suit the site*/
 
 .footer-text {
     margin: 0;
-    font-size : 0.7rem;
+    font-size: 0.7rem;
 }
 
 .footer-address {
@@ -271,7 +272,7 @@ and modified to suit the site*/
     background-color: #ffc561;
 }
 
-.hex:hover .hex-background{
+.hex:hover .hex-background {
     background-color: #053c3d;
 }
 
