@@ -85,6 +85,65 @@ All wireframes were created using Balsamiq for the following screen sizes:
 
 ### **General features on each page**
 
+#### **Responsive Design**
+
+* The layout will alter in response to the device screen width to better display the content for the user.
+
+#### **Images**
+
+* The images used throughout the website will be displayed within hexagonal containers. This will call back to the brand logo and design features of the hotel capsules.
+
+#### **Header**
+
+* Home page features a central logo to create a strong brand identifier. The colour theme of the logo is used throughout the website.
+* Each page includes a unique hero image to help reinforce the associated content.
+* The nav bar lists the page names to help users find the relevant information. The current page is underlined, and the titles include a hover modifier to imply interactivity.
+* A call-to-action booking button is present on each page to catch the user's eye.
+* The website contact details are listed on each page for ease of use.
+
+#### **Footer**
+
+* The address and contact details are featured on each page to allow easy discovery.
+* The newsletter sign-up prompt is listed to remind users of the feature.
+* The social media icons include a hover modifier to signify interactivity.
+
+---
+
+### **Home Page**
+
+#### **Hero Image**
+
+* The hero image displayed is of people wearing VR headsets, having a good time. This will help sell the experience on offer to the user.
+
+#### **About Us**
+
+* The content listed will advertise the unique selling element of the Hotel and help the user to visualise the experience offered.
+* The corresponding image will display an example employee to indicate pleasant customer service.
+
+#### **Our VR Experience**
+
+* The content displayed goes into further detail to elaborate on the virtual reality aspect offered. This is designed to entice the user by listing the options available.
+* The image is of an example customer having fun with a VR headset to further sell the idea of the enjoyment on offer.
+* Call-to-action buttons for ‘Our Capsules!’ and ‘VR Lounge!’ are present to offer additional navigation options to users wishing to learn more about these features.
+
+#### **Become A Member**
+
+* The content describes the benefits offered to members to entice users to sign-up.
+* An image displaying the roadmap of offers provides a visual guide to users of the membership perks.
+* The accompanying ‘Rewards Legend’ image provides clarity to the offers on display.
+* The call-to-action ‘Become A Member’ button features a hover modifier to convey interactivity.
+* When selected a small widow will be display asking for the user's name and email. A submit button will prompt a pop-up notification message to display when pressed. This will provide user feedback of a successful sign-up.
+* The sign-up section for the newsletter will encourage a potential member to also sig-up for this service. A pop-up window will display a confirmation message when the ‘subscribe’ button is selected.
+
+#### **Coming Soon**
+
+* This section will act as an advertisement for upcoming events and updates.
+* The ‘Unrest Beyond Reality’ Halloween event is a limited time offering to encourage customers interested in this feature.
+* The image icons will display further information about the experience as a hover feature. This will be for desktop displays only. Tablet and phone will display the additional information in a separate container.
+* Users will be encouraged to keep up to date with the latest events by returning to the website, signing up for membership and subscribing to the newsletter.
+
+---
+
 ### **Future Implementations**
 
 ### **Accessibility**
