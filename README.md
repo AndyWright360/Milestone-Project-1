@@ -60,10 +60,22 @@ Table of contents goes HERE!
 All wireframes were created using Balsamiq for the following screen sizes:
 
 * **Desktop**
-  * [Home page](assets/wireframes/)
-  * Facilities page
-  * Capsules page
-  * Booking page
+  * [Home page](assets/wireframes/home-desktop.png)
+  * [Facilities page](assets/wireframes/facilities-desktop.png)
+  * [Capsules page](assets/wireframes/capsules-desktop.png)
+  * [Booking page](assets/wireframes/booking-desktop.png)
+
+* **Tablet**
+  * [Home page](assets/wireframes/home-tablet.png)
+  * [Facilities page](assets/wireframes/facilities-tablet.png)
+  * [Capsules page](assets/wireframes/capsules-tablet.png)
+  * [Booking page](assets/wireframes/booking-tablet.png)
+
+* **Phone**
+  * [Home page](assets/wireframes/home-phone.png)
+  * [Facilities page](assets/wireframes/facilities-phone.png)
+  * [Capsules page](assets/wireframes/capsules-phone.png)
+  * [Booking page](assets/wireframes/booking-phone.png)
 
 ---
 
