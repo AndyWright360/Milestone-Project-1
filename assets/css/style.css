@@ -10,7 +10,8 @@ body {
 }
 
 h1,
-h2 {
+h2,
+h3 {
     font-family: 'GlitchInside', 'Orbitron', sans-serif;
 }
 
@@ -41,6 +42,11 @@ was sourced from https: //codeconvey.com/css-hexagon-image-with-border/
 and modified to suit the site*/
 
 .hex {
+    width: 40px;
+    height: 34.64px;
+    /* width * 0.866 */
+    background-color: #f0f0f0;
+    transition: background-color 0.2s ease-in-out;
     display: inline-block;
     margin: 0 auto;
     position: relative;
@@ -50,53 +56,6 @@ and modified to suit the site*/
 }
 
 .hex-background {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    -webkit-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
-    -moz-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
-}
-
-.hex img {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    object-fit: fill;
-    -webkit-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
-    -moz-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
-}
-
-.hex-lg {
-    width: 400px;
-    height: 346.4px;
-    /* width * 0.866 */
-    background-color: #ffc561;
-    margin: 25px 50px;
-}
-
-.hex-bg-lg {
-    background-color: #f0f0f0;
-    /*color of the main-background*/
-    top: 4px;
-    /* equal to border thickness */
-    left: 4px;
-    /* equal to border thickness */
-    width: 392px;
-    /* container height - (border thickness * 2) */
-    height: 338.4px;
-    /* container height - (border thickness * 2) */
-}
-
-.hex-footer {
-    width: 40px;
-    height: 34.64px;
-    /* width * 0.866 */
-    background-color: #f0f0f0;
-    transition: background-color 0.2s ease-in-out;
-}
-
-.hex-bg-footer {
     background-color: #055557;
     /*color of the main-background*/
     top: 1px;
@@ -108,6 +67,12 @@ and modified to suit the site*/
     height: 32.64px;
     /* container height - (border thickness * 2) */
     transition: background-color 0.2s ease-in-out;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
+    -moz-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
 }
 
 /*---------------------------------------------Header*/
@@ -132,26 +97,6 @@ and modified to suit the site*/
     background-size: cover;
     background-position: center 35%;
     background-repeat: no-repeat;
-}
-
-.button {
-    border: 3px solid #3b3b3b;
-    background-color: #055557;
-    color: #f0f0f0;
-    border-radius: 7px;
-    transition: color 0.2s ease-in-out;
-}
-
-.button:hover {
-    background-color: #032f30;
-    color: #ffc561;
-    border-color: #ffc561;
-}
-
-#header-btn {
-    margin-top: 10px;
-    padding: 5px;
-    font-weight: 500;
 }
 
 /*---------------------------------------------Navigation Menu*/
@@ -245,7 +190,7 @@ and modified to suit the site*/
     text-decoration-thickness: 4px;
 }
 
-/*---------------------------------------------Text Boxes*/
+/*---------------------------------------------Boxes & Containers*/
 
 .text-box {
     border-radius: 15px;
@@ -282,11 +227,93 @@ and modified to suit the site*/
     opacity: 1;
 }
 
+/*---------------------------------------------Form Inputs*/
+
+#news-email {
+    margin-right: 15px;
+    width: 250px;
+    font-size: 0.9rem;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    color: #3b3b3b;
+}
+
+#news-email:focus {
+    outline: 3px solid #ffc561;
+}
+
+#news-email::placeholder {
+    color: #8c8c8c;
+}
+
+/*---------------------------------------------Buttons*/
+
+.button {
+    border: 3px solid #3b3b3b;
+    background-color: #055557;
+    color: #f0f0f0;
+    border-radius: 7px;
+    transition: color 0.2s ease-in-out;
+}
+
+.button:hover {
+    background-color: #032f30;
+    color: #ffc561;
+    border-color: #ffc561;
+}
+
+#header-btn {
+    margin-top: 10px;
+    padding: 5px;
+    font-weight: 500;
+}
+
 .vr-exp-btn {
     font-weight: 600;
     font-size: 110%;
     margin-top: -25px;
     padding: 5px 10px;
+}
+
+.member-btn {
+    font-weight: 600;
+    font-size: 110%;
+    padding: 5px 10px;
+    margin-top: 15px;
+    margin-bottom: 50px;
+    border: 3px solid #f0f0f0;
+    color: #f0f0f0;
+    border-radius: 7px;
+    background-color: #3b3b3b;
+}
+
+.member-btn:hover {
+    border-color: #ffc561;
+    background-color: #032f30;
+    color: #ffc561;
+}
+
+#news-submit {
+    font-size: 0.9rem;
+    padding: 4px 10px;
+    margin-bottom: 50px;
+}
+
+.footer-button {
+    border: 1px solid #f0f0f0;
+    background-color: #055557;
+    color: #f0f0f0;
+    margin-top: 7px;
+    padding: 2px 5px;
+    border-radius: 5px;
+    transition: color 0.2s ease-in-out;
+}
+
+.footer-button:hover {
+    background-color: #032f30;
+    color: #ffc561;
+    border-color: #ffc561;
 }
 
 /*---------------------------------------------Footer*/
@@ -312,22 +339,6 @@ and modified to suit the site*/
     margin-bottom: 10px;
 }
 
-.footer-button {
-    border: 1px solid #f0f0f0;
-    background-color: #055557;
-    color: #f0f0f0;
-    margin-top: 7px;
-    padding: 2px 5px;
-    border-radius: 5px;
-    transition: color 0.2s ease-in-out;
-}
-
-.footer-button:hover {
-    background-color: #053c3d;
-    color: #ffc561;
-    border-color: #ffc561;
-}
-
 .footer-email {
     margin-top: 10px;
     width: 200px;
@@ -351,24 +362,24 @@ and modified to suit the site*/
     margin-right: 15px;
 }
 
-.hex-footer i {
+.hex i {
     color: #f0f0f0;
     transition: color 0.2s ease-in-out;
 }
 
-.hex-footer:hover {
+.hex:hover {
     background-color: #ffc561;
 }
 
-.hex-footer:hover .hex-bg-footer {
-    background-color: #053c3d;
+.hex:hover .hex-background {
+    background-color: #032f30;
 }
 
-.hex-footer:hover i {
+.hex:hover i {
     color: #ffc561;
 }
 
-/*---------------------------------------------Media Queries Tablet*/
+/*---------------------------------------------Media Queries*/
 
 @media screen and (max-width: 600px) {
     .flex-container {
