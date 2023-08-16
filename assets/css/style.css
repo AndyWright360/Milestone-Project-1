@@ -16,12 +16,22 @@ h2 {
 
 /*---------------------------------------------Headings*/
 
+h1 {
+    color: #3b3b3b;
+    margin-bottom: 25px;
+}
+
 h2 {
     margin-top: 50px;
-    margin-bottom: 25px;
-    text-decoration: underline #ffc561;
-    text-underline-offset: 10px;
-    text-decoration-thickness: 4px;
+    margin-bottom: 50px;
+}
+
+.h2-less-space {
+    margin-bottom: 0;
+}
+
+.sign-up-head {
+    margin-bottom: 20px;
 }
 
 /*---------------------------------------------Hexagon Shape*/
@@ -108,33 +118,40 @@ and modified to suit the site*/
 }
 
 .logo {
-    height: 200px;
-}
-
-.button {
-    border: 1px solid #3b3b3b;
-    background-color: #055557;
-    color: #f0f0f0;
-    font-weight: 500;
-    margin-top: 10px;
-    padding: 5px;
-    border-radius: 5px;
-    transition: color 0.2s ease-in-out;
-}
-
-.button:hover {
-    background-color: #053c3d;
-    color: #ffc561;
+    max-height: 300px;
+    min-height: 125px;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 .heading-home {
-    height: 400px;
+    height: auto;
     width: 100%;
     background: url(../images/hero-md.png);
     background-color: #f0f0f0;
     background-size: cover;
     background-position: center 35%;
     background-repeat: no-repeat;
+}
+
+.button {
+    border: 3px solid #3b3b3b;
+    background-color: #055557;
+    color: #f0f0f0;
+    border-radius: 7px;
+    transition: color 0.2s ease-in-out;
+}
+
+.button:hover {
+    background-color: #032f30;
+    color: #ffc561;
+    border-color: #ffc561;
+}
+
+#header-btn {
+    margin-top: 10px;
+    padding: 5px;
+    font-weight: 500;
 }
 
 /*---------------------------------------------Navigation Menu*/
@@ -165,7 +182,9 @@ and modified to suit the site*/
 .navbar a {
     text-decoration: none;
     color: #f0f0f0;
-    font-size: 110%;
+    font-size: 120%;
+    font-weight: 600;
+    margin-right: 20px;
     transition: color 0.3s ease-in-out;
 }
 
