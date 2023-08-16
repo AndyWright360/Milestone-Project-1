@@ -229,6 +229,22 @@ and modified to suit the site*/
     text-decoration-thickness: 4px;
 }
 
+.bg-white {
+    background-color: #f0f0f0;
+    background: url(../images/hex-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.bg-white h2 {
+    color: #055557;
+    text-decoration: underline #3b3b3b;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 4px;
+}
+
 /*---------------------------------------------Text Boxes*/
 
 .text-box {
@@ -247,12 +263,30 @@ and modified to suit the site*/
     border: 4px solid #ffc561;
 }
 
+.tb-teal {
+    background-color: #055557;
+    color: #f0f0f0;
+    border: 4px solid #3b3b3b;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
 /*---------------------------------------------Horizontal Rule*/
 
 .yellow-line {
     border: 2px solid #ffc561;
     margin: 0;
     opacity: 1;
+}
+
+.vr-exp-btn {
+    font-weight: 600;
+    font-size: 110%;
+    margin-top: -25px;
+    padding: 5px 10px;
 }
 
 /*---------------------------------------------Footer*/
@@ -336,8 +370,13 @@ and modified to suit the site*/
 
 /*---------------------------------------------Media Queries Tablet*/
 
-@media screen and (max-width: 991.5px) {
-    .text-box-yellow {
-            margin: 25px 100px 50px;
-        }
+@media screen and (max-width: 600px) {
+    .flex-container {
+        display: block;
+    }
+
+    .vr-exp-btn {
+        display: block;
+        margin: 0 auto 25px;
+    }
 }
