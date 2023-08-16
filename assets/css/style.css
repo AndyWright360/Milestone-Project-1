@@ -15,6 +15,19 @@ h3 {
     font-family: 'GlitchInside', 'Orbitron', sans-serif;
 }
 
+.spooky {
+    font-family: 'Creepster', sans-serif;
+    color: #880808;
+    font-size: 150%;
+    vertical-align: sub;
+}
+
+.tb-spooky h4 {
+    font-family: 'Creepster', sans-serif;
+    font-size: 200%;
+    padding: 20px 20px 0;
+}
+
 /*---------------------------------------------Headings*/
 
 h1 {
@@ -212,6 +225,25 @@ and modified to suit the site*/
     background-color: #055557;
     color: #f0f0f0;
     border: 4px solid #3b3b3b;
+}
+
+.tb-spooky {
+    background-color: #880808;
+    color: #f0f0f0;
+    border: 4px solid #3b3b3b;
+    height: 400px;
+    overflow: hidden;
+}
+
+.barrier {
+    overflow: hidden;
+}
+
+.tb-spooky img {
+    transform: translateY(-100px);
+    min-height: 430px;
+    width: 115%;
+    vertical-align: middle;
 }
 
 .flex-container {
