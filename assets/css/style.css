@@ -186,7 +186,7 @@ and modified to suit the site*/
     color: #f0f0f0;
 }
 
-.bg-teal h2 {
+.bg-teal h2, .bg-teal h3 {
     text-decoration: underline #ffc561;
     text-underline-offset: 10px;
     text-decoration-thickness: 4px;
@@ -201,7 +201,7 @@ and modified to suit the site*/
     background-attachment: fixed;
 }
 
-.bg-white h2 {
+.bg-white h2, .bg-white h3 {
     color: #055557;
     text-decoration: underline #3b3b3b;
     text-underline-offset: 10px;
@@ -291,7 +291,7 @@ and modified to suit the site*/
 #news-email {
     margin-right: 15px;
     width: 250px;
-    font-size: 0.9rem;
+    font-size: 0.9em;
     border: none;
     border-radius: 5px;
     padding: 5px;
@@ -304,6 +304,26 @@ and modified to suit the site*/
 
 #news-email::placeholder {
     color: #8c8c8c;
+}
+
+/*---------------------------------------------Lists*/
+
+.amenities-list {
+    list-style-type: none;
+    margin: 25px 25px 25px 0;
+    font-size: 1.1em;
+}
+
+.amenities-list li {
+    margin-top: 10px;
+}
+
+.amenities-list li:first-child {
+    margin-top: 0;
+}
+
+.amenities-list i {
+    margin-right: 10px;
 }
 
 /*---------------------------------------------Buttons*/
@@ -354,7 +374,7 @@ and modified to suit the site*/
 }
 
 #news-submit {
-    font-size: 0.9rem;
+    font-size: 0.9em;
     padding: 4px 10px;
     margin-bottom: 50px;
 }
@@ -379,14 +399,14 @@ and modified to suit the site*/
 
 .footer-heading {
     color: #ffc561;
-    font-size: 0.9rem;
+    font-size: 0.9em;
     margin-top: 20px;
     margin-bottom: 10px;
 }
 
 .footer-text {
     margin: 0;
-    font-size: 0.7rem;
+    font-size: 0.7em;
 }
 
 .footer-address {
@@ -456,5 +476,9 @@ and modified to suit the site*/
         display: inline;
         max-width: 50%;
         height: auto;
+     }
+
+     #list-2 {
+        margin-top: -10px;
      }
 }
