@@ -342,8 +342,15 @@ and modified to suit the site*/
     border-color: #ffc561;
 }
 
-#header-btn {
+.header-btn {
     margin-top: 10px;
+    padding: 5px;
+    font-weight: 500;
+}
+
+.capsule-btn {
+    margin-top: 20px;
+    margin-right: 20px;
     padding: 5px;
     font-weight: 500;
 }
@@ -478,7 +485,11 @@ and modified to suit the site*/
         height: auto;
      }
 
-     #list-2 {
+    .amenities-list {
+        font-size: 1em;
+    }
+
+    .list-2 {
         margin-top: -10px;
-     }
+    }
 }
