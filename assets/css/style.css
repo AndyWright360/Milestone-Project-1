@@ -28,6 +28,11 @@ h3 {
     padding: 20px;
 }
 
+.pix {
+    max-width: 100%;
+    height: auto;
+}
+
 /*---------------------------------------------Headings*/
 
 h1 {
@@ -444,4 +449,12 @@ and modified to suit the site*/
         display: block;
         margin: 0 auto 25px;
     }
+}
+
+@media screen and (max-width: 768px) {
+    .pix {
+        display: inline;
+        max-width: 50%;
+        height: auto;
+     }
 }
