@@ -71,6 +71,83 @@
     <hr class="yellow-line">
     <!--Make A Booking With Us Section-->
     <section>
+        <div class="container-fluid bg-teal">
+            <div class="row">
+                <div class="col text-center">
+                    <h2>Make A Booking With Us</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-7 col-lg-8 col-md-10 col-sm-8 col-11 mx-auto">
+                    <div class="container-fluid text-box tb-white">
+                        <form action="#" method="POST">
+                            <div class="row">
+                                <div class="col p-2 ms-md-5 ms-sm-3 mt-3">
+                                    <label for="title">Title</label>
+                                    <select class="form-input" id="title" name="title" required>
+                                        <option value="mr">Mr</option>
+                                        <option value="mrs">Mrs</option>
+                                        <option value="miss">Miss</option>
+                                        <option value="ms">Ms</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-5 col-sm-12 p-2 ms-md-5 ms-sm-3">
+                                    <label for="first-name">First name</label>
+                                    <input class="form-input" id="first-name" type="text" required>
+                                </div>
+                                <div class="col-md-5 col-sm-12 p-2 ms-md-4 ms-sm-3">
+                                    <label for="surname">Surname</label>
+                                    <input class="form-input" id="surname" type="text" required>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-5 col-12 p-2 ms-md-5 ms-sm-3">
+                                    <label for="email">Email</label>
+                                    <input class="form-input" id="email" type="email" required>
+                                </div>
+                                <div class="col-md-5 col-12 p-2 ms-md-4 ms-sm-3">
+                                    <label for="phone-number" required>Phone number</label>
+                                    <input class="form-input" id="phone-number" type="text">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-5 col-12 p-2 ms-md-5 ms-sm-3">
+                                    <label for="capsule">Capsule</label>
+                                    <select class="form-input" id="capsule" name="capsule" required>
+                                        <option value="single">Single</option>
+                                        <option value="double">Double</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-5 col-12 p-2 ms-md-4 ms-sm-3">
+                                    <label for="guests">No. of guests</label>
+                                    <input class="form-input" id="guests" type="number" min="1" max="25" required>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-5 col-12 p-2 ms-md-5 ms-sm-3">
+                                    <label for="check-in">Check in</label>
+                                    <input class="form-input" id="check-in" type="date" required>
+                                </div>
+                                <div class="col-md-5 col-12 p-2 ms-md-4 ms-sm-3">
+                                    <label for="check-out">Check out</label>
+                                    <input class="form-input" id="check-out" type="date" required>
+                                </div>
+                            </div>
+                            <div class="row mb-4 mt-4">
+                                <div class="col-5 me-md-5 me-sm-3 d-flex justify-content-end my-auto mx-auto">
+                                    <input type="reset" value="Clear" class="button form-btn">
+                                </div>
+                                <div class="col-5 ms-md-4 ms-sm-3 me-3 d-flex justify-content-start mx-auto my-auto">
+                                    <input type="submit" name="submit-button" value="Submit" class="button form-btn">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
     <!--/make a booking with us section-->
     <hr class="yellow-line">

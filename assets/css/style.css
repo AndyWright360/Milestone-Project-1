@@ -286,7 +286,7 @@ and modified to suit the site*/
     opacity: 1;
 }
 
-/*---------------------------------------------Form Inputs*/
+/*---------------------------------------------Forms & Lables*/
 
 #news-email {
     margin-right: 15px;
@@ -304,6 +304,32 @@ and modified to suit the site*/
 
 #news-email::placeholder {
     color: #8c8c8c;
+}
+
+label {
+    display: block;
+}
+
+.form-input {
+    height: 30px;
+    width: auto;
+    max-width: 100%;
+    border-radius: 5px;
+    border: 1px solid #3b3b3b;
+    color: #3b3b3b;
+}
+
+.form-input:focus {
+    outline: 2px solid #ffc561;
+    border: none;
+}
+
+.form-input:checked {
+    background-color: #055557;
+}
+
+#guests {
+    width: 80px;
 }
 
 /*---------------------------------------------Lists*/
@@ -378,6 +404,11 @@ and modified to suit the site*/
     border-color: #ffc561;
     background-color: #032f30;
     color: #ffc561;
+}
+
+.form-btn {
+    padding: 5px;
+    font-weight: 500;
 }
 
 #news-submit {
