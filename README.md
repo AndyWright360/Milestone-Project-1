@@ -144,6 +144,68 @@ All wireframes were created using Balsamiq for the following screen sizes:
 
 ---
 
+### **Facilities Page**
+
+#### **Hero Image**
+
+* The hero image shows a row of the hotel capsules to give the user an indication of the futuristic design. This will reinforce the concept of technology being at the forefront of the companies branding.
+
+#### **The Hotel**
+
+* The content will go into detail of the Hotels location and provide information of the local activities and transportation on offer. This will provide potential customers with ideas to help plan their trip itinerary.
+* A list of the hotel amenities will be displayed with accompanying icons to further reinforce the features.
+* An image of the hotel exterior will act as an aid to potential customers visiting the location.
+* An image of guests conversing around the capsules sell the idea of the experience being offered.
+* Images of both the Cardiff Bay area and Cardiff City will provide highlights of the local area.
+
+#### **Single Capsule**
+
+* Highlights of the capsule's features are advertised to the user to encourage a booking.
+* The ‘Book Now!’ is also displayed within the content area to provide a streamlined booking experience for the user.
+* The amenities are listed in the same style as displayed in the facilities page to reinforce this design across the website.
+* The image will provide a clear example of the capsule room. The styling of the site has been designed to mirror features of the capsule to reinforce the identity of the brand.
+
+#### **Double Capsule**
+
+* As the only difference between the capsule's is the number of beds. The content is displayed in the same manner only mirrored. This provides consistency across the visual layout of the page.
+* The information about the double capsule offers a suggestion being suitable for both one and two guests. This allows a single guest to consider upgrading to the larger room size.
+* The accompanying image displays the interior of a double deb capsule. This will convey the difference between the two capsule sizes.
+
+#### **The VR Lounge**
+
+* The content advertises the social lounge area provided to guests. This enriches the options available for the type of VR experiences offered.
+* The accompanying images will reinforce the type of experience guests can expect from this section of the hotel.
+
+---
+
+### **Booking Page**
+
+#### **Hero Image**
+
+* The hero image shows an exciting couple making an online booking for the hotel. This is to reinforce the idea of the booking being a good and happy experience.
+
+#### **Make A Booking With Us**
+
+* The booking input table in laid out into two columns for wider desktop displays. This is reduced to a single column display on smaller tablet and phone displays. This provides the user with a visually appealing design regardless of the display used.
+* Labels are positioned above the input windows avoid any confusion as to what information is required from the user.
+* A ‘clear’ button in provided as a fast re-set to any mistakes made by the user.
+*The ‘submit’ button will display a small widow with a ‘Thank you for your booking’ message. This will provide the user with feedback to confirm their booking has been successful.
+
+#### **Contact Us**
+
+* The contact details are displayed centrally in the page so they can be easily located.
+
+#### **Where To Find Us**
+
+* A Google Maps location widow will display the exact location of the hotel for ease of use.
+
+#### **Terms & Conditions**
+
+* The relevant policy information is all contained in this window so a user can get additional information if required.
+* A scrolling window was used to display the information in a more visually appealing way.
+
+---
+
 ### **Future Implementations**
 
 ### **Accessibility**
