@@ -286,6 +286,45 @@ and modified to suit the site*/
     opacity: 1;
 }
 
+/*---------------------------------------------Iframe*/
+
+iframe {
+    width: 100%;
+    height: 350px;
+    border: 4px solid #3b3b3b;
+    border-radius: 15px;
+    margin-bottom: 50px;
+}
+
+/*---------------------------------------------Terms & Conditions*/
+
+#terms-container {
+    width: 100%;
+    overflow: hidden;
+}
+
+#terms-content {
+    height: 240px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+#tc-sub-p1 {
+    padding: 0 20px;
+}
+
+#tc-sub-p2 {
+    padding: 0 20px;
+}
+
+.tc-title {
+    text-decoration: underline #ffc561;
+    text-underline-offset: 6px;
+    text-decoration-thickness: 2px;
+    padding-bottom: 20px;
+    display: inline-block;
+}
+
 /*---------------------------------------------Forms & Lables*/
 
 #news-email {
