@@ -48,23 +48,22 @@
     <!--/home page header-->
     <hr class="yellow-line">
     <!--Navigation Bar-->
-    <nav>
-        <div class="container-fluid bg-grey">
-            <div class="row justify-content-end">
-                <div class="col text-start my-auto no-padding">
-                    <div class="contact-info-padding">
-                        <p class="contact-info"><i class="fa-solid fa-phone"></i> 02920 123 456</p>
-                        <p class="contact-info"><i class="fa-solid fa-envelope"></i> enquiries@vrandrhotel.co.uk</p>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-lg-5 col-md-6 my-auto text-center no-padding">
-                    <ul class="navbar">
-                        <li><a href="index.html">Home</a></li>
-                        <li class="active"><a href="facilities.html">Facilities</a></li>
-                        <li><a href="booking.html">Booking</a></li>
-                    </ul>
-                </div>
-            </div>
+    <nav class="navbar navbar-expand-md bg-grey">
+        <div class="contact-info-padding">
+            <p class="contact-info"><i class="fa-solid fa-phone"></i> 02920 123 456</p>
+            <p class="contact-info"><i class="fa-solid fa-envelope"></i> enquiries@vrandrhotel.co.uk</p>
+        </div>
+        <button class="navbar-toggler collapsed justify-content-end" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+            <ul class="navbar-nav text-end">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="active nav-item"><a class="nav-link" href="facilities.html">Facilities</a></li>
+                <li class="nav-item"><a class="nav-link" href="booking.html">Booking</a></li>
+            </ul>
         </div>
     </nav>
     <!--/navigation bar-->
@@ -273,7 +272,7 @@
     <footer>
         <div class="container-fluid bg-grey">
             <div class="row">
-                <div class="col">
+                <div class="col-md-4 col-sm-6 col-12 text-sm-start text-center pt-sm-0 pt-3 pb-sm-0 pb-3">
                     <h4 class="footer-heading">Never Miss A Thing</h4>
                     <div>
                         <p class="footer-text">Subscribe to our newsletter for
@@ -289,7 +288,7 @@
                         </form>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col-md-4 col-12 order-md-2 order-first">
                     <div class="col text-center">
                         <h4 class="footer-heading">Follow Us</h4>
                     </div>
@@ -328,7 +327,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col text-end">
+                <div class="col-md-4 col-sm-6 col-12 text-sm-end text-center order-3 pb-sm-0 pb-3">
                     <h4 class="footer-heading">Contact Us</h4>
                     <div class="footer-address">
                         <p class="footer-text">VR & R Hotel
@@ -348,7 +347,8 @@
             </div>
             <div class="row">
                 <div class="col text-center my-auto">
-                    <p class="footer-text copyright">Copyright &copy; 2023 VR & R Hotel. All Rights Reserved.</p>
+                    <p class="footer-text copyright">Copyright &copy; 2023 VR & R Hotel. <br class="d-sm-none d-inline">All
+                        Rights Reserved.</p>
                 </div>
             </div>
         </div>

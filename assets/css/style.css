@@ -11,7 +11,8 @@ body {
 
 h1,
 h2,
-h3 {
+h3,
+h5 {
     font-family: 'GlitchInside', 'Orbitron', sans-serif;
 }
 
@@ -342,6 +343,12 @@ and modified to suit the site*/
     justify-content: space-between;
 }
 
+/*---------------------------------------------Modal*/
+
+#membership-modal {
+    color: #3b3b3b;
+}
+
 /*---------------------------------------------Horizontal Rule*/
 
 .yellow-line {
@@ -518,6 +525,11 @@ label {
     font-size: 0.9em;
     padding: 4px 10px;
     margin-bottom: 50px;
+}
+
+.modal-btn {
+    font-weight: 600;
+    padding: 5px 15px;
 }
 
 .footer-button {
