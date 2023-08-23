@@ -55,7 +55,7 @@ h2 {
 
 /*---------------------------------------------Hexagon Shape*/
 
-/*The code for the hexagonal container shape used throughout the website
+/*The code for the hexagonal container shape used for the social media footer icons
 was sourced from https: //codeconvey.com/css-hexagon-image-with-border/
 and modified to suit the site*/
 
@@ -163,6 +163,70 @@ and modified to suit the site*/
     text-decoration: underline #ffc561;
     text-underline-offset: 5px;
     text-decoration-thickness: 2px;
+}
+
+/*---------------------------------------------Hamburger Icon*/
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+/* The code below for hamburger menu transformation was sourced from https://forum.bootstrapstudio.io/t/change-hamburger-icon/8990 */
+
+.navbar-toggler-icon {
+    background-image: none !important;
+    background-color: #ffc561;
+    height: 3px;
+    width: 25px;
+    margin: 10px 0;
+    position: relative;
+    transition: all 0.35s ease-out;
+    transform-origin: center;
+}
+
+.navbar-toggler-icon::before {
+    display: block;
+    background-color: #ffc561;
+    height: 3px;
+    content: "";
+    position: relative;
+    top: -7px;
+    transition: all 0.15s ease-out;
+    /*taken down to hide quicker*/
+    transform-origin: center;
+}
+
+.navbar-toggler-icon::after {
+    display: block;
+    background-color: #ffc561;
+    height: 3px;
+    content: "";
+    position: relative;
+    top: 4px;
+    transition: all 0.35s ease-out;
+    transform-origin: center;
+}
+
+.navbar-dark .navbar-toggler-icon,
+.navbar-dark .navbar-toggler-icon::before,
+.navbar-dark .navbar-toggler-icon::after {
+    background-color: #ffc561;
+}
+
+.navbar-toggler:not(.collapsed) .navbar-toggler-icon {
+    transform: rotate(45deg);
+}
+
+.navbar-toggler:not(.collapsed) .navbar-toggler-icon::before {
+    opacity: 0;
+}
+
+.navbar-toggler:not(.collapsed) .navbar-toggler-icon::after {
+    transform: rotate(-90deg) translateX(7px);
 }
 
 /*---------------------------------------------Background Colours*/
