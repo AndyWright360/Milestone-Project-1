@@ -111,7 +111,7 @@ and modified to suit the site*/
 .heading-home {
     height: auto;
     width: 100%;
-    background-image: url(../images/hero-md.png);
+    background-image: url(../images/home-hero.jpg);
     background-color: #f0f0f0;
     background-size: cover;
     background-position: center 35%;
@@ -317,15 +317,15 @@ and modified to suit the site*/
 }
 
 #haunted {
-    background-image: url(../images/unrest-hotel-bg.png);
+    background-image: url(../images/haunted-bg.jpg);
 }
 
 #scarecrow {
-    background-image: url(../images/unrest-scarecrow-bg.png);
+    background-image: url(../images/scarecrow-bg.jpg);
 }
 
-#within {
-    background-image: url(../images/unrest-hidden-bg.png);
+#hidden {
+    background-image: url(../images/hidden-bg.jpg);
 }
 
 .fade-container {
