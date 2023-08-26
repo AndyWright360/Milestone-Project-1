@@ -106,14 +106,29 @@ and modified to suit the site*/
     margin-bottom: 25px;
 }
 
-.heading-home {
+.heading {
+    background-color: #f0f0f0;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+#home {
     height: auto;
     width: 100%;
     background-image: url(../images/home-hero.jpg);
-    background-color: #f0f0f0;
-    background-size: cover;
-    background-position: center 35%;
-    background-repeat: no-repeat;
+}
+
+#facilities {
+    height: 50vh;
+    width: 100%;
+    background-image: url(../images/facilities-hero.jpg);
+}
+
+#booking {
+    height: 50vh;
+    width: 100%;
+    background-image: url(../images/booking-hero.jpg);
 }
 
 /*---------------------------------------------Navigation Menu*/
@@ -495,6 +510,22 @@ label {
     font-weight: 500;
 }
 
+#booking-btn {
+    border: 3px solid #f0f0f0;
+    background-color: #3b3b3b;
+    color: #f0f0f0;
+    border-radius: 7px;
+    transition: color 0.2s ease-in-out;
+    margin-top: 10px;
+    padding: 5px;
+    font-weight: 500;
+}
+
+#booking-btn: hover {
+    color: #ffc561;
+    border-color: #ffc561;
+}
+
 .capsule-btn {
     margin-top: 20px;
     margin-right: 20px;
@@ -633,6 +664,11 @@ label {
         display: block;
         margin: 0 auto 25px;
     }
+
+    .bg-white {
+        background-size: auto 100%;
+        background-attachment: initial;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -650,8 +686,16 @@ label {
         margin-top: -10px;
     }
 
-    .heading-home {
+    #home {
         background-image: url(../images/home-hero-mobile.jpg);
+    }
+
+    #facilities {
+        background-image: url(../images/facilities-hero-mobile.jpg);
+    }
+
+    #booking {
+        background-image: url(../images/booking-hero-mobile.jpg);
     }
 }
 
