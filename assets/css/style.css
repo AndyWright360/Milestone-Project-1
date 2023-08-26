@@ -41,15 +41,6 @@ h1 {
     margin-bottom: 25px;
 }
 
-h2 {
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-
-.h2-less-space {
-    margin-bottom: 0;
-}
-
 .sign-up-head {
     margin-bottom: 20px;
 }
@@ -266,7 +257,7 @@ and modified to suit the site*/
 
 .bg-teal h2, .bg-teal h3 {
     text-decoration: underline #ffc561;
-    text-underline-offset: 10px;
+    text-underline-offset: 15px;
     text-decoration-thickness: 4px;
 }
 
@@ -282,7 +273,7 @@ and modified to suit the site*/
 .bg-white h2, .bg-white h3 {
     color: #055557;
     text-decoration: underline #3b3b3b;
-    text-underline-offset: 10px;
+    text-underline-offset: 15px;
     text-decoration-thickness: 4px;
 }
 
@@ -294,6 +285,9 @@ and modified to suit the site*/
 
 .text-box {
     border-radius: 15px;
+}
+
+.tb-margin {
     margin-bottom: 50px;
     margin-top: 50px;
 }
@@ -536,7 +530,6 @@ label {
 .vr-exp-btn {
     font-weight: 600;
     font-size: 110%;
-    margin-top: -25px;
     padding: 5px 10px;
 }
 
