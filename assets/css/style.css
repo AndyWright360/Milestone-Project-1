@@ -87,16 +87,6 @@ and modified to suit the site*/
 
 /*---------------------------------------------Header*/
 
-.logo-mini {
-    height: 50px;
-    padding-top: 10px;
-}
-
-.logo {
-    margin-top: 25px;
-    margin-bottom: 25px;
-}
-
 .heading {
     background-color: #f0f0f0;
     background-size: cover;
@@ -335,25 +325,51 @@ and modified to suit the site*/
     background-image: url(../images/hidden-bg.jpg);
 }
 
-.fade-container {
-    background-color: #880808;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: opacity 0.5s ease-in-out;
-    margin-top: -10px;
-}
-
-.tb-unrest:hover .fade-container {
-    opacity: 1;
-}
-
 .flex-container {
     display: flex;
     justify-content: space-between;
 }
 
+/*---------------------------------------------Hover.css*/
+
+.fade-container {
+    height: 100%;
+    width: 100%;
+    margin-top: -10px;
+}
+
+.hvr-sweep-to-bottom:before {
+    opacity: 1;
+    background: #880808;
+    -webkit-transition-duration: .6s;
+    transition-duration: .6s;
+    -webkit-transition-timing-function: ease-in-out;
+    transition-timing-function: ease-in-out;
+}
+
+.hvr-sweep-to-bottom {
+    -webkit-transition-property: opacity;
+    transition-property: opacity;
+    -webkit-transition-duration: .2s;
+    transition-duration: .2s;
+    opacity: 0;
+}
+
+.tb-unrest:hover .fade-container {
+    opacity: 1
+}
+
 /*---------------------------------------------Images*/
+
+.logo {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.logo-mini {
+    height: 50px;
+    padding-top: 10px;
+}
 
 .unrest-img {
     max-height: 450px;
