@@ -102,8 +102,6 @@ and modified to suit the site*/
 }
 
 .logo {
-    max-height: 300px;
-    min-height: 125px;
     margin-top: 25px;
     margin-bottom: 25px;
 }
@@ -650,6 +648,10 @@ label {
 
     .list-2 {
         margin-top: -10px;
+    }
+
+    .heading-home {
+        background-image: url(../images/home-hero-mobile.jpg);
     }
 }
 
