@@ -38,21 +38,21 @@
     <!--/home page header-->
     <hr class="yellow-line">
     <!--Navigation Bar-->
-    <nav class="navbar navbar-expand-md bg-grey">
-        <div class="contact-info-padding">
+    <nav class="navbar navbar-expand-md bg-grey justify-content-sm-between justify-content-end">
+        <div class="d-sm-inline-block d-none contact-info-padding">
             <p class="contact-info"><i class="fa-solid fa-phone"></i> 02920 123 456</p>
             <p class="contact-info"><i class="fa-solid fa-envelope"></i> enquiries@vrandrhotel.co.uk</p>
         </div>
-        <button class="navbar-toggler collapsed justify-content-end" type="button" data-bs-toggle="collapse"
+        <button class="navbar-toggler justify-content-end collapsed pt-3 pb-3" type="button" data-bs-toggle="collapse"
             data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
             aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+        <div class="navbar-collapse justify-content-end collapse" id="navbarNavAltMarkup">
             <ul class="navbar-nav text-end">
                 <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="facilities.html">Facilities</a></li>
-                <li class="active nav-item"><a class="nav-link" href="booking.html">Booking</a></li>
+                <li class="active nav-item"><a class="nav-link" href="facilities.html">Facilities</a></li>
+                <li class="nav-item"><a class="nav-link" href="booking.html">Booking</a></li>
             </ul>
         </div>
     </nav>
@@ -67,11 +67,11 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-xl-7 col-lg-8 col-md-10 col-sm-8 col-11 mx-auto">
+                <div class="col-xl-7 col-lg-8 col-md-10 col-sm-7 col-11 mx-auto">
                     <div class="container-fluid text-box tb-white tb-margin">
                         <form action="#" method="POST">
-                            <div class="row">
-                                <div class="col p-2 ms-md-5 ms-5 mt-3">
+                            <div class="row justify-content-center text-md-start text-center">
+                                <div class="col-md-11 col-sm-12 ps-md-3 p-2">
                                     <label for="title">Title</label>
                                     <select class="form-input" id="title" name="title" required>
                                         <option value="mr">Mr</option>
@@ -81,45 +81,45 @@
                                     </select>
                                 </div>
                             </div>
-                            <div class="row">
-                                <div class="col-md-5 col-sm-12 p-2 ms-5">
+                            <div class="row justify-content-md-evenly justify-content-center text-md-start text-center">
+                                <div class="col-md-5 col-sm-12 p-2">
                                     <label for="first-name">First name</label>
                                     <input class="form-input" id="first-name" type="text" required>
                                 </div>
-                                <div class="col-md-5 col-sm-12 p-2 ms-md-4 ms-5">
+                                <div class="col-md-5 col-sm-12 p-2">
                                     <label for="surname">Surname</label>
                                     <input class="form-input" id="surname" type="text" required>
                                 </div>
                             </div>
-                            <div class="row">
-                                <div class="col-md-5 col-12 p-2 ms-5">
+                            <div class="row justify-content-md-evenly justify-content-center text-md-start text-center">
+                                <div class="col-md-5 col-sm-12 p-2">
                                     <label for="email">Email</label>
                                     <input class="form-input" id="email" type="email" required>
                                 </div>
-                                <div class="col-md-5 col-12 p-2 ms-md-4 ms-5">
+                                <div class="col-md-5 col-sm-12 p-2">
                                     <label for="phone-number" required>Phone number</label>
                                     <input class="form-input" id="phone-number" type="text">
                                 </div>
                             </div>
-                            <div class="row">
-                                <div class="col-md-5 col-12 p-2 ms-5">
+                            <div class="row justify-content-md-evenly justify-content-center text-md-start text-center">
+                                <div class="col-md-5 col-sm-12 p-2">
                                     <label for="capsule">Capsule</label>
                                     <select class="form-input" id="capsule" name="capsule" required>
                                         <option value="single">Single</option>
                                         <option value="double">Double</option>
                                     </select>
                                 </div>
-                                <div class="col-md-5 col-12 p-2 ms-md-4 ms-5">
+                                <div class="col-md-5 col-sm-12 p-2">
                                     <label for="guests">No. of guests</label>
                                     <input class="form-input" id="guests" type="number" min="1" max="25" required>
                                 </div>
                             </div>
-                            <div class="row">
-                                <div class="col-md-5 col-12 p-2 ms-5">
+                            <div class="row justify-content-md-evenly justify-content-center text-md-start text-center">
+                                <div class="col-md-5 col-sm-12 p-2">
                                     <label for="check-in">Check in</label>
                                     <input class="form-input" id="check-in" type="date" required>
                                 </div>
-                                <div class="col-md-5 col-12 p-2 ms-md-4 ms-5">
+                                <div class="col-md-5 col-sm-12 p-2">
                                     <label for="check-out">Check out</label>
                                     <input class="form-input" id="check-out" type="date" required>
                                 </div>
