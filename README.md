@@ -290,7 +290,29 @@ As an extension of the Login feature I would like to implement a members page wh
 
 ### **Frameworks, Libraries & Programs Used**
 
+1. **Bootstrap 5.3.1:**
+Bootstrap was used to help with the layout of the website and also for responsive design.
 
+2. **Hover.css:**
+Hover.css was used on the Coming Soon section of the Home page. The swipe to bottom transition was placed on the upcoming event features to reveal the content in a stylised way.
+
+3. **Google Fonts:**
+Google fonts was linked into the head section of the html pages. 'Orbitron' was the main fot used throughout the project. 'Creepster' was also used in the Coming Soon section of the home page to provide a horror theme to upcoming content.
+
+4. **Font Awesome:**
+Font Awesome was used on the navigation bar and footer of each page. It also features on the amenities sections of the Facilities page. It was used to compliment the content and provide a visual representation of the information to users.
+
+5. **Codeanywhere:**
+Codeanywhere was used for version control by utilizing the terminal to commit to and push to GitHub.
+
+6. **GitHub:**
+GitHub is used to store the projects code after being pushed from Codeanywhere.
+
+7. **Pixlr:**
+Pixlr was used to create the website logo and adjust the colouring of images to better fit the colour scheme. It was also used to generate the various image shapes used throughout the website for creative design.
+
+8. **Balsamiq:**
+The wireframes were created using Balsamiq during the designing stage of the project.
 
 ---
 
