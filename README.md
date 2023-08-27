@@ -49,7 +49,9 @@ This is the documentation for the VR & R Hotel website. A fictitious company off
       - [**Where To Find Us**](#where-to-find-us)
       - [**Terms \& Conditions**](#terms--conditions)
     - [**Future Implementations**](#future-implementations)
-    - [**Accessibility**](#accessibility)
+      - [**Restaurant**](#restaurant)
+      - [**Sign Up \& Login**](#sign-up--login)
+      - [**Members Page**](#members-page)
   - [**Technologies Used**](#technologies-used)
     - [**Languages Used**](#languages-used)
     - [**Frameworks, Libraries \& Programs Used**](#frameworks-libraries--programs-used)
@@ -261,7 +263,18 @@ All wireframes were created using Balsamiq for the following screen sizes:
 
 ### **Future Implementations**
 
-### **Accessibility**
+#### **Restaurant**
+The Restaurant was originally designed during my wireframes and was intended to be part of the Facilities page. However, as I began designing the website I felt that its inclusion was unnecessary for the projects scope.
+
+This would be a section I would add at a later stage and would feature images of the restautant as well as menu items and guests enjoying the experience. It would also contain a short descriptive paragraph, an opening time table and a button link to the menu.
+
+![Wireframe images of the proposed restaurant section](assets/images/restaurant.jpg)
+
+#### **Sign Up & Login**
+I would like to include a Sign Up & Login section so that returning customers could have a smoother experience when making a booking as their details could be remembered.
+
+#### **Members Page**
+As an extension of the Login feature I would like to implement a members page which would track their progress made along the Loyalty Reward system. This page would also allow members to select the VR experinces that they most enjoyed so recommendations could be made to them for future visits.
 
 ---
 
@@ -271,7 +284,13 @@ All wireframes were created using Balsamiq for the following screen sizes:
 
 ### **Languages Used**
 
+* HTML5
+* CSS3
+
+
 ### **Frameworks, Libraries & Programs Used**
+
+
 
 ---
 
