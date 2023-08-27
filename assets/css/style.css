@@ -247,8 +247,9 @@ and modified to suit the site*/
 
 .bg-teal h2, .bg-teal h3 {
     text-decoration: underline #ffc561;
-    text-underline-offset: 15px;
+    text-underline-offset: 12px;
     text-decoration-thickness: 4px;
+    line-height: 1.8;
 }
 
 .bg-white {
@@ -263,12 +264,17 @@ and modified to suit the site*/
 .bg-white h2, .bg-white h3 {
     color: #055557;
     text-decoration: underline #3b3b3b;
-    text-underline-offset: 15px;
+    text-underline-offset: 12px;
     text-decoration-thickness: 4px;
+    line-height: 1.8;
 }
 
 .bg-red {
     background-color: #880808;
+}
+
+.table td, .table th {
+    background: #f0f0f0;
 }
 
 /*---------------------------------------------Boxes & Containers*/
@@ -280,6 +286,10 @@ and modified to suit the site*/
 .tb-margin {
     margin-bottom: 50px;
     margin-top: 50px;
+}
+
+.tb-padding {
+    padding: 10px;
 }
 
 .text-box p {
@@ -374,10 +384,11 @@ and modified to suit the site*/
 .unrest-img {
     max-height: 450px;
     width: auto;
-    margin-bottom: 50px;
-    margin-top: 50px;
 }
 
+.rewards-icon {
+    max-height: 70px;
+}
 
 /*---------------------------------------------Modal*/
 
@@ -436,8 +447,10 @@ iframe {
 
 #news-email {
     margin-right: 15px;
+    height: 30px;
     width: 250px;
-    font-size: 0.9em;
+    max-width: 100%;
+    font-size: 1.25em;
     border: none;
     border-radius: 5px;
     padding: 5px;
@@ -499,6 +512,10 @@ label {
 }
 
 /*---------------------------------------------Buttons*/
+
+a {
+    text-decoration: none;
+}
 
 .button {
     border: 3px solid #3b3b3b;
@@ -573,9 +590,11 @@ label {
 }
 
 #news-submit {
-    font-size: 0.9em;
+    font-size: 1.25em;
     padding: 4px 10px;
     margin-bottom: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .modal-btn {
@@ -726,7 +745,7 @@ label {
         background-image: none;
     }
     
-    #within {
+    #hidden {
         background-image: none;
     }
 }
