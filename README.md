@@ -1,6 +1,6 @@
 # **VR & R Hotel Website**
 
-![VR & R Hotel website logo]()
+![VR & R Hotel website logo](assets/images/readme-logo.png)
 
 This is the documentation for the VR & R Hotel website. A fictitious company offering its customers a budget capsule hotel experience with a unique virtual reality twist. The project was designed as part of the Code Institute Level 5 Diploma in Web Application Development course.
 
@@ -146,6 +146,8 @@ Google Fonts 'Orbitron' was the font used throughout the body of the website. It
 Google Fonts 'Creepster' was the font used for the Coming Soon section of the home page. It was used to style the upcoming Halloween themed event.
 
 ### **Imagery**
+
+All imagery used for the website was selected to be visually striking and adjusted using Pixlr where needed to reinforce the colour scheme. The hexagonal image shape was intended to reflex the idea of futuristic technology and to apply a consistant visual theme.
 
 ### **Wireframes**
 
@@ -359,11 +361,41 @@ The wireframes were created using Balsamiq during the designing stage of the pro
 
 ### **Deployment**
 
+The project was deployed to GitHub Pages. The following steps were used to achieve this:
+
+1. Log in to Github.
+2. Locate the relevant repository for this project (VR-&-R-Hotel).
+3. Select the 'Settings' tab for the chosen repository at the top of the page.
+4. Click on the 'Pages' tab from the left hand navigation menu.
+5. Under 'Source' click the drop-down menu and select the option 'Deploy from a branch'.
+6. In the 'Branch' section, click the farthest left drop-down menu box and select the option 'main'. Select the drop-down menu box next to this and choose the option '/(root)'.
+7. Click the 'Save' button.
+8. The live site address will display when successfully published.
+
 ### **Local Development**
 
 - **How to Fork**
 
+Forking the the GutHub Repository allows for changes to be made without altering the original repository. To do this please follow the following steps:
+
+1. Log in to Github.
+2. Locate the relevant repository for this project (VR-&-R-Hotel).
+3. Select the 'Fork' button located towards the top right of the repository.
+4. You should now have a copy of the original repository in your GutHub account.
+
 - **How to Clone**
+
+To clone this project, please follow the steps below:
+
+1. Log in to GitHub.
+2. Locate the relevant repository for this project (VR-&-R-Hotel).
+3. Click on the green 'Code' drop-down button.
+4. Select the 'Local' tab in the window that appears.
+5. Select the option 'HTTPS' and copy the link shown.
+6. Open the terminal in your IDE of choice.
+7. Change the current working directory to the location you want to use for the cloned directory.
+8. Type 'git clone' into the terminal and then paste the link you copied in Step 5.
+9. Press enter.
 
 ---
 
