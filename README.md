@@ -1,8 +1,10 @@
 # **VR & R Hotel Website**
 
-![VR & R Hotel website shown on various devices](assets/images/responsive-design.jpg)
+![VR & R Hotel website logo]()
 
 This is the documentation for the VR & R Hotel website. A fictitious company offering its customers a budget capsule hotel experience with a unique virtual reality twist. The project was designed as part of the Code Institute Level 5 Diploma in Web Application Development course.
+
+![VR & R Hotel website shown on various devices](assets/images/responsive-design.jpg)
 
 [Click here to view VR & R Hotel live project](https://andywright360.github.io/VR-and-R-Hotel/)
 
@@ -21,7 +23,12 @@ This is the documentation for the VR & R Hotel website. A fictitious company off
     - [**User Stories**](#user-stories)
   - [**Design**](#design)
     - [**Colour Scheme**](#colour-scheme)
+      - [**Primary Colours**](#primary-colours)
+      - [**Additional Colours**](#additional-colours)
     - [**Typography**](#typography)
+      - [**Glitch Inside**](#glitch-inside)
+      - [**Orbitron**](#orbitron)
+      - [**Creepster**](#creepster)
     - [**Imagery**](#imagery)
     - [**Wireframes**](#wireframes)
   - [**Features**](#features)
@@ -106,7 +113,37 @@ The idea behind this project was to create a business website for a Capsule Hote
 
 ### **Colour Scheme**
 
+#### **Primary Colours**
+
+![VR & R Hotel primary colour scheme used](assets/images/primary-colours.jpg)
+
+These are the colours used throughout the website. The intention was to have two lighter colours and two darker colours that could be mixed and matched while still complementing one another.
+
+#### **Additional Colours**
+
+![Additional colours used within the website](assets/images/additional-colours.jpg)
+
+These are the additional colours used. These were incorporated as a hover effect for buttons, theming the Halloween event and placeholder text.
+
 ### **Typography**
+
+#### **Glitch Inside**
+
+![Glitch Inside font used within the website](assets/images/glitch-inside.jpg)
+
+Glitch Inside was used for the company logo and also the headings. It was chosen as a visual representation of the virtual reality element of the business.
+
+#### **Orbitron**
+
+![Google Fonts Orbitron font used within the website](assets/images/orbitron.jpg)
+
+Google Fonts 'Orbitron' was the font used throughout the body of the website. It was chosen to envoke the idea that the concept is futuristic.
+
+#### **Creepster**
+
+![Google Fonts Creepster font used within the website](assets/images/creepster.jpg)
+
+Google Fonts 'Creepster' was the font used for the Coming Soon section of the home page. It was used to style the upcoming Halloween themed event.
 
 ### **Imagery**
 
@@ -297,7 +334,7 @@ Bootstrap was used to help with the layout of the website and also for responsiv
 Hover.css was used on the Coming Soon section of the Home page. The swipe to bottom transition was placed on the upcoming event features to reveal the content in a stylised way.
 
 3. **Google Fonts:**
-Google fonts was linked into the head section of the html pages. 'Orbitron' was the main fot used throughout the project. 'Creepster' was also used in the Coming Soon section of the home page to provide a horror theme to upcoming content.
+Google fonts was linked into the head section of the html pages. 'Orbitron' was the main font used throughout the project. 'Creepster' was also used in the Coming Soon section of the home page to provide a horror theme to upcoming content.
 
 4. **Font Awesome:**
 Font Awesome was used on the navigation bar and footer of each page. It also features on the amenities sections of the Facilities page. It was used to compliment the content and provide a visual representation of the information to users.
@@ -305,13 +342,13 @@ Font Awesome was used on the navigation bar and footer of each page. It also fea
 5. **Codeanywhere:**
 Codeanywhere was used for version control by utilizing the terminal to commit to and push to GitHub.
 
-6. **GitHub:**
+1. **GitHub:**
 GitHub is used to store the projects code after being pushed from Codeanywhere.
 
-7. **Pixlr:**
+1. **Pixlr:**
 Pixlr was used to create the website logo and adjust the colouring of images to better fit the colour scheme. It was also used to generate the various image shapes used throughout the website for creative design.
 
-8. **Balsamiq:**
+1. **Balsamiq:**
 The wireframes were created using Balsamiq during the designing stage of the project.
 
 ---
