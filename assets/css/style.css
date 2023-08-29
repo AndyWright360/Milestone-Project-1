@@ -89,27 +89,27 @@ and modified to suit the site*/
 
 .heading {
     background-color: #f0f0f0;
+    height: auto;
+    width: 100%;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
 }
 
 #home {
-    height: auto;
-    width: 100%;
     background-image: url(../images/home-hero.jpg);
 }
 
 #facilities {
-    height: 50vh;
-    width: 100%;
     background-image: url(../images/facilities-hero.jpg);
 }
 
 #booking {
-    height: 50vh;
-    width: 100%;
     background-image: url(../images/booking-hero.jpg);
+}
+
+.hide {
+    visibility: hidden;
 }
 
 /*---------------------------------------------Navigation Menu*/
