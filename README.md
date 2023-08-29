@@ -1,4 +1,4 @@
-# **VR & R Hotel Website**
+<h1><strong>VR & R Hotel Website</strong></h1>
 
 ![VR & R Hotel website logo](assets/images/readme/readme-logo.png)
 
@@ -12,67 +12,68 @@ This is the documentation for the VR & R Hotel website. A fictitious company off
 
 ---
 
-## **Contents**
+<h2><strong>Contents</strong></h2>
 
 ---
-
-- [**VR \& R Hotel Website**](#vr--r-hotel-website)
-  - [**Contents**](#contents)
-  - [**User Experience (UX)**](#user-experience-ux)
-    - [**Initial Concept**](#initial-concept)
-    - [**User Stories**](#user-stories)
-  - [**Design**](#design)
-    - [**Colour Scheme**](#colour-scheme)
-      - [**Primary Colours**](#primary-colours)
-      - [**Additional Colours**](#additional-colours)
-    - [**Typography**](#typography)
-      - [**Glitch Inside**](#glitch-inside)
-      - [**Orbitron**](#orbitron)
-      - [**Creepster**](#creepster)
-    - [**Imagery**](#imagery)
-    - [**Wireframes**](#wireframes)
-  - [**Features**](#features)
-    - [**General Features**](#general-features)
-      - [**Responsive Design**](#responsive-design)
-      - [**Images**](#images)
-      - [**Header**](#header)
-      - [**Footer**](#footer)
-    - [**Home Page**](#home-page)
-      - [**Hero Image**](#hero-image)
-      - [**About Us**](#about-us)
-      - [**Our VR Experience**](#our-vr-experience)
-      - [**Become A Member**](#become-a-member)
-      - [**Coming Soon**](#coming-soon)
-    - [**Facilities Page**](#facilities-page)
-      - [**Hero Image**](#hero-image-1)
-      - [**The Hotel**](#the-hotel)
-      - [**Single Capsule**](#single-capsule)
-      - [**Double Capsule**](#double-capsule)
-      - [**The VR Lounge**](#the-vr-lounge)
-    - [**Booking Page**](#booking-page)
-      - [**Hero Image**](#hero-image-2)
-      - [**Make A Booking With Us**](#make-a-booking-with-us)
-      - [**Contact Us**](#contact-us)
-      - [**Where To Find Us**](#where-to-find-us)
-      - [**Terms \& Conditions**](#terms--conditions)
-    - [**Future Implementations**](#future-implementations)
-      - [**Restaurant**](#restaurant)
-      - [**Sign Up \& Login**](#sign-up--login)
-      - [**Members Page**](#members-page)
-  - [**Technologies Used**](#technologies-used)
-    - [**Languages Used**](#languages-used)
-    - [**Frameworks, Libraries \& Programs Used**](#frameworks-libraries--programs-used)
-  - [**Deployment \& Local Development**](#deployment--local-development)
-    - [**Deployment**](#deployment)
-    - [**Local Development**](#local-development)
-      - [**How to Fork**](#how-to-fork)
-      - [**How to Clone**](#how-to-clone)
-  - [**Testing**](#testing)
-  - [**Credits**](#credits)
-    - [Code Used](#code-used)
-    - [Content](#content)
-    - [Media](#media)
-    - [Acknowledgments](#acknowledgments)
+- [**User Experience (UX)**](#user-experience-ux)
+  - [**Initial Concept**](#initial-concept)
+  - [**User Stories**](#user-stories)
+- [**Design**](#design)
+  - [**Colour Scheme**](#colour-scheme)
+    - [**Primary Colours**](#primary-colours)
+    - [**Additional Colours**](#additional-colours)
+  - [**Typography**](#typography)
+    - [**Glitch Inside**](#glitch-inside)
+    - [**Orbitron**](#orbitron)
+    - [**Creepster**](#creepster)
+  - [**Imagery**](#imagery)
+  - [**Wireframes**](#wireframes)
+    - [**Desktop**](#desktop)
+    - [**Tablet**](#tablet)
+    - [**Phone**](#phone)
+- [**Features**](#features)
+  - [**General Features**](#general-features)
+    - [**Responsive Design**](#responsive-design)
+    - [**Images**](#images)
+    - [**Background**](#background)
+    - [**Header**](#header)
+    - [**Footer**](#footer)
+  - [**Home Page**](#home-page)
+    - [**Hero Image**](#hero-image)
+    - [**About Us**](#about-us)
+    - [**Our VR Experience**](#our-vr-experience)
+    - [**Become A Member**](#become-a-member)
+    - [**Coming Soon**](#coming-soon)
+  - [**Facilities Page**](#facilities-page)
+    - [**Hero Image**](#hero-image-1)
+    - [**The Hotel**](#the-hotel)
+    - [**Single Capsule**](#single-capsule)
+    - [**Double Capsule**](#double-capsule)
+    - [**The VR Lounge**](#the-vr-lounge)
+  - [**Booking Page**](#booking-page)
+    - [**Hero Image**](#hero-image-2)
+    - [**Make A Booking With Us**](#make-a-booking-with-us)
+    - [**Contact Us**](#contact-us)
+    - [**Where To Find Us**](#where-to-find-us)
+    - [**Terms \& Conditions**](#terms--conditions)
+  - [**Future Implementations**](#future-implementations)
+    - [**Restaurant**](#restaurant)
+    - [**Sign Up \& Login**](#sign-up--login)
+    - [**Members Page**](#members-page)
+- [**Technologies Used**](#technologies-used)
+  - [**Languages Used**](#languages-used)
+  - [**Frameworks, Libraries \& Programs Used**](#frameworks-libraries--programs-used)
+- [**Deployment \& Local Development**](#deployment--local-development)
+  - [**Deployment**](#deployment)
+  - [**Local Development**](#local-development)
+    - [**How to Fork**](#how-to-fork)
+    - [**How to Clone**](#how-to-clone)
+- [**Testing**](#testing)
+- [**Credits**](#credits)
+  - [Code Used](#code-used)
+  - [Content](#content)
+  - [Media](#media)
+  - [Acknowledgments](#acknowledgments)
 
 ---
 
@@ -117,7 +118,7 @@ The idea behind this project was to create a business website for a Capsule Hote
 
 #### **Primary Colours**
 
-![VR & R Hotel primary colour scheme used](assets/images/raedme/primary-colours.jpg)
+![VR & R Hotel primary colour scheme used](assets/images/readme/primary-colours.jpg)
 
 These are the colours used throughout the website. The intention was to have two lighter colours and two darker colours that could be mixed and matched while still complementing one another.
 
@@ -155,23 +156,107 @@ All imagery used for the website was selected to be visually striking and adjust
 
 All wireframes were created using Balsamiq for the following screen sizes:
 
-- **Desktop**
-  - [Home page](assets/wireframes/home-desktop.png)
-  - [Facilities page](assets/wireframes/facilities-desktop.png)
-  - [Capsules page](assets/wireframes/capsules-desktop.png)
-  - [Booking page](assets/wireframes/booking-desktop.png)
+#### **Desktop**
 
-- **Tablet**
-  - [Home page](assets/wireframes/home-tablet.png)
-  - [Facilities page](assets/wireframes/facilities-tablet.png)
-  - [Capsules page](assets/wireframes/capsules-tablet.png)
-  - [Booking page](assets/wireframes/booking-tablet.png)
+<details><summary>Home Page</summary>
 
-- **Phone**
-  - [Home page](assets/wireframes/home-phone.png)
-  - [Facilities page](assets/wireframes/facilities-phone.png)
-  - [Capsules page](assets/wireframes/capsules-phone.png)
-  - [Booking page](assets/wireframes/booking-phone.png)
+<img src="assets/wireframes/home-desktop.png">
+
+*Home Page*
+
+</details>
+
+<details><summary>Facilities Page</summary>
+
+<img src="assets/wireframes/facilities-desktop.png">
+
+*Facilities Page*
+
+</details>
+
+<details><summary>Capsules Page</summary>
+
+<img src="assets/wireframes/capsules-desktop.png">
+
+*Capsules Page*
+
+</details>
+
+<details><summary>Booking Page</summary>
+
+<img src="assets/wireframes/booking-desktop.png">
+
+*Booking Page*
+
+</details>
+
+#### **Tablet**
+
+<details><summary>Home Page</summary>
+
+<img src="assets/wireframes/home-tablet.png">
+
+*Home Page*
+
+</details>
+
+<details><summary>Facilities Page</summary>
+
+<img src="assets/wireframes/facilities-tablet.png">
+
+*Facilities Page*
+
+</details>
+
+<details><summary>Capsules Page</summary>
+
+<img src="assets/wireframes/capsules-tablet.png">
+
+*Capsules Page*
+
+</details>
+
+<details><summary>Booking Page</summary>
+
+<img src="assets/wireframes/booking-tablet.png">
+
+*Booking Page*
+
+</details>
+
+#### **Phone**
+
+<details><summary>Home Page</summary>
+
+<img src="assets/wireframes/home-phone.png">
+
+*Home Page*
+
+</details>
+
+<details><summary>Facilities Page</summary>
+
+<img src="assets/wireframes/facilities-phone.png">
+
+*Facilities Page*
+
+</details>
+
+<details><summary>Capsules Page</summary>
+
+<img src="assets/wireframes/capsules-phone.png">
+
+*Capsules Page*
+
+</details>
+
+<details><summary>Booking Page</summary>
+
+<img src="assets/wireframes/booking-phone.png">
+
+*Booking Page*
+
+</details>
 
 ---
 
@@ -204,6 +289,26 @@ All wireframes were created using Balsamiq for the following screen sizes:
 </details>
 
 - The images used throughout the website are hexagonally shaped. This will call back to the brand logo and design features of the hotel capsules.
+
+#### **Background**
+
+<details><summary>Screenshots</summary>
+
+<img src="assets/images/readme/teal-gradient.jpg">
+
+*Teal Background - Gradient*
+
+<img src="assets/images/readme/white-background.gif">
+
+*White Hex Background - Position: Fixed*
+
+</details>
+
+ - The descision was made to alternate the background colours of each section from teal and white. This was to give the user a strong indication of where each section ends.
+ - I added a gradient to the edge of the teal background to make it more dynamic. It originally looked a little flat when compared to the background image used in the white background.
+ - The white hexagonal background image was chosen to further emphasise the use of this shape throughout the website.
+ - As a background image I wanted it to remain subtle and not distract the user form the page content.
+ - The position fixed property was chosen to add a bit of stylistic flare to website.
 
 #### **Header**
 
@@ -262,15 +367,43 @@ All wireframes were created using Balsamiq for the following screen sizes:
 
 #### **Hero Image**
 
+<details><summary>Screenshots</summary>
+
+<img src="assets/images/readme/home-page-logo.jpg">
+
+*Home page - Logo*
+
+</details>
+
 - The hero image displayed is of people wearing VR headsets, having a good time. This will help sell the experience on offer to the user.
 
 #### **About Us**
+
+<details><summary>Screenshots</summary>
+
+<img src="assets/images/readme/readme-about-us.jpg">
+
+*About Us Section*
+
+</details>
 
 - The content listed will advertise the unique selling element of the Hotel and help the user to visualise the experience offered.
 - The corresponding image will display a couple checking in at the reception desk. The happy expression of the receptionist will indicate to users that the check-in process is pleasant.
 - The colour pallet of the original image has been altered to fit the colour theme of the business.
 
 #### **Our VR Experience**
+
+<details><summary>Screenshots</summary>
+
+<img src="assets/images/readme/readme-vr-exp.jpg">
+
+*VR Experience Section*
+
+<img src="assets/images/readme/vr-exp-btns.gif">
+
+*VR Experience - Buttons*
+
+</details>
 
 - The content displayed goes into further detail to elaborate on the virtual reality aspect offered. This is designed to entice the user by listing the options available.
 - The image is of an example customer having fun with a VR headset to further sell the idea of the enjoyment on offer.
@@ -284,8 +417,8 @@ All wireframes were created using Balsamiq for the following screen sizes:
 - An image displaying the roadmap of offers provides a visual guide to users of the membership perks.
 - The accompanying 'Rewards Legend' image provides clarity to the offers on display.
 - The call-to-action 'Become A Member' button features a hover modifier to convey interactivity.
-- When selected a small widow will be display asking for the user's name and email. A submit button will prompt a pop-up notification message to display when pressed. This will provide user feedback of a successful sign-up.
-- The sign-up section for the newsletter will encourage a potential member to also sig-up for this service. A pop-up window will display a confirmation message when the 'subscribe' button is selected.
+- When selected a modal will be display asking for the user's name and email. A successful submit will take the user to a seperate page diaplaying a thank you message. This will provide user feedback of a successful sign-up.
+- The sign-up section for the newsletter will encourage a potential member to also sign-up for this service. A successful submission will lead the user to a seperate thank you page. This will provide the user with feedback.
 
 #### **Coming Soon**
 
