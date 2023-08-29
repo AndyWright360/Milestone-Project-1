@@ -45,6 +45,11 @@ h1 {
     margin-bottom: 20px;
 }
 
+.bg-teal .thankyou-title {
+    text-decoration: none;
+    font-size: 250%;
+}
+
 /*---------------------------------------------Hexagon Shape*/
 
 /*The code for the hexagonal container shape used for the social media footer icons
@@ -106,6 +111,10 @@ and modified to suit the site*/
 
 #booking {
     background-image: url(../images/booking-hero.jpg);
+}
+
+.thank-you {
+    background-image: url(../images/thankyou-header.jpg);
 }
 
 .hide {
