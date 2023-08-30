@@ -19,16 +19,16 @@
 </head>
 
 <body>
-    <!--Home Page Header-->
+    <!--Booking Page Header-->
     <header>
         <div id="booking" class="container-fluid heading">
             <div class="row">
                 <div class="col text-start">
-                    <a href="index.html"><img src="assets/images/logo-mini-alt.png"
-                            alt="miniture version of VR & R Hotel logo" class="logo-mini"></a>
+                    <a href="index.html" aria-label="go to the home page"><img src="assets/images/logo-mini-alt.png"
+                            alt="miniture version of vr & r hotel logo" class="logo-mini"></a>
                 </div>
                 <div class="col text-end">
-                    <a href="#booking-title"><button id="booking-btn">Book Now!</button></a>
+                    <a href="#booking-title" aria-label="go to the booking section of the booking page"><button id="booking-btn">Book Now!</button></a>
                 </div>
             </div>
             <div class="row h-50 hide">
@@ -45,7 +45,7 @@
             </div>
         </div>
     </header>
-    <!--/home page header-->
+    <!--/booking page header-->
     <hr class="yellow-line">
     <!--Navigation Bar-->
     <nav class="navbar navbar-expand-md bg-grey justify-content-sm-between justify-content-end">
@@ -68,7 +68,7 @@
     </nav>
     <!--/navigation bar-->
     <hr class="yellow-line">
-    <!--Make A Booking With Us Section-->
+    <!--Make A Booking Section-->
     <section>
         <div class="container-fluid bg-teal">
             <div class="row pt-5">
@@ -79,11 +79,11 @@
             <div class="row">
                 <div class="col-xl-7 col-lg-8 col-md-10 col-sm-7 col-11 mx-auto">
                     <div class="container-fluid text-box tb-white tb-margin">
-                        <form action="#" method="POST">
+                        <form action="thankyou-book.html#ty-book" aria-label="form to make a hotel booking">
                             <div class="row justify-content-center text-md-start text-center">
                                 <div class="col-md-11 col-sm-12 ps-md-3 p-2">
                                     <label for="title">Title</label>
-                                    <select class="form-input" id="title" name="title" required>
+                                    <select class="form-input" id="title" name="title" aria-label="select your title from the list" required>
                                         <option value="mr">Mr</option>
                                         <option value="mrs">Mrs</option>
                                         <option value="miss">Miss</option>
@@ -94,52 +94,52 @@
                             <div class="row justify-content-md-evenly justify-content-center text-md-start text-center">
                                 <div class="col-md-5 col-sm-12 p-2">
                                     <label for="first-name">First name</label>
-                                    <input class="form-input" id="first-name" type="text" required>
+                                    <input class="form-input" id="first-name" type="text" aria-label="enter your first name" required>
                                 </div>
                                 <div class="col-md-5 col-sm-12 p-2">
                                     <label for="surname">Surname</label>
-                                    <input class="form-input" id="surname" type="text" required>
+                                    <input class="form-input" id="surname" type="text" aria-label="enter your surname" required>
                                 </div>
                             </div>
                             <div class="row justify-content-md-evenly justify-content-center text-md-start text-center">
                                 <div class="col-md-5 col-sm-12 p-2">
                                     <label for="email">Email</label>
-                                    <input class="form-input" id="email" type="email" required>
+                                    <input class="form-input" id="email" type="email" aria-label="enter your email address" required>
                                 </div>
                                 <div class="col-md-5 col-sm-12 p-2">
                                     <label for="phone-number" required>Phone number</label>
-                                    <input class="form-input" id="phone-number" type="text">
+                                    <input class="form-input" id="phone-number" type="text" aria-label="enter your phone number">
                                 </div>
                             </div>
                             <div class="row justify-content-md-evenly justify-content-center text-md-start text-center">
                                 <div class="col-md-5 col-sm-12 p-2">
                                     <label for="capsule">Capsule</label>
-                                    <select class="form-input" id="capsule" name="capsule" required>
+                                    <select class="form-input" id="capsule" name="capsule" aria-label="select your preferred capsule type from the list" required>
                                         <option value="single">Single</option>
                                         <option value="double">Double</option>
                                     </select>
                                 </div>
                                 <div class="col-md-5 col-sm-12 p-2">
                                     <label for="guests">No. of guests</label>
-                                    <input class="form-input" id="guests" type="number" min="1" max="25" required>
+                                    <input class="form-input" id="guests" type="number" min="1" max="25" aria-label="enter the number of guests" required>
                                 </div>
                             </div>
                             <div class="row justify-content-md-evenly justify-content-center text-md-start text-center">
                                 <div class="col-md-5 col-sm-12 p-2">
                                     <label for="check-in">Check in</label>
-                                    <input class="form-input" id="check-in" type="date" required>
+                                    <input class="form-input" id="check-in" type="date" aria-label="enter your check in date" required>
                                 </div>
                                 <div class="col-md-5 col-sm-12 p-2">
                                     <label for="check-out">Check out</label>
-                                    <input class="form-input" id="check-out" type="date" required>
+                                    <input class="form-input" id="check-out" type="date" aria-label="enter your check out date" required>
                                 </div>
                             </div>
                             <div class="row mb-4 mt-4">
                                 <div class="col-5 me-md-5 me-sm-3 d-flex justify-content-end my-auto mx-auto">
-                                    <input type="reset" value="Clear" class="button form-btn">
+                                    <input type="reset" value="Clear" class="button form-btn" aria-label="clear the form input details">
                                 </div>
                                 <div class="col-5 ms-md-4 ms-sm-3 me-3 d-flex justify-content-start mx-auto my-auto">
-                                    <input type="submit" name="submit-button" value="Submit" class="button form-btn">
+                                    <input type="submit" name="submit-button" value="Submit" class="button form-btn" aria-label="submit the booking form">
                                 </div>
                             </div>
                         </form>
@@ -148,7 +148,7 @@
             </div>
         </div>
     </section>
-    <!--/make a booking with us section-->
+    <!--/make a booking section-->
     <hr class="yellow-line">
     <!--Contact Us Section-->
     <section>
@@ -183,7 +183,7 @@
             </div>
             <div class="row">
                 <div class="col-md-8 col-10 mx-auto">
-                    <iframe src="https://bit.ly/3QOUcdU" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe src="https://bit.ly/3QOUcdU" loading="lazy" referrerpolicy="no-referrer-when-downgrade" aria-label="google maps location of the hotel"></iframe>
                 </div>
             </div>
         </div>
@@ -257,10 +257,12 @@
                         </p>
                     </div>
                     <div>
-                        <form class="footer-text">
-                            <input type="email" placeholder="Your Email" class="footer-email" required>
+                        <form class="footer-text" action="thankyou-news.html#ty-news" aria-label="newsletter sign up form">
+                            <input type="email" placeholder="Your Email" class="footer-email"
+                                aria-label="enter your email address" required>
                             <br>
-                            <input class="footer-button" type="submit" value="Subscribe">
+                            <input class="footer-button" type="submit" value="Subscribe"
+                                aria-label="submit newsletter form">
                         </form>
                     </div>
                 </div>
@@ -270,7 +272,7 @@
                     </div>
                     <div class="col text-center my-auto">
                         <div class="hex footer-icon-margin">
-                            <a href="https://www.facebook.com/" target="_blank">
+                            <a href="https://www.facebook.com/" target="_blank" aria-label="go to facebook website">
                                 <div class="hex-background">
                                     <i class="fa-brands fa-facebook-f"></i>
                                 </div>
@@ -279,14 +281,14 @@
                     </div>
                     <div class="col text-center my-auto">
                         <div class="hex footer-icon-margin">
-                            <a href="https://www.youtube.com/" target="_blank">
+                            <a href="https://www.youtube.com/" target="_blank" aria-label="go to youtube website">
                                 <div class="hex-background">
                                     <i class="fa-brands fa-youtube"></i>
                                 </div>
                             </a>
                         </div>
                         <div class="hex footer-icon-margin">
-                            <a href="https://www.twitter.com/" target="_blank">
+                            <a href="https://www.twitter.com/" target="_blank" aria-label="go to twitter website">
                                 <div class="hex-background">
                                     <i class="fa-brands fa-x-twitter"></i>
                                 </div>
@@ -295,7 +297,7 @@
                     </div>
                     <div class="col text-center my-auto">
                         <div class="hex">
-                            <a href="https://www.instagram.com/" target="_blank">
+                            <a href="https://www.instagram.com/" target="_blank" aria-label="go to instragram website">
                                 <div class="hex-background">
                                     <i class="fa-brands fa-instagram"></i>
                                 </div>
