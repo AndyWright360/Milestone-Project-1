@@ -14,7 +14,6 @@ This is the documentation for the VR & R Hotel website. A fictitious company off
 
 <h2><strong>Contents</strong></h2>
 
----
 - [**User Experience (UX)**](#user-experience-ux)
   - [**Initial Concept**](#initial-concept)
   - [**User Stories**](#user-stories)
@@ -52,7 +51,7 @@ This is the documentation for the VR & R Hotel website. A fictitious company off
     - [**The VR Lounge**](#the-vr-lounge)
   - [**Booking Page**](#booking-page)
     - [**Hero Image**](#hero-image-2)
-    - [**Make A Booking With Us**](#make-a-booking-with-us)
+    - [**Make A Booking**](#make-a-booking)
     - [**Contact Us**](#contact-us)
     - [**Where To Find Us**](#where-to-find-us)
     - [**Terms \& Conditions**](#terms--conditions)
@@ -78,8 +77,6 @@ This is the documentation for the VR & R Hotel website. A fictitious company off
 ---
 
 ## **User Experience (UX)**
-
----
 
 ### **Initial Concept**
 
@@ -111,8 +108,6 @@ The idea behind this project was to create a business website for a Capsule Hote
 ---
 
 ## **Design**
-
----
 
 ### **Colour Scheme**
 
@@ -262,8 +257,6 @@ All wireframes were created using Balsamiq for the following screen sizes:
 
 ## **Features**
 
----
-
 ### **General Features**
 
 #### **Responsive Design**
@@ -277,6 +270,7 @@ All wireframes were created using Balsamiq for the following screen sizes:
 </details>
 
 - The layout will alter in response to the device screen width to better display the content for the user.
+- Responsive design was something that I was very mindful of when planning the layout of each section across device sizes.
 
 #### **Images**
 
@@ -314,7 +308,7 @@ All wireframes were created using Balsamiq for the following screen sizes:
 
 <details><summary>Screenshots</summary>
 
-<img src="assets/images/readme/home-page-logo.jpg">
+<img src="assets/images/readme/home-page-header.jpg">
 
 *Home page - Logo*
 
@@ -330,6 +324,10 @@ All wireframes were created using Balsamiq for the following screen sizes:
 
 *Contact Information*
 
+<img src="assets/images/readme/hamburger-icon.gif">
+
+*Hamburger Icon Animation*
+
 </details>
 
 - Home page features a central logo to create a strong brand identifier. The colour theme of the logo is used throughout the website.
@@ -338,6 +336,8 @@ All wireframes were created using Balsamiq for the following screen sizes:
 - A call-to-action booking button is present on each page to catch the user's eye.
 - The colour scheme of the call-to-action button was altered for better visibility on the Booking page.
 - The website contact details are listed on each page for ease of use.
+- A hamburger icon was included using BootStrap for mobile devices.
+- The animation was included to give the userresponsive feedback.
 
 #### **Footer**
 
@@ -369,13 +369,18 @@ All wireframes were created using Balsamiq for the following screen sizes:
 
 <details><summary>Screenshots</summary>
 
-<img src="assets/images/readme/home-page-logo.jpg">
+<img src="assets/images/readme/home-page-header.jpg">
 
-*Home page - Logo*
+*Home Page Hero Image - Desktop*
+
+<img src="assets/images/readme/home-page-header-mobile.jpg">
+
+*Home Page Hero Image - Mobile*
 
 </details>
 
 - The hero image displayed is of people wearing VR headsets, having a good time. This will help sell the experience on offer to the user.
+- A second image was created with a different aspect ratio to better suit mobile devices.
 
 #### **About Us**
 
@@ -413,8 +418,47 @@ All wireframes were created using Balsamiq for the following screen sizes:
 
 #### **Become A Member**
 
+<details><summary>Screenshots</summary>
+
+<img src="assets/images/readme/become-a-member.jpg">
+
+*Become A Member Section*
+
+<img src="assets/images/readme/achievements-desktop.jpg">
+
+*Loyalty Achievements - Desktop*
+
+<img src="assets/images/readme/achievements-mobile.jpg">
+
+*Loyalty Achievements - Mobile*
+
+<img src="assets/images/readme/rewards.jpg">
+
+*Rewards Legend Table*
+
+<img src="assets/images/readme/member-button.gif">
+
+*Membership - Call To Action Button*
+
+<img src="assets/images/readme/member-modal.gif">
+
+*Membership Sign Up Modal*
+
+<img src="assets/images/readme/thankyou-membership.jpg">
+
+*Thank You Page - Membership*
+
+<img src="assets/images/readme/thankyou-newsletter.jpg">
+
+*Thank You Page - Newsletter*
+
+
+</details>
+
 - The content describes the benefits offered to members to entice users to sign-up.
-- An image displaying the roadmap of offers provides a visual guide to users of the membership perks.
+- The Loyalty Achievements image displaying the road map of offers provides a visual guide to users of the membership perks.
+- The use of pixel art was chosen to associate the concept of earning rewards with unlocks in a video game.
+- A modified version of the Loyalty Achievements image was created to better fit the display on mobile devices.
 - The accompanying 'Rewards Legend' image provides clarity to the offers on display.
 - The call-to-action 'Become A Member' button features a hover modifier to convey interactivity.
 - When selected a modal will be display asking for the user's name and email. A successful submit will take the user to a seperate page diaplaying a thank you message. This will provide user feedback of a successful sign-up.
@@ -422,9 +466,26 @@ All wireframes were created using Balsamiq for the following screen sizes:
 
 #### **Coming Soon**
 
+<details><summary>Screenshots</summary>
+
+<img src="assets/images/readme/coming-soon.jpg">
+
+*Coming Soon Section*
+
+<img src="assets/images/readme/coming-soon-hover.gif">
+
+*Unrest Beyong Reality - Hover Effect*
+
+<img src="assets/images/readme/coming-soon-layout.jpg">
+
+*Unrest Beyong Reality - Tablet Layout*
+
+</details>
+
 - This section will act as an advertisement for upcoming events and updates.
 - The 'Unrest Beyond Reality' Halloween event is a limited time offering to encourage customers interested in this feature.
 - The image icons will display further information about the experience as a hover feature. This will be for desktop displays only. Tablet and phone will display the additional information in a separate container.
+- The colour scheme for the Unrest Beyond Reality event was made red to better match the horror theme and also seperate it from the rest of the site content.
 - Users will be encouraged to keep up to date with the latest events by returning to the website, signing up for membership and subscribing to the newsletter.
 
 ---
@@ -433,15 +494,49 @@ All wireframes were created using Balsamiq for the following screen sizes:
 
 #### **Hero Image**
 
+<details><summary>Screenshots</summary>
+
+<img src="assets/images/readme/facilities-hero-desktop.jpg">
+
+*Facilities Hero Image - Desktop*
+
+<img src="assets/images/readme/facilities-hero-mobile.jpg">
+
+*Facilities Hero Image - Mobile*
+
+</details>
+
 - The hero image shows a row of the hotel capsules to give the user an indication of the futuristic design. This will reinforce the concept of technology being at the forefront of the companies branding.
+- Two header images where created at different aspect ratios to better suit the display size.
 
 #### **The Hotel**
 
-- The content will go into detail of the Hotels location and provide information of the local activities and transportation on offer. This will provide potential customers with ideas to help plan their trip itinerary.
+<details><summary>Screenshots</summary>
+
+<img src="assets/images/readme/hotel-section-desktop.jpg">
+
+*The Hotel Section - Desktop*
+
+<img src="assets/images/readme/hotel-section-tablet.jpg">
+
+*The Hotel Section - Tablet*
+
+<img src="assets/images/readme/hotel-section-mobile.jpg">
+
+*The Hotel Section - Mobile*
+
+<img src="assets/images/readme/amenities.jpg">
+
+*Hotel Ameneties*
+
+</details>
+
+- The content will go into detail of the Hotels location and provide information of the local activities and transportation on offer. This will provide potential customers with ideas to help plan their itinerary.
 - A list of the hotel amenities will be displayed with accompanying icons to further reinforce the features.
 - An image of the hotel exterior will act as an aid to potential customers visiting the location.
-- An image of guests conversing around the capsules sell the idea of the experience being offered.
+- An image of the reception area will help users to visualise the modern interior style of the hotel.
 - Images of both the Cardiff Bay area and Cardiff City will provide highlights of the local area.
+- The layout of the section will alter responsively to suit the display size.
 
 #### **Single Capsule**
 
@@ -469,9 +564,9 @@ All wireframes were created using Balsamiq for the following screen sizes:
 
 - The hero image shows an exciting couple making an online booking for the hotel. This is to reinforce the idea of the booking being a good and happy experience.
 
-#### **Make A Booking With Us**
+#### **Make A Booking**
 
-- The booking input table in laid out into two columns for wider desktop displays. This is reduced to a single column display on smaller tablet and phone displays. This provides the user with a visually appealing design regardless of the display used.
+- The booking input form laid out into two columns for wider desktop displays. This is reduced to a single column display on smaller tablet and phone displays. This provides the user with a visually appealing design regardless of the display used.
 - Labels are positioned above the input windows avoid any confusion as to what information is required from the user.
 - A 'clear' button in provided as a fast re-set to any mistakes made by the user.
 *The 'submit' button will display a small widow with a 'Thank you for your booking' message. This will provide the user with feedback to confirm their booking has been successful.
@@ -513,8 +608,6 @@ As an extension of the Login feature I would like to implement a members page wh
 
 ## **Technologies Used**
 
----
-
 ### **Languages Used**
 
 - HTML5
@@ -549,8 +642,6 @@ The wireframes were created using Balsamiq during the designing stage of the pro
 ---
 
 ## **Deployment & Local Development**
-
----
 
 ### **Deployment**
 
@@ -597,8 +688,6 @@ To clone this project, please follow the steps below:
 ---
 
 ## **Credits**
-
----
 
 ### Code Used
 
