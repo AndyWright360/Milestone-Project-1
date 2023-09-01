@@ -55,6 +55,7 @@ This is the documentation for the VR & R Hotel website. A fictitious company off
     - [**Contact Us**](#contact-us)
     - [**Where To Find Us**](#where-to-find-us)
     - [**Terms \& Conditions**](#terms--conditions)
+    - [**Thank You Pages**](#thank-you-pages)
   - [**Future Implementations**](#future-implementations)
     - [**Restaurant**](#restaurant)
     - [**Sign Up \& Login**](#sign-up--login)
@@ -69,9 +70,13 @@ This is the documentation for the VR & R Hotel website. A fictitious company off
     - [**How to Clone**](#how-to-clone)
 - [**Testing**](#testing)
 - [**Credits**](#credits)
-  - [Code Used](#code-used)
-  - [Content](#content)
-  - [Media](#media)
+  - [**Code Used**](#code-used)
+  - [**Content**](#content)
+  - [**Media**](#media)
+    - [**Home Page**](#home-page-1)
+    - [**Facilities Page**](#facilities-page-1)
+    - [**Booking Page**](#booking-page-1)
+    - [**Other Images**](#other-images)
   - [Acknowledgments](#acknowledgments)
 
 ---
@@ -540,6 +545,26 @@ All wireframes were created using Balsamiq for the following screen sizes:
 
 #### **Single Capsule**
 
+<details><summary>Screenshots</summary>
+
+<img src="assets/images/readme/capsules-section.jpg">
+
+*The Capsules Section*
+
+<img src="assets/images/readme/single-capsule.jpg">
+
+*Single Capsule*
+
+<img src="assets/images/readme/capsule-book-btn.gif">
+
+*Call-to-action Booking Button*
+
+<img src="assets/images/readme/capsule-amenities.jpg">
+
+*Capsule Ameneties*
+
+</details>
+
 - Highlights of the capsule's features are advertised to the user to encourage a booking.
 - The 'Book Now!' is also displayed within the content area to provide a streamlined booking experience for the user.
 - The amenities are listed in the same style as displayed in the facilities page to reinforce this design across the website.
@@ -547,14 +572,39 @@ All wireframes were created using Balsamiq for the following screen sizes:
 
 #### **Double Capsule**
 
+<details><summary>Screenshots</summary>
+
+<img src="assets/images/readme/double-capsule.jpg">
+
+*Double Capsule*
+
+</details>
+
 - As the only difference between the capsule's is the number of beds. The content is displayed in the same manner only mirrored. This provides consistency across the visual layout of the page.
 - The information about the double capsule offers a suggestion being suitable for both one and two guests. This allows a single guest to consider upgrading to the larger room size.
 - The accompanying image displays the interior of a double deb capsule. This will convey the difference between the two capsule sizes.
 
 #### **The VR Lounge**
 
+<details><summary>Screenshots</summary>
+
+<img src="assets/images/readme/vr-lounge-desktop.jpg">
+
+*The VR Lounge Section - Desktop*
+
+<img src="assets/images/readme/vr-lounge-tablet.jpg">
+
+*The VR Lounge Section - Tablet*
+
+<img src="assets/images/readme/vr-lounge-mobile.jpg">
+
+*The VR Lounge Section - Mobile*
+
+</details>
+
 - The content advertises the social lounge area provided to guests. This enriches the options available for the type of VR experiences offered.
 - The accompanying images will reinforce the type of experience guests can expect from this section of the hotel.
+- The layout of this section alters dynamically to better suit the display width.
 
 ---
 
@@ -562,27 +612,119 @@ All wireframes were created using Balsamiq for the following screen sizes:
 
 #### **Hero Image**
 
-- The hero image shows an exciting couple making an online booking for the hotel. This is to reinforce the idea of the booking being a good and happy experience.
+<details><summary>Screenshots</summary>
+
+<img src="assets/images/readme/booking-hero-desktop.jpg">
+
+*Booking Hero Image - Desktop*
+
+<img src="assets/images/readme/booking-hero-mobile.jpg">
+
+*Booking Hero Image - Mobile*
+
+<img src="assets/images/readme/book-logo-alt.jpg">
+
+*Mini Logo - Alternate Colour*
+
+<img src="assets/images/readme/book-btn-alt.gif">
+
+*Booking Button - Alternate Colour*
+
+</details>
+
+- The hero image matches the teal colour pallet used throughout the wensite.
+- Two versions of the hero image are used for an improved aspect ratio depending on the display size.
+- An alternate colour of the book now button and miniture logo were used to stand out against the background.
 
 #### **Make A Booking**
 
+<details><summary>Screenshots</summary>
+
+<img src="assets/images/readme/booking-form-desktop.jpg">
+
+*Booking Form - Desktop*
+
+<img src="assets/images/readme/booking-form-mobile.jpg">
+
+*Booking Form - Mobile*
+
+<img src="assets/images/readme/book-clear.gif">
+
+*Clear Button*
+
+<img src="assets/images/readme/book-submit.gif">
+
+*Submit Form*
+
+</details>
+
 - The booking input form laid out into two columns for wider desktop displays. This is reduced to a single column display on smaller tablet and phone displays. This provides the user with a visually appealing design regardless of the display used.
-- Labels are positioned above the input windows avoid any confusion as to what information is required from the user.
+- Labels are positioned above the input windows to avoid any confusion as to what information is required from the user.
 - A 'clear' button in provided as a fast re-set to any mistakes made by the user.
-*The 'submit' button will display a small widow with a 'Thank you for your booking' message. This will provide the user with feedback to confirm their booking has been successful.
+- Upon successful sumbmission of the form the user will be taken to seperate page displaying a thank you message. This is to provide the user with feedback.
 
 #### **Contact Us**
+
+<details><summary>Screenshots</summary>
+
+<img src="assets/images/readme/contact-us.jpg">
+
+*Contact Us*
+
+</details>
 
 - The contact details are displayed centrally in the page so they can be easily located.
 
 #### **Where To Find Us**
 
+<details><summary>Screenshots</summary>
+
+<img src="assets/images/readme/find-us.jpg">
+
+*Where To Find Us*
+
+</details>
+
 - A Google Maps location widow will display the exact location of the hotel for ease of use.
 
 #### **Terms & Conditions**
 
+<details><summary>Screenshots</summary>
+
+<img src="assets/images/readme/terms-conditions.gif">
+
+*Terms & Conditions*
+
+</details>
+
 - The relevant policy information is all contained in this window so a user can get additional information if required.
 - A scrolling window was used to display the information in a more visually appealing way.
+
+#### **Thank You Pages**
+
+<details><summary>Screenshots</summary>
+
+<img src="assets/images/readme/thankyou-header.jpg">
+
+*Thank You Page - Header*
+
+<img src="assets/images/readme/thankyou-booking.jpg">
+
+*Thank You Message - Booking*
+
+<img src="assets/images/readme/thankyou-newsletter.jpg">
+
+*Thank You Message - Newsletter*
+
+<img src="assets/images/readme/thankyou-membership.jpg">
+
+*Thank You Message - Membership*
+
+</details>
+
+- The header background image was chose to be subtle and simple but reference the hexagonal design present throughout.
+- Three seperate Thank You pages where created. I wanted the design to be consistant across all pages but the measage to be unique. This is to give the user more accurate feedback on the task performed.
+- The navigation bar was placed so the user can return to the page of their choice.
 
 ---
 
@@ -689,10 +831,70 @@ To clone this project, please follow the steps below:
 
 ## **Credits**
 
-### Code Used
+### **Code Used**
 
-### Content
+- [CSS Hexagon Image with Border by Muhammad Asif](https://codeconvey.com/css-hexagon-image-with-border/)
+  - This code was used for the social media icons placed in the footer section of each page.
 
-### Media
+- [Hamburger Icon Animation by Richard Richards](https://forum.bootstrapstudio.io/t/change-hamburger-icon/8990)
+  - This code was used for the animation of the hamburger menu in the navigation bar.
+
+### **Content**
+
+- [Cancellation & Refund Policy by setupmyhotel.com](https://setupmyhotel.com/formats/fo/378-resv-cancellation-deposit-policy.html?utm_content=cmp-true)
+  - This content was used in the Terms & Conditions section of the booking page.
+
+- All other content for the website was written by Andrew Wright.
+
+### **Media**
+
+All images used on the website we're obtained from the following websites:
+- Pngtree.com
+- Freepik.com
+- Pixabay.com
+- Shutterstock.com
+- Dreamstine.com
+
+#### **Home Page**
+
+- [Company Logo](https://pngtree.com/freepng/cloud-data-logo-design-inspiration_5067289.html)
+- [Hero Image 1](https://www.shutterstock.com/image-photo/person-virtual-glasses-flies-pixels-man-718243906)
+- [Hero Image 2](https://www.shutterstock.com/image-photo/woman-glasses-virtual-reality-future-technology-1404516980)
+- [About Us](https://www.freepik.com/free-photo/hotel-staff-registering-people-resort-filling-records-reception-desk-lobby-asian-woman-receptionist-giving-assistance-guests-with-registration-forms-give-access-key-card_43102318.htm#query=hotel%20lobby&position=12&from_view=search&track=ais#page=1&query=h&from_query=undefined&position=0&from_view=search&track=ais)
+- [Our VR Experience](https://pixabay.com/illustrations/metaverse-vr-virtual-reality-7199393/)
+- Loyalty Achievements
+  - [Character Sprite](https://www.shutterstock.com/image-vector/pixel-art-male-character-run-animation-718824046)
+  - [Circle](https://pngtree.com/freepng/orange-and-yellow-pixel-circle-with-neon-effect_6502347.html)
+  - [Bricks](https://www.freepik.com/free-vector/different-wall-textures_959312.htm)
+  - [Ladder](https://www.freepik.com/free-vector/set-eight-pixelated-items_25690719.htm)
+  - [Coin](https://www.freepik.com/free-vector/set-pixel-art_25377053.htm)
+  - [Burger](https://www.freepik.com/free-vector/flat-design-pixel-art-food-illustration_38680510.htm)
+  - [Timer & Trophy](https://www.freepik.com/free-vector/flat-design-pixel-art-element-collection_38680434.htm)
+- Unrest Beyond Reality
+  - [The Haunted Hotel](https://www.freepik.com/free-photo/halloween-wallpaper-with-evil-pumpkin_19055588.htm)
+  - [The Scarecrows Maze](https://pixabay.com/illustrations/ai-generated-scarecrow-zombie-7925552/)
+  - [Hidden Within](https://www.shutterstock.com/image-photo/bloody-zombie-hands-halloween-theme-1512052475)
+
+#### **Facilities Page**
+
+- [Hero Image](https://www.dreamstime.com/futuristic-capsule-hotel-arport-image185252426)
+- [Hotel Exterior](https://www.dreamstime.com/modern-business-center-blue-windows-facade-building-exterior-office-image182045832)
+- [Hotel Reception](https://www.freepik.com/free-photo/wide-angle-shot-travel-accommodation-hotel-lounge-with-check-reception-desk-stylish-empty-modern-resort-foyer-interior-with-cozy-furniture-warm-fireplace-ready-welcome-tourists_63138613.htm)
+- [Cardiff Bay](https://www.shutterstock.com/image-photo/cardiff-bay-556237258)
+- [Cardiff City](https://www.dreamstime.com/editorial-stock-image-cardiff-wales-june-alliance-sculpture-cardiff-city-cen-centre-unidentified-adults-children-image71591639)
+- [Single Capsule](https://www.shutterstock.com/image-photo/moscow-russia-may-1-2019-interior-1591420519)
+- [Double Capsule](https://www.shutterstock.com/image-photo/hostel-galaxy-pods-chinatown-singapore-feb-1044111781)
+- [VR Lounge](https://www.shutterstock.com/image-illustration/3d-render-luxury-modern-hotel-lobby-1596579292)
+- [VR Group](https://www.shutterstock.com/image-photo/business-conference-vr-office-multiracial-group-2267422317)
+- [Hotel Bar](https://www.shutterstock.com/image-photo/interior-modern-loft-style-restaurant-bar-2087216425)
+
+#### **Booking Page**
+
+- [Hero Image](https://www.dreamstime.com/flight-ticket-booking-concept-laptop-computer-desk-image210641453)
+
+#### **Other Images**
+
+- [White Hexagon Background](https://www.freepik.com/free-vector/digital-technology-background-vector-with-hexagon-pattern-white-tone_16252232.htm#query=hex%20background&position=10&from_view=search&track=ais)
+- [Thank You Header Background Image](https://www.freepik.com/free-vector/digital-technology-background-with-hexagon-pattern-white-tone_16374757.htm#page=4&query=hex%20background&position=6&from_view=search&track=ais)
 
 ### Acknowledgments
