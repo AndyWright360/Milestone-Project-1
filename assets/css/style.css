@@ -681,6 +681,7 @@ and modified to suit the site*/
 /*---------------------------------------------Media Queries*/
 
 @media screen and (max-width: 600px) {
+    
     .flex-container {
         display: block;
     }
@@ -697,7 +698,7 @@ and modified to suit the site*/
 }
 
 @media screen and (max-width: 768px) {
-
+    
     .amenities-list {
         font-size: 1em;
     }
@@ -720,6 +721,7 @@ and modified to suit the site*/
 }
 
 @media screen and (max-width: 991.5px) {
+    
     .fade-container {
         opacity: 1;
     }
