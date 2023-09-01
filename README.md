@@ -1,4 +1,4 @@
-<h1><strong>VR & R Hotel Website</strong></h1>
+# **VR & R Hotel Website** <!-- omit in toc -->
 
 ![VR & R Hotel website logo](assets/images/readme/readme-logo.png)
 
@@ -12,7 +12,7 @@ This is the documentation for the VR & R Hotel website. A fictitious company off
 
 ---
 
-<h2><strong>Contents</strong></h2>
+## **Contents** <!-- omit in toc -->
 
 - [**User Experience (UX)**](#user-experience-ux)
   - [**Initial Concept**](#initial-concept)
