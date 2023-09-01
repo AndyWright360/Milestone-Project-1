@@ -102,19 +102,19 @@ and modified to suit the site*/
 }
 
 #home {
-    background-image: url(../images/home-hero.jpg);
+    background-image: url(../images/header/home-hero.webp);
 }
 
 #facilities {
-    background-image: url(../images/facilities-hero.jpg);
+    background-image: url(../images/header/facilities-hero.webp);
 }
 
 #booking {
-    background-image: url(../images/booking-hero.jpg);
+    background-image: url(../images/header/booking-hero.webp);
 }
 
 .thank-you {
-    background-image: url(../images/thankyou-header.jpg);
+    background-image: url(../images/header/thankyou-header.webp);
 }
 
 .hide {
@@ -333,15 +333,15 @@ and modified to suit the site*/
 }
 
 #haunted {
-    background-image: url(../images/haunted-bg.jpg);
+    background-image: url(../images/home/haunted-bg.webp);
 }
 
 #scarecrow {
-    background-image: url(../images/scarecrow-bg.jpg);
+    background-image: url(../images/home/scarecrow-bg.webp);
 }
 
 #hidden {
-    background-image: url(../images/hidden-bg.jpg);
+    background-image: url(../images/home/hidden-bg.webp);
 }
 
 .flex-container {
@@ -724,15 +724,15 @@ a {
     }
 
     #home {
-        background-image: url(../images/home-hero-mobile.jpg);
+        background-image: url(../images/header/home-hero-mobile.webp);
     }
 
     #facilities {
-        background-image: url(../images/facilities-hero-mobile.jpg);
+        background-image: url(../images/header/facilities-hero-mobile.webp);
     }
 
     #booking {
-        background-image: url(../images/booking-hero-mobile.jpg);
+        background-image: url(../images/header/booking-hero-mobile.webp);
     }
 }
 
