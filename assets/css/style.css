@@ -29,11 +29,6 @@ h5 {
     padding: 20px;
 }
 
-.pix {
-    max-width: 100%;
-    height: auto;
-}
-
 /*---------------------------------------------Headings*/
 
 h1 {
@@ -43,51 +38,6 @@ h1 {
 
 .sign-up-head {
     margin-bottom: 20px;
-}
-
-.bg-teal .thankyou-title {
-    text-decoration: none;
-    font-size: 250%;
-}
-
-/*---------------------------------------------Hexagon Shape*/
-
-/*The code for the hexagonal container shape used for the social media footer icons
-was sourced from https: //codeconvey.com/css-hexagon-image-with-border/
-and modified to suit the site*/
-
-.hex {
-    width: 40px;
-    height: 34.64px;
-    /* width * 0.866 */
-    background-color: #f0f0f0;
-    transition: background-color 0.2s ease-in-out;
-    display: inline-block;
-    margin: 0 auto;
-    position: relative;
-    box-sizing: border-box;
-    -webkit-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
-    -moz-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
-}
-
-.hex-background {
-    background-color: #055557;
-    /*color of the main-background*/
-    top: 1px;
-    /* equal to border thickness */
-    left: 1px;
-    /* equal to border thickness */
-    width: 38px;
-    /* container height - (border thickness * 2) */
-    height: 32.64px;
-    /* container height - (border thickness * 2) */
-    transition: background-color 0.2s ease-in-out;
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    -webkit-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
-    -moz-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
 }
 
 /*---------------------------------------------Header*/
@@ -117,26 +67,17 @@ and modified to suit the site*/
     background-image: url(../images/header/thankyou-header.webp);
 }
 
-.hide {
-    visibility: hidden;
-}
-
 /*---------------------------------------------Navigation Menu*/
-
-.no-padding {
-    padding-left: 0;
-    padding-right: 0;
-}
-
-.contact-info-padding {
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
 
 .contact-info {
     margin: 0;
     padding-left: 10px;
     width: 100%;
+}
+
+.contact-info-padding {
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .navbar {
@@ -200,7 +141,6 @@ and modified to suit the site*/
     position: relative;
     top: -7px;
     transition: all 0.15s ease-out;
-    /*taken down to hide quicker*/
     transform-origin: center;
 }
 
@@ -254,23 +194,30 @@ and modified to suit the site*/
     color: #f0f0f0;
 }
 
-.bg-teal h2, .bg-teal h3 {
+.bg-teal h2,
+.bg-teal h3 {
     text-decoration: underline #ffc561;
     text-underline-offset: 12px;
     text-decoration-thickness: 4px;
     line-height: 1.8;
 }
 
+.bg-teal .thankyou-title {
+    text-decoration: none;
+    font-size: 250%;
+}
+
 .bg-white {
     background-color: #f0f0f0;
-    background-image: url(../images/hex-bg.jpg);
+    background-image: url(../images/header/hex-bg.webp);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
-.bg-white h2, .bg-white h3 {
+.bg-white h2,
+.bg-white h3 {
     color: #055557;
     text-decoration: underline #3b3b3b;
     text-underline-offset: 12px;
@@ -282,7 +229,8 @@ and modified to suit the site*/
     background-color: #880808;
 }
 
-.table td, .table th {
+.table td,
+.table th {
     background: #f0f0f0;
 }
 
@@ -627,6 +575,63 @@ a {
     border-color: #ffc561;
 }
 
+/*---------------------------------------------Hexagon Shape*/
+
+/*The code for the hexagonal container shape used for the social media footer icons
+was sourced from https: //codeconvey.com/css-hexagon-image-with-border/
+and modified to suit the site*/
+
+.hex {
+    width: 40px;
+    height: 34.64px;
+    /* width * 0.866 */
+    background-color: #f0f0f0;
+    transition: background-color 0.2s ease-in-out;
+    display: inline-block;
+    margin: 0 auto;
+    position: relative;
+    box-sizing: border-box;
+    -webkit-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
+    -moz-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
+}
+
+.hex-background {
+    background-color: #055557;
+    /*color of the main-background*/
+    top: 1px;
+    /* equal to border thickness */
+    left: 1px;
+    /* equal to border thickness */
+    width: 38px;
+    /* container height - (border thickness * 2) */
+    height: 32.64px;
+    /* container height - (border thickness * 2) */
+    transition: background-color 0.2s ease-in-out;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
+    -moz-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
+}
+
+.hex i {
+    color: #f0f0f0;
+    transition: color 0.2s ease-in-out;
+}
+
+.hex:hover {
+    background-color: #ffc561;
+}
+
+.hex:hover .hex-background {
+    background-color: #032f30;
+}
+
+.hex:hover i {
+    color: #ffc561;
+}
+
 /*---------------------------------------------Footer*/
 
 .footer-heading {
@@ -673,23 +678,6 @@ a {
     margin-right: 15px;
 }
 
-.hex i {
-    color: #f0f0f0;
-    transition: color 0.2s ease-in-out;
-}
-
-.hex:hover {
-    background-color: #ffc561;
-}
-
-.hex:hover .hex-background {
-    background-color: #032f30;
-}
-
-.hex:hover i {
-    color: #ffc561;
-}
-
 /*---------------------------------------------Media Queries*/
 
 @media screen and (max-width: 600px) {
@@ -709,11 +697,6 @@ a {
 }
 
 @media screen and (max-width: 768px) {
-    .pix {
-        display: inline;
-        max-width: 50%;
-        height: auto;
-     }
 
     .amenities-list {
         font-size: 1em;
@@ -742,18 +725,18 @@ a {
     }
 
     .tb-unrest {
-        height: 250px;
+        height: auto;
         max-width: 400px;
     }
 
     #haunted {
         background-image: none;
     }
-    
+
     #scarecrow {
         background-image: none;
     }
-    
+
     #hidden {
         background-image: none;
     }
