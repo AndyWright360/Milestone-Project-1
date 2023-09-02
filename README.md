@@ -69,7 +69,11 @@ This is the documentation for the VR & R Hotel website. A fictitious company off
     - [**How to Fork**](#how-to-fork)
     - [**How to Clone**](#how-to-clone)
 - [**Testing**](#testing)
-  - [**W3C Validatior - HTML**](#w3c-validatior---html)
+  - [**W3C HTML Validation**](#w3c-html-validation)
+    - [**First Validation**](#first-validation)
+    - [**Second Validation**](#second-validation)
+  - [**W3C CSS Validation**](#w3c-css-validation)
+  - [**WCAG Color Contrast Checker**](#wcag-color-contrast-checker)
 - [**Credits**](#credits)
   - [**Code Used**](#code-used)
   - [**Content**](#content)
@@ -828,7 +832,9 @@ To clone this project, please follow the steps below:
 
 ## **Testing**
 
-### **W3C Validatior - HTML**
+### **W3C HTML Validation**
+
+#### **First Validation**
 
 <details><summary>Home Page</summary>
 
@@ -895,6 +901,42 @@ The initial validation for each page highlighted a consistant issue throught the
 - Booking Page: 'Required' attribute applied to `<label>` element.
 
   - The 'required' attribute had been applied to a form label in error. The fix for this was to remove this attribute.
+
+#### **Second Validation**
+
+![Second Validation Result](assets/images/testing/html-validation.jpg)
+
+After implimenting the changes outlined above the second validation attempt showed no errors or warnings across all pages.
+
+### **W3C CSS Validation**
+
+![CSS Validation Result](assets/images/testing/css-validation.jpg)
+
+No errors were found when using the W3C CSS Validator.
+
+### **WCAG Color Contrast Checker**
+
+I was mindful of having a high contrast when selecting the colour scheme for the website. Below are the results oor each of the background and foreground combinations used for this project.
+
+![Grey Background, White Foreground](assets/images/testing/contrast-grey-white.jpg)
+
+This is the primary colour scheme used in the navigation and footer section on each page.
+
+![Grey Background, Yellow Foreground](assets/images/testing/contrast-grey-yellow.jpg)
+
+This is the alternative colour scheme used in the navigation and footer section. It was applied to the hover effect of the navigation links, the font awesome icons and the headings of the footer.
+
+![White Background, Grey Foreground](assets/images/testing/contrast-white-grey.jpg)
+
+This is used in the sections with the white heaxagonal background and also the text boxes.
+
+![Teal Background, White Foreground](assets/images/testing/contrast-teal-white.jpg)
+
+This is the alternative colour scheme used for teal background sections and text boxes.
+
+![Red Background, White Foreground](assets/images/testing/contrast-red-white.jpg)
+
+This is used in the Unrest Beyond Reality section of the home page.
 
 ---
 
