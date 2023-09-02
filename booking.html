@@ -38,8 +38,9 @@
                             alt="miniture version of vr & r hotel logo" class="logo-mini"></a>
                 </div>
                 <div class="col text-end">
-                    <a href="#booking-title" aria-label="go to the booking section of the booking page"><button
-                            id="booking-btn">Book Now!</button></a>
+                    <form action="#booking-title" aria-label="go to the booking section">
+                        <input id="booking-btn" type="submit" value="Book Now!" aria-label="redirect to booking section">
+                    </form>
                 </div>
             </div>
             <div class="row h-50 invisible">
@@ -95,7 +96,7 @@
                             <div class="row justify-content-md-evenly justify-content-center text-md-start text-center">
                                 <div class="col-md-5 col-sm-12 p-2">
                                     <label for="title">Title</label>
-                                    <select class="form-input" id="title" name="title" aria-label="select your title from the list" required>
+                                    <select class="form-input" id="title" name="title" aria-label="select your title from the list">
                                         <option value="mr">Mr</option>
                                         <option value="mrs">Mrs</option>
                                         <option value="miss">Miss</option>
@@ -122,14 +123,14 @@
                                     <input class="form-input" id="email" type="email" aria-label="enter your email address" required>
                                 </div>
                                 <div class="col-md-5 col-sm-12 p-2">
-                                    <label for="phone-number" required>Phone number</label>
-                                    <input class="form-input" id="phone-number" type="text" aria-label="enter your phone number">
+                                    <label for="phone-number">Phone number</label>
+                                    <input class="form-input" id="phone-number" type="text" aria-label="enter your phone number" required>
                                 </div>
                             </div>
                             <div class="row justify-content-md-evenly justify-content-center text-md-start text-center">
                                 <div class="col-md-5 col-sm-12 p-2">
                                     <label for="capsule">Capsule</label>
-                                    <select class="form-input" id="capsule" name="capsule" aria-label="select your preferred capsule type from the list" required>
+                                    <select class="form-input" id="capsule" name="capsule" aria-label="select your preferred capsule type from the list">
                                         <option value="single">Single</option>
                                         <option value="double">Double</option>
                                     </select>

@@ -69,6 +69,7 @@ This is the documentation for the VR & R Hotel website. A fictitious company off
     - [**How to Fork**](#how-to-fork)
     - [**How to Clone**](#how-to-clone)
 - [**Testing**](#testing)
+  - [**W3C Validatior - HTML**](#w3c-validatior---html)
 - [**Credits**](#credits)
   - [**Code Used**](#code-used)
   - [**Content**](#content)
@@ -826,6 +827,74 @@ To clone this project, please follow the steps below:
 ---
 
 ## **Testing**
+
+### **W3C Validatior - HTML**
+
+<details><summary>Home Page</summary>
+
+<img src="assets/images/testing/index.jpg">
+
+*Home Page - Initial Validation*
+
+</details>
+
+<details><summary>Facilities Page</summary>
+
+<img src="assets/images/testing/facilities.jpg">
+
+*Facilities Page - Initial Validation*
+
+</details>
+
+<details><summary>Booking Page</summary>
+
+<img src="assets/images/testing/booking.jpg">
+
+*Booking Page - Initial Validation*
+
+</details>
+
+<details><summary>Thank You Page - Booking</summary>
+
+<img src="assets/images/testing/thankyou-book.jpg">
+
+*Thank You Page (Booking) - Initial Validation*
+
+</details>
+
+<details><summary>Thank You Page - Membership</summary>
+
+<img src="assets/images/testing/thankyou-member.jpg">
+
+*Thank You Page (Membership) - Initial Validation*
+
+</details>
+
+<details><summary>Thank You Page - Newsletter</summary>
+
+<img src="assets/images/testing/thankyou-news.jpg">
+
+*Thank You Page (Newsletter) - Initial Validation*
+
+</details>
+
+The initial validation for each page highlighted a consistant issue throught the website that needed correcting. As well as a few small issues in the Facilities and Booking page. The list of issues were as follows:
+
+- Nesting a `<button>` inside an `<a>` element.
+
+  - This was the method of navigation that I had used for many of the buttons throughout the website. My fix for this was to use a `<form>` that redirected the user upon submission. The `<button>` would then be changed to the submit input for the form.
+
+- Facilities Page: Spelling error inside an `<a>` element.
+
+  - Two anchor elements had a duplication of the `<a>` within the tag, so it displayed `<a a>`. This issue was also resolved by changing the `<button>` elements nested inside an `<a>` element.
+
+- Booking Page: Unnecessary 'required' attribute inside select type `<input>` elements.
+
+  - As the select type inputs used in the booking form had a value associated to each of the options. The 'required' attribute wasn't needed, as the first selectable option was chosen by default. My fix for this issue was to remove the 'required' attribute from these inputs.
+
+- Booking Page: 'Required' attribute applied to `<label>` element.
+
+  - The 'required' attribute had been applied to a form label in error. The fix for this was to remove this attribute.
 
 ---
 
