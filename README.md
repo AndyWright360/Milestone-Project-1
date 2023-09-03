@@ -74,6 +74,7 @@ This is the documentation for the VR & R Hotel website. A fictitious company off
     - [**Second Validation**](#second-validation)
   - [**W3C CSS Validation**](#w3c-css-validation)
   - [**WCAG Color Contrast Checker**](#wcag-color-contrast-checker)
+  - [**Bugs \& Fixes**](#bugs--fixes)
 - [**Credits**](#credits)
   - [**Code Used**](#code-used)
   - [**Content**](#content)
@@ -937,6 +938,39 @@ This is the alternative colour scheme used for teal background sections and text
 ![Red Background, White Foreground](assets/images/testing/contrast-red-white.jpg)
 
 This is used in the Unrest Beyond Reality section of the home page.
+
+### **Bugs & Fixes**
+
+</details>
+
+<details><summary>Navigation Bar Position Change</summary>
+
+<img src="assets/images/testing/navbar-bug.gif">
+
+*Navigation Bar - Bug*
+
+<img src="assets/images/testing/navbar-fix.gif">
+
+*Navigation Bar - Fix*
+
+</details>
+
+The reason for this issue was that the heading section of the home page contained the company logo and slogan header. Whereas the other pages were just a hero image. Because the logo and slogan were responsive the size of the home page heading was relative to the display width. This made it challenging to keep the navbar at a consistant position across all pages.
+
+`<div class="row h-50 invisible">
+                <div class="col-xl-3 col-md-4 col-sm-5 col-6 mx-auto">
+                    <img src="assets/images/header/logo.webp" class="logo img-fluid" alt="VR & R Hotel logo">
+                </div>
+            </div>
+            <div class="row h-25 invisible">
+                <div class="col text-center my-auto">
+                    <h1>
+                        Rest Beyond Reality
+                    </h1>
+                </div>
+            </div>`
+
+
 
 ---
 
