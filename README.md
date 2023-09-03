@@ -75,6 +75,8 @@ This is the documentation for the VR & R Hotel website. A fictitious company off
   - [**W3C CSS Validation**](#w3c-css-validation)
   - [**WCAG Color Contrast Checker**](#wcag-color-contrast-checker)
   - [**Bugs \& Fixes**](#bugs--fixes)
+  - [**Known Bugs**](#known-bugs)
+  - [**Testing User Stories**](#testing-user-stories)
 - [**Credits**](#credits)
   - [**Code Used**](#code-used)
   - [**Content**](#content)
@@ -957,7 +959,71 @@ This is used in the Unrest Beyond Reality section of the home page.
 
 The reason for this issue was that the heading section of the home page contained the company logo and slogan header. Whereas the other pages were just a hero image. Because the logo and slogan were responsive the size of the home page heading was relative to the display width. This made it challenging to keep the navbar at a consistant position across all pages.
 
-`<div class="row h-50 invisible">`
+The fix I implemented was to include the logo image and slogan header across all heading sections of the website.However, on the facilities and booking page I applied the BootStrap 'invisible' class to the rows containing the content. This allows the headings sections to be consistant across all pages without displaying the unwanted content. `<div class="row h-50 invisible">`
+
+</details>
+
+<details><summary>Booking Form Input Alignment</summary>
+
+<img src="assets/images/testing/booking-form-bug.jpg">
+
+*Booking Form - Bug*
+
+<img src="assets/images/testing/booking-form-fix.jpg">
+
+*Booking Form - Fix*
+
+</details>
+
+This bug was caused by having a single input within the top row of the form but all other rows having two inputs. Because of this it was difficult to align the 'Title' select box with the remaining inputs. With the spacing method of 'justify-content-evenly' being responsive. The alignment became more noticable on wider displays.
+
+The fix I implemented was similar to the previous bug fix. I added an additional input to the top row but added the 'invisible' class to prevent it being dispayed. This allowed me to apply the same spacing method of 'justift-content-evenly' to the row and have the alignment match the other content exactly.
+
+</details>
+
+<details><summary>iPhone Text Decoration Not Displaying</summary>
+
+<img src="assets/images/testing/text-decoration-bug.jpg">
+
+*Text Decoration - Bug*
+
+<img src="assets/images/testing/text-decoration-fix.jpg">
+
+*Text Decoration - Fix*
+
+</details>
+
+The CSS 'text-decoration' property wasn't displaying on iPhone devices.
+
+By including the additional line of `-webkit-text-decoration` to my CSS I was able to rectify this issue. However, the 'text-decoration' colour of the current webpage was displays as white instead of yellow. I was happy to leave this as it was a small detail that only effected the navbar.
+
+</details>
+
+<details><summary>Readme Table of Contents Issue</summary>
+
+<img src="assets/images/testing/table-contents-bug.gif">
+
+*Table of Contents - Bug*
+
+<img src="assets/images/testing/table-contents-fix.jpg">
+
+*Table of Contents - Fix*
+
+</details>
+
+This issue was caused by the table of contents section of the readme file being auto generated. This caused every heading on the page to be listed, including the page title which wasn't wanted.
+
+After reporting my problem to the Slack community 'Laurie Crean' was able to suggest a fix. By applying `<!-- omit in toc -->` to the headings that I didn't want in the table of contents. They weren't targeted by the auto generation algorithm.
+
+### **Known Bugs**
+
+![iPhone Horizontal Display Bug](assets/images/testing/iphone-horizontal-bug.jpg)
+
+Upon viewing the website on an iPhone held horizontally, the screen displays with a border. I'm not sure why this happens and have been unable to find a fix.
+
+### **Testing User Stories**
+
+
 
 ---
 
