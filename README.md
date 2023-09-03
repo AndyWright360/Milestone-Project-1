@@ -85,6 +85,7 @@ This is the documentation for the VR & R Hotel website. A fictitious company off
     - [**Facilities Page**](#facilities-page-1)
     - [**Booking Page**](#booking-page-1)
     - [**Thank You Pages**](#thank-you-pages-1)
+  - [Full Testing](#full-testing)
 - [**Credits**](#credits)
   - [**Code Used**](#code-used)
   - [**Content**](#content)
@@ -788,14 +789,20 @@ Font Awesome was used on the navigation bar and footer of each page. It also fea
 5. **Codeanywhere:**
 Codeanywhere was used for version control by utilizing the terminal to commit to and push to GitHub.
 
-1. **GitHub:**
+6. **GitHub:**
 GitHub is used to store the projects code after being pushed from Codeanywhere.
 
-1. **Pixlr:**
+7. **Pixlr:**
 Pixlr was used to create the website logo and adjust the colouring of images to better fit the colour scheme. It was also used to generate the various image shapes used throughout the website for creative design.
 
-1. **Balsamiq:**
+8. **Balsamiq:**
 The wireframes were created using Balsamiq during the designing stage of the project.
+
+9. **XnConvert:**
+XnConvert was used to convert all image files from JPEG and PNG to WebP.
+
+10. **TinyPNG:**
+TinyPNG was used to compress all image files to improve performance.
 
 ---
 
@@ -1024,6 +1031,10 @@ After reporting my problem to the Slack community 'Laurie Crean' was able to sug
 ![iPhone Horizontal Display Bug](assets/images/testing/iphone-horizontal-bug.jpg)
 
 Upon viewing the website on an iPhone held horizontally, the screen displays with a border. I'm not sure why this happens and have been unable to find a fix.
+
+![Mozilla Firefox](assets/images/testing/firefox.gif)
+
+The hexagonal containers used for the social media icons in the footer don't display correctly on firefox. It causes the border of the coantainer to be uneven. This is particularly noticable as the display is re-sized. I'm unsure of a possible fix to this.
 
 ### **Testing User Stories**
 
@@ -1260,6 +1271,60 @@ The results of Lighthouse testing for each each page on both desktop and mobile.
 *Mobile Friendly*
 
 </details>
+
+### Full Testing
+
+Full testing was performed on the following devices:
+
+- Laptop:
+  - MSI Thin GF63 15 inch screen
+- Mobile Device:
+  - iPhone XR
+
+The following browsers were tested using each device:
+
+- Laptop:
+  - Google Chrome
+  - Microsoft Edge
+  - Mozilla Firefox
+- Mobile:
+  - Safari
+
+Friends and family also tested the website using a variety of devices. No issues were reported.
+
+Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
+| --- | --- | --- | --- | --- |
+| `Heading` |
+| Mini Logo | Redirects to the home page | Click mini logo |  Redirects to home page | Pass |
+| Book Now! Button | Redirects to booking form | Click button | Redirects to booking form | Pass |
+| `Navbar` |
+| Home Link | Redirects to home page | Click home link | Redirects to home page | Pass |
+| Facilities Link | Redirect to facilities page | Click facilities link | Redirected to facilities page | Pass |
+| Booking Link  | Redirect to booking page | Click booking link | Redirected to booking page | Pass |
+| Hamburger Menu (Open) | Reveal navbar list | Click hamburger menu | Reveal navbar list | Pass |
+| Hamburger Menu (Close) | Hide navbar list | Click hamburger menu | Hide navbar list | Pass |
+| `Home Page` |
+| Our Capsules! Button | Redirect to capsules section | Click button | Redirected to the capsules section | Pass |
+| VR Lounge! Button | Redirect to VR lounge section | Click button | Redirected to the VR lounge section | Pass |
+| Join Now! Button | Open membership modal | Click button | Opened membership modal | Pass |
+| Membership Form Submit (no inputs) | User alerted of required input | Click button | User alerted of first required input  | Pass |
+| Membership Form Submit (all inputs) | Redirect to Thank You membership page | Click button | Redirected to Thank You membership page  | Pass |
+| Newsletter Subscribe Button (no input) | User alerted of required input | Click button | User alerted of required input  | Pass |
+| Newsletter Subscribe Button (with input) | Redirect to Thank You newsletter page | Click button | Redirected to Thank You newsletter page  | Pass |
+| `Facilities Page` |
+| Book Now! Button (Single Capsule) | Redirects to booking form | Click button | Redirects to booking form | Pass |
+| Book Now! Button (Double Capsule) | Redirects to booking form | Click button | Redirects to booking form | Pass |
+| `Booking Page` |
+| Booking Form Submit (no inputs) | User alerted of required input | Click button | User alerted of first required input  | Pass |
+| Booking Form Submit (all inputs) | Redirect to Thank You booking page | Click button | Redirected to Thank You booking page  | Pass |
+| Booking Form Clear Button | Clear all entered inputs | Click button | Cleared all entered inputs  | Pass |
+| `Footer` |
+| Social Media Link (Facebook) | Opens Facebook link in a new tab | Clicked Facebook icon | New tabs opened to Facebook | Pass |
+| Social Media Link (Twitter) | Opens Twitter link in a new tab | Clicked Twitter icon | New tabs opened to Twitter | Pass |
+| Social Media Link (Instagram) | Opens Instagram link in a new tab | Clicked Instagram icon | New tabs opened to Instagram | Pass |
+| Social Media Link (YouTube) | Opens YouTube link in a new tab | Clicked YouTube icon | New tabs opened to YouTube | Pass |
+| Newsletter Subscribe Button (no input) | User alerted of required input | Click button | User alerted of required input  | Pass |
+| Newsletter Subscribe Button (with input) | Redirect to Thank You newsletter page | Click button | Redirected to Thank You newsletter page  | Pass |
 
 ---
 
