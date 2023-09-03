@@ -982,8 +982,6 @@ This bug was caused by having a single input within the top row of the form but 
 
 The fix I implemented was similar to the previous bug fix. I added an additional input to the top row but added the 'invisible' class to prevent it being dispayed. This allowed me to apply the same spacing method of 'justift-content-evenly' to the row and have the alignment match the other content exactly.
 
-</details>
-
 <details><summary>iPhone Text Decoration Not Displaying</summary>
 
 <img src="assets/images/testing/text-decoration-bug.jpg">
@@ -1028,20 +1026,185 @@ Upon viewing the website on an iPhone held horizontally, the screen displays wit
 
 #### **First Time Visitor Goals**
 
-1. Learn about the Hotel and VR experience offered.
-2. Easily navigate the website and find the information required.
-3. Make a booking.
+1.) Learn about the Hotel and VR experience offered.
+
+<details><summary>Screenshots</summary>
+
+<img src="assets/images/testing/learn-about-hotel.gif">
+
+*Home Page Content*
+
+<img src="assets/images/readme/vr-exp-btns.gif">
+
+*VR Experience - Navigation Buttons*
+
+</details>
+
+- The first section of the home page is the 'About Us' section. This was to allow users to imediately get a clear understanding of the websites purpose.
+- The second section then goes into further detail of the 'VR Experience' offered.
+- This section also contains button links to allow users to easily navigate to specific information discussed in the text box.
+
+2.) Easily navigate the website and find the information required.
+
+<details><summary>Screenshots</summary>
+
+<img src="assets/images/readme/navbar.gif">
+
+*Navigation Bar*
+
+<img src="assets/images/readme/book-button.gif">
+
+*Call-to-action Button - Header*
+
+<img src="assets/images/readme/capsule-book-btn.gif">
+
+*Call-to-action Button - Capsules*
+
+</details>
+
+- To ensure that navigation of the website was intuitive I applied a colour changing hover effect to the navigation bar.
+- This was to provide feedback to user and imply that the feature was interactive.
+- The current page displays underlined text so the user is aware of their location within the website.
+- Call-to-action buttons have been placed throughout the website to allow easier navigation options to users. 
+
+3.) Make a booking.
+
+<details><summary>Screenshots</summary>
+
+<img src="assets/images/testing/book-now-header.jpg">
+
+*Book Now! Button - Header*
+
+<img src="assets/images/testing/capsule-booking.jpg">
+
+*Book Now! Button - Capsules Section*
+
+<img src="assets/images/testing/nav-booking.jpg">
+
+*Bokking Page - Navbar*
+
+<img src="assets/images/readme/book-clear.gif">
+
+*Bokking Form - Clear*
+
+<img src="assets/images/readme/book-submit.gif">
+
+*Bokking Form - Submit*
+
+</details>
+
+- The call-to-action 'Book Now!' button is placed at the top of each page to allow easy navigation.
+- Call-to-action buttons have also been placed in the Capsules section so users can make a booking after learning more about them.
+- 'Booking' was the tiltle given to the booking page to clearly communicate the purpose of the page to users.
+- Labels have been added to each input of the booking form to make the required information clear.
+- The 'required' attribute has been applied to all necessary form inputs to prevent the user from missing information.
+- A 'Clear' button has been added to form to allow the user to re-set the form inputs.
+- Upon successful submission the user is re-directed to a page displaying a thank you meaasge. This is to provide the user with feedback and acknowledge the form has been completed correctly.
 
 #### **Returning Visitor Goals**
 
-1. Register for membership.
-2. Sign up to the newsletter.
-3. Follow the social media accounts.
+1.) Register for membership.
+
+<details><summary>Screenshots</summary>
+
+<img src="assets/images/readme/become-a-member.jpg">
+
+*Become A Member Section*
+
+<img src="assets/images/readme/member-modal.gif">
+
+*Membership Modal*
+
+<img src="assets/images/readme/thankyou-membership.jpg">
+
+*Thank You Message - Membership*
+
+</details>
+
+- The 'Become A Member' section was placed on the home page to allow easy discoverability.
+- The combination of text and imagery was designed to provide the user with the relevant information is a clear and understandable way.
+- The 'Join Us!' button was positioned centrally to draw the users eye.
+- The hover effect was used to imply interactivity.
+- The modal was centralised for ease of use.
+- Labels were used to clearly indicate to the user, the informattion needed.
+- The 'required' attribute was applied to all form inputs to prevent the user from missing any details.
+- Upon successful submission the user is re-directed to a seperate page containing a thank you message.
+- This was to provide the user with feedback upon completing the sign up.
+
+2.) Sign up to the newsletter.
+
+<details><summary>Screenshots</summary>
+
+<img src="assets/images/testing/newsletter.gif">
+
+*Newsletter*
+
+<img src="assets/images/readme/footer-newsletter.gif">
+
+*Newsletter - Footer*
+
+<img src="assets/images/readme/thankyou-newsletter.jpg">
+
+*Thank You Message - Newsletter*
+
+</details>
+
+- The sign up the the newsletter section was added to the membership section to encourage users to do both.
+- The option to sign up to the newsletter also appears on the fotter of each page. This was to allow for discoverability.
+- The email input contains a placeholder text to give the user details on the information needed.
+- The 'required' attraibute was applied to email input to ensure the correct information is provided.
+- Upon successful submission the user is re-directed to a seperate page containing a thank you message.
+- This was to provide the user with feedback upon completing the sign up.
+
+3.) Follow the social media accounts.
+
+<details><summary>Screenshots</summary>
+
+<img src="assets/images/testing/footer.jpg">
+
+*Footer*
+
+<img src="assets/images/readme/social-media.gif">
+
+*Sovial Media Icons*
+
+</details>
+
+- The social media icons where placed centrally in the footer of each page for discoverability.
+- A hover effect was used to imply interactivity.
+- The `target= _blank` attribute was applied to the link to prevent the user from losing their position within the website.
 
 #### **Frequent User Goals**
 
-1. Check the Loyalty Achievements reward system.
-2. Discover new site content and updates.
+1.) Check the Loyalty Achievements reward system.
+
+<details><summary>Screenshots</summary>
+
+<img src="assets/images/testing/member-rewards.jpg">
+
+*Membership Rewards*
+
+</details>
+
+- The Loyalty Achievements image was designed to replicate a loyalty card for returning visitors.
+- This was to help associate the rewards being relative to the number of stays booked.
+- The 'Rewards Legend' was created to increase clarity to the user.
+- The imagery was themed on video games as a reference to the digital aspect of virtual reality.
+- The information was placed on the home page for easy navigation upon entering the website.
+
+2.) Discover new site content and updates.
+
+<details><summary>Screenshots</summary>
+
+<img src="assets/images/readme/coming-soon.jpg">
+
+*Coming Soon Section*
+
+</details>
+
+- The 'Coming Soon' section was added to the home page to allow for easy navigation upon entering the website.
+- The content would be updated frequently to entice users to return to the website.
+- The upcoming event is advertised to build excitment and intrige.
 
 ---
 
