@@ -80,13 +80,18 @@ This is the documentation for the VR & R Hotel website. A fictitious company off
     - [**First Time Visitor Goals**](#first-time-visitor-goals)
     - [**Returning Visitor Goals**](#returning-visitor-goals)
     - [**Frequent User Goals**](#frequent-user-goals)
+  - [**Lighthouse Testing**](#lighthouse-testing)
+    - [**Home Page**](#home-page-1)
+    - [**Facilities Page**](#facilities-page-1)
+    - [**Booking Page**](#booking-page-1)
+    - [**Thank You Pages**](#thank-you-pages-1)
 - [**Credits**](#credits)
   - [**Code Used**](#code-used)
   - [**Content**](#content)
   - [**Media**](#media)
-    - [**Home Page**](#home-page-1)
-    - [**Facilities Page**](#facilities-page-1)
-    - [**Booking Page**](#booking-page-1)
+    - [**Home Page**](#home-page-2)
+    - [**Facilities Page**](#facilities-page-2)
+    - [**Booking Page**](#booking-page-2)
     - [**Other Images**](#other-images)
   - [Acknowledgments](#acknowledgments)
 
@@ -998,8 +1003,6 @@ The CSS 'text-decoration' property wasn't displaying on iPhone devices.
 
 By including the additional line of `-webkit-text-decoration` to my CSS I was able to rectify this issue. However, the 'text-decoration' colour of the current webpage was displays as white instead of yellow. I was happy to leave this as it was a small detail that only effected the navbar.
 
-</details>
-
 <details><summary>Readme Table of Contents Issue</summary>
 
 <img src="assets/images/testing/table-contents-bug.gif">
@@ -1089,7 +1092,7 @@ Upon viewing the website on an iPhone held horizontally, the screen displays wit
 
 <img src="assets/images/readme/book-submit.gif">
 
-*Bokking Form - Submit*
+*Booking Form - Submit*
 
 </details>
 
@@ -1205,6 +1208,58 @@ Upon viewing the website on an iPhone held horizontally, the screen displays wit
 - The 'Coming Soon' section was added to the home page to allow for easy navigation upon entering the website.
 - The content would be updated frequently to entice users to return to the website.
 - The upcoming event is advertised to build excitment and intrige.
+
+### **Lighthouse Testing**
+
+The results of Lighthouse testing for each each page on both desktop and mobile.
+
+#### **Home Page**
+
+|  |  |
+| --- | --- |
+| Desktop | ![Home Page Desktop Results](assets/images/testing/lighthouse-home-desktop.jpg) |
+| Mobile | ![Home Page Mobile Results](assets/images/testing/lighthouse-home-mobile.jpg) |
+
+#### **Facilities Page**
+
+|  |  |
+| --- | --- |
+| Desktop | ![Facilities Page Desktop Results](assets/images/testing/lighthouse-facilities-desktop.jpg) |
+| Mobile | ![Facilities Page Mobile Results](assets/images/testing/lighthouse-facilities-mobile.jpg) |
+
+#### **Booking Page**
+
+|  |  |
+| --- | --- |
+| Desktop | ![Booking Page Desktop Results](assets/images/testing/lighthouse-booking-desktop.jpg) |
+| Mobile | ![Booking Page Mobile Results](assets/images/testing/lighthouse-booking-mobile.jpg) |
+
+#### **Thank You Pages**
+
+|  |  |
+| --- | --- |
+| Desktop | ![Thank You Pages Desktop Results](assets/images/testing/lighthouse-thankyou-desktop.jpg) |
+| Mobile | ![Thank You Pages Mobile Results](assets/images/testing/lighthouse-thankyou-mobile.jpg) |
+
+<details><summary>Suggested Improvements</summary>
+
+<img src="assets/images/testing/opportunities.jpg">
+
+*Opportunities*
+
+<img src="assets/images/testing/navigation-issue.jpg">
+
+*Navigation*
+
+<img src="assets/images/testing/general-issue.jpg">
+
+*General*
+
+<img src="assets/images/testing/mobile-friendly.jpg">
+
+*Mobile Friendly*
+
+</details>
 
 ---
 
