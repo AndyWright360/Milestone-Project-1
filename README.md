@@ -77,6 +77,9 @@ This is the documentation for the VR & R Hotel website. A fictitious company off
   - [**Bugs \& Fixes**](#bugs--fixes)
   - [**Known Bugs**](#known-bugs)
   - [**Testing User Stories**](#testing-user-stories)
+    - [**First Time Visitor Goals**](#first-time-visitor-goals)
+    - [**Returning Visitor Goals**](#returning-visitor-goals)
+    - [**Frequent User Goals**](#frequent-user-goals)
 - [**Credits**](#credits)
   - [**Code Used**](#code-used)
   - [**Content**](#content)
@@ -1023,7 +1026,22 @@ Upon viewing the website on an iPhone held horizontally, the screen displays wit
 
 ### **Testing User Stories**
 
+#### **First Time Visitor Goals**
 
+1. Learn about the Hotel and VR experience offered.
+2. Easily navigate the website and find the information required.
+3. Make a booking.
+
+#### **Returning Visitor Goals**
+
+1. Register for membership.
+2. Sign up to the newsletter.
+3. Follow the social media accounts.
+
+#### **Frequent User Goals**
+
+1. Check the Loyalty Achievements reward system.
+2. Discover new site content and updates.
 
 ---
 
