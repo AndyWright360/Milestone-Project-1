@@ -11,9 +11,14 @@ body {
 
 h1,
 h2,
-h3,
-h5 {
+h3 {
     font-family: 'GlitchInside', 'Orbitron', sans-serif;
+}
+
+h4 {
+    font-family: 'Creepster', sans-serif;
+    font-size: 150%;
+    padding: 20px;
 }
 
 .unrest {
@@ -21,12 +26,6 @@ h5 {
     color: #880808;
     font-size: 150%;
     vertical-align: sub;
-}
-
-.tb-unrest h4 {
-    font-family: 'Creepster', sans-serif;
-    font-size: 150%;
-    padding: 20px;
 }
 
 /*---------------------------------------------Headings*/
@@ -639,6 +638,7 @@ and modified to suit the site*/
 /*---------------------------------------------Footer*/
 
 .footer-heading {
+    font-family: 'Orbitron', sans-serif;
     color: #ffc561;
     font-size: 0.9em;
     margin-top: 20px;
@@ -647,7 +647,7 @@ and modified to suit the site*/
 
 .footer-text {
     margin: 0;
-    font-size: 0.7em;
+    font-size: 0.8em;
 }
 
 .footer-address {
