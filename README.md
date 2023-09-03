@@ -85,6 +85,10 @@ This is the documentation for the VR & R Hotel website. A fictitious company off
     - [**Facilities Page**](#facilities-page-1)
     - [**Booking Page**](#booking-page-1)
     - [**Thank You Pages**](#thank-you-pages-1)
+    - [**Home Page - Retest**](#home-page---retest)
+    - [**Facilities Page - Retest**](#facilities-page---retest)
+    - [**Booking Page - Retest**](#booking-page---retest)
+    - [**Thank You Pages - Retest**](#thank-you-pages---retest)
   - [Full Testing](#full-testing)
 - [**Credits**](#credits)
   - [**Code Used**](#code-used)
@@ -1222,7 +1226,7 @@ The hexagonal containers used for the social media icons in the footer don't dis
 
 ### **Lighthouse Testing**
 
-The results of Lighthouse testing for each each page on both desktop and mobile.
+The initial results of Lighthouse testing for each page on both desktop and mobile.
 
 #### **Home Page**
 
@@ -1271,6 +1275,36 @@ The results of Lighthouse testing for each each page on both desktop and mobile.
 *Mobile Friendly*
 
 </details>
+
+After addressing the sequential order of my headings throughout the site and increasing the font size used in the footer I retested all pages.
+
+#### **Home Page - Retest**
+
+|  |  |
+| --- | --- |
+| Desktop | ![Home Page Desktop Results](assets/images/testing/home-retest-d.jpg) |
+| Mobile | ![Home Page Mobile Results](assets/images/testing/home-retest-m.jpg) |
+
+#### **Facilities Page - Retest**
+
+|  |  |
+| --- | --- |
+| Desktop | ![Facilities Page Desktop Results](assets/images/testing/facilities-retest-d.jpg) |
+| Mobile | ![Facilities Page Mobile Results](assets/images/testing/facilities-retest-m.jpg) |
+
+#### **Booking Page - Retest**
+
+|  |  |
+| --- | --- |
+| Desktop | ![Booking Page Desktop Results](assets/images/testing/booking-retest-d.jpg) |
+| Mobile | ![Booking Page Mobile Results](assets/images/testing/booking-retest-m.jpg) |
+
+#### **Thank You Pages - Retest**
+
+|  |  |
+| --- | --- |
+| Desktop | ![Thank You Pages Desktop Results](assets/images/testing/thankyou-retest-d.jpg) |
+| Mobile | ![Thank You Pages Mobile Results](assets/images/testing/thankyou-retest-m.jpg) |
 
 ### Full Testing
 
