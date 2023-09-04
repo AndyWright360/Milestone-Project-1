@@ -72,7 +72,7 @@ h1 {
 .contact-info {
     margin: 0;
     padding-left: 10px;
-    width: 100%;
+    font-size: 0.9em;
 }
 
 .contact-info-padding {
