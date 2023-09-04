@@ -73,7 +73,7 @@ This is the documentation for the VR & R Hotel website. A fictitious company off
     - [**First Validation**](#first-validation)
     - [**Second Validation**](#second-validation)
   - [**W3C CSS Validation**](#w3c-css-validation)
-  - [**WCAG Color Contrast Checker**](#wcag-color-contrast-checker)
+  - [**WCAG Colour Contrast Checker**](#wcag-colour-contrast-checker)
   - [**Bugs \& Fixes**](#bugs--fixes)
   - [**Known Bugs**](#known-bugs)
   - [**Testing User Stories**](#testing-user-stories)
@@ -106,28 +106,32 @@ This is the documentation for the VR & R Hotel website. A fictitious company off
 
 ### **Initial Concept**
 
-The idea behind this project was to create a business website for a Capsule Hotel based in Cardiff Wales. The hotel offers it's guests a virtual reality experience to provide a unique selling point. The design of the site is intended to highlight the technological side of the business. Selling the idea of a futuristic concept.
+The idea behind this project was to create a business website for a Capsule Hotel based in Cardiff Wales. The hotel offers its guests a virtual reality experience to provide a unique selling point. The design of the site is intended to highlight the technological side of the business. Selling the idea of a futuristic concept.
 
 ### **User Stories**
 
 - **Client Goals**
+
   1. Provide a clear understanding of the website's purpose.
   2. Clearly identify the unique selling element to users.
   3. Entice users to make a booking.
   4. Create a strong brand identity through consistent design.
-  5. Allow the website to be viewed on a variety od screen sizes.
+  5. Allow the website to be viewed on a variety of screen sizes.
 
 - **First Time Visitor Goals**
+
   1. Learn about the Hotel and VR experience offered.
   2. Easily navigate the website and find the information required.
   3. Make a booking.
 
 - **Returning Visitor Goals**
+
   1. Register for membership.
-  2. Sign up to the newsletter.
+  2. Sign up for the newsletter.
   3. Follow the social media accounts.
 
 - **Frequent User Goals**
+
   1. Check the Loyalty Achievements reward system.
   2. Discover new site content and updates.
 
@@ -155,13 +159,13 @@ These are the additional colours used. These were incorporated as a hover effect
 
 ![Glitch Inside font used within the website](assets/images/readme/glitch-inside.jpg)
 
-Glitch Inside was used for the company logo and also the headings. It was chosen as a visual representation of the virtual reality element of the business.
+Glitch Inside was used for the company logo and the headings. It was chosen as a visual representation of the virtual reality element of the business.
 
 #### **Orbitron**
 
 ![Google Fonts Orbitron font used within the website](assets/images/readme/orbitron.jpg)
 
-Google Fonts 'Orbitron' was the font used throughout the body of the website. It was chosen to envoke the idea that the concept is futuristic.
+Google Fonts 'Orbitron' was the font used throughout the body of the website. It was chosen to evoke the idea that the concept is futuristic.
 
 #### **Creepster**
 
@@ -171,7 +175,7 @@ Google Fonts 'Creepster' was the font used for the Coming Soon section of the ho
 
 ### **Imagery**
 
-All imagery used for the website was selected to be visually striking and adjusted using Pixlr where needed to reinforce the colour scheme. The hexagonal image shape was intended to reflex the idea of futuristic technology and to apply a consistant visual theme.
+All imagery used for the website was selected to be visually striking and adjusted using Pixlr where needed to reinforce the colour scheme. The hexagonal image shape was intended to reflex the idea of futuristic technology and to apply a consistent visual theme.
 
 ### **Wireframes**
 
@@ -296,6 +300,7 @@ All wireframes were created using Balsamiq for the following screen sizes:
 </details>
 
 - The layout will alter in response to the device screen width to better display the content for the user.
+
 - Responsive design was something that I was very mindful of when planning the layout of each section across device sizes.
 
 #### **Images**
@@ -324,11 +329,15 @@ All wireframes were created using Balsamiq for the following screen sizes:
 
 </details>
 
- - The descision was made to alternate the background colours of each section from teal and white. This was to give the user a strong indication of where each section ends.
- - I added a gradient to the edge of the teal background to make it more dynamic. It originally looked a little flat when compared to the background image used in the white background.
- - The white hexagonal background image was chosen to further emphasise the use of this shape throughout the website.
- - As a background image I wanted it to remain subtle and not distract the user form the page content.
- - The position fixed property was chosen to add a bit of stylistic flare to website.
+- The decision was made to alternate the background colours of each section from teal and white. This was to give the user a strong indication of where each section ends.
+
+- I added a gradient to the edge of the teal background to make it more dynamic. It originally looked a little flat when compared to the background image used in the white background.
+
+- The white hexagonal background image was chosen to further emphasise the use of this shape throughout the website.
+
+- As a background image I wanted it to remain subtle and not distract the user form the page content.
+
+- The position fixed property was chosen to add a bit of stylistic flare to website.
 
 #### **Header**
 
@@ -357,13 +366,20 @@ All wireframes were created using Balsamiq for the following screen sizes:
 </details>
 
 - Home page features a central logo to create a strong brand identifier. The colour theme of the logo is used throughout the website.
+
 - Each page includes a unique hero image to help reinforce the associated content.
+
 - The nav bar lists the page names to help users find the relevant information. The current page is underlined, and the titles include a hover modifier to imply interactivity.
+
 - A call-to-action booking button is present on each page to catch the user's eye.
+
 - The colour scheme of the call-to-action button was altered for better visibility on the Booking page.
+
 - The website contact details are listed on each page for ease of use.
+
 - A hamburger icon was included using BootStrap for mobile devices.
-- The animation was included to give the userresponsive feedback.
+
+- The animation was included to give the user responsive feedback.
 
 #### **Footer**
 
@@ -379,12 +395,14 @@ All wireframes were created using Balsamiq for the following screen sizes:
 
 <img src="assets/images/readme/social-media.gif">
 
-*Social Meida Icons - Hover Effect*
+*Social Media Icons - Hover Effect*
 
 </details>
 
 - The address and contact details are featured on each page to allow easy discovery.
+
 - The newsletter sign-up prompt is listed to remind users of the feature.
+
 - The social media icons include a hover modifier to signify interactivity.
 
 ---
@@ -406,6 +424,7 @@ All wireframes were created using Balsamiq for the following screen sizes:
 </details>
 
 - The hero image displayed is of people wearing VR headsets, having a good time. This will help sell the experience on offer to the user.
+
 - A second image was created with a different aspect ratio to better suit mobile devices.
 
 #### **About Us**
@@ -419,7 +438,9 @@ All wireframes were created using Balsamiq for the following screen sizes:
 </details>
 
 - The content listed will advertise the unique selling element of the Hotel and help the user to visualise the experience offered.
+
 - The corresponding image will display a couple checking in at the reception desk. The happy expression of the receptionist will indicate to users that the check-in process is pleasant.
+
 - The colour pallet of the original image has been altered to fit the colour theme of the business.
 
 #### **Our VR Experience**
@@ -437,9 +458,13 @@ All wireframes were created using Balsamiq for the following screen sizes:
 </details>
 
 - The content displayed goes into further detail to elaborate on the virtual reality aspect offered. This is designed to entice the user by listing the options available.
+
 - The image is of an example customer having fun with a VR headset to further sell the idea of the enjoyment on offer.
-- The colour pallet of the image was altered to suit the colur scheme.
+
+- The colour pallet of the image was altered to suit the colour scheme.
+
 - Call-to-action buttons for 'Our Capsules!' and 'VR Lounge!' are present to offer additional navigation options to users wishing to learn more about these features.
+
 - Both buttons have a hover effect applied to indicate interactivity.
 
 #### **Become A Member**
@@ -478,17 +503,23 @@ All wireframes were created using Balsamiq for the following screen sizes:
 
 *Thank You Page - Newsletter*
 
-
 </details>
 
 - The content describes the benefits offered to members to entice users to sign-up.
+
 - The Loyalty Achievements image displaying the road map of offers provides a visual guide to users of the membership perks.
+
 - The use of pixel art was chosen to associate the concept of earning rewards with unlocks in a video game.
+
 - A modified version of the Loyalty Achievements image was created to better fit the display on mobile devices.
+
 - The accompanying 'Rewards Legend' image provides clarity to the offers on display.
+
 - The call-to-action 'Become A Member' button features a hover modifier to convey interactivity.
-- When selected a modal will be display asking for the user's name and email. A successful submit will take the user to a seperate page diaplaying a thank you message. This will provide user feedback of a successful sign-up.
-- The sign-up section for the newsletter will encourage a potential member to also sign-up for this service. A successful submission will lead the user to a seperate thank you page. This will provide the user with feedback.
+
+- When selected a modal will be display asking for the user's name and email. A successful submit will take the user to a separate page displaying a thank you message. This will provide user feedback of a successful sign-up.
+
+- The sign-up section for the newsletter will encourage a potential member to also sign-up for this service. A successful submission will lead the user to a separate thank you page. This will provide the user with feedback.
 
 #### **Coming Soon**
 
@@ -500,18 +531,22 @@ All wireframes were created using Balsamiq for the following screen sizes:
 
 <img src="assets/images/readme/coming-soon-hover.gif">
 
-*Unrest Beyong Reality - Hover Effect*
+*Unrest Beyond Reality - Hover Effect*
 
 <img src="assets/images/readme/coming-soon-layout.jpg">
 
-*Unrest Beyong Reality - Tablet Layout*
+*Unrest Beyond Reality - Tablet Layout*
 
 </details>
 
 - This section will act as an advertisement for upcoming events and updates.
+
 - The 'Unrest Beyond Reality' Halloween event is a limited time offering to encourage customers interested in this feature.
+
 - The image icons will display further information about the experience as a hover feature. This will be for desktop displays only. Tablet and phone will display the additional information in a separate container.
-- The colour scheme for the Unrest Beyond Reality event was made red to better match the horror theme and also seperate it from the rest of the site content.
+
+- The colour scheme for the Unrest Beyond Reality event was made red to better match the horror theme and also separate it from the rest of the site content.
+
 - Users will be encouraged to keep up to date with the latest events by returning to the website, signing up for membership and subscribing to the newsletter.
 
 ---
@@ -533,7 +568,8 @@ All wireframes were created using Balsamiq for the following screen sizes:
 </details>
 
 - The hero image shows a row of the hotel capsules to give the user an indication of the futuristic design. This will reinforce the concept of technology being at the forefront of the companies branding.
-- Two header images where created at different aspect ratios to better suit the display size.
+
+- Two header images were created at different aspect ratios to better suit the display size.
 
 #### **The Hotel**
 
@@ -553,15 +589,20 @@ All wireframes were created using Balsamiq for the following screen sizes:
 
 <img src="assets/images/readme/amenities.jpg">
 
-*Hotel Ameneties*
+*Hotel Amenities*
 
 </details>
 
 - The content will go into detail of the Hotels location and provide information of the local activities and transportation on offer. This will provide potential customers with ideas to help plan their itinerary.
+
 - A list of the hotel amenities will be displayed with accompanying icons to further reinforce the features.
+
 - An image of the hotel exterior will act as an aid to potential customers visiting the location.
+
 - An image of the reception area will help users to visualise the modern interior style of the hotel.
+
 - Images of both the Cardiff Bay area and Cardiff City will provide highlights of the local area.
+
 - The layout of the section will alter responsively to suit the display size.
 
 #### **Single Capsule**
@@ -582,13 +623,16 @@ All wireframes were created using Balsamiq for the following screen sizes:
 
 <img src="assets/images/readme/capsule-amenities.jpg">
 
-*Capsule Ameneties*
+*Capsule Amenities*
 
 </details>
 
 - Highlights of the capsule's features are advertised to the user to encourage a booking.
+
 - The 'Book Now!' is also displayed within the content area to provide a streamlined booking experience for the user.
+
 - The amenities are listed in the same style as displayed in the facilities page to reinforce this design across the website.
+
 - The image will provide a clear example of the capsule room. The styling of the site has been designed to mirror features of the capsule to reinforce the identity of the brand.
 
 #### **Double Capsule**
@@ -599,10 +643,12 @@ All wireframes were created using Balsamiq for the following screen sizes:
 
 *Double Capsule*
 
-</details>
+</details> 
 
 - As the only difference between the capsule's is the number of beds. The content is displayed in the same manner only mirrored. This provides consistency across the visual layout of the page.
+
 - The information about the double capsule offers a suggestion being suitable for both one and two guests. This allows a single guest to consider upgrading to the larger room size.
+
 - The accompanying image displays the interior of a double deb capsule. This will convey the difference between the two capsule sizes.
 
 #### **The VR Lounge**
@@ -611,7 +657,7 @@ All wireframes were created using Balsamiq for the following screen sizes:
 
 <img src="assets/images/readme/vr-lounge-desktop.jpg">
 
-*The VR Lounge Section - Desktop*
+*The VR Lounge Section - Desktop* 
 
 <img src="assets/images/readme/vr-lounge-tablet.jpg">
 
@@ -621,10 +667,12 @@ All wireframes were created using Balsamiq for the following screen sizes:
 
 *The VR Lounge Section - Mobile*
 
-</details>
+</details> 
 
 - The content advertises the social lounge area provided to guests. This enriches the options available for the type of VR experiences offered.
+
 - The accompanying images will reinforce the type of experience guests can expect from this section of the hotel.
+
 - The layout of this section alters dynamically to better suit the display width.
 
 ---
@@ -651,11 +699,13 @@ All wireframes were created using Balsamiq for the following screen sizes:
 
 *Booking Button - Alternate Colour*
 
-</details>
+</details> 
 
-- The hero image matches the teal colour pallet used throughout the wensite.
+- The hero image matches the teal colour pallet used throughout the website.
+
 - Two versions of the hero image are used for an improved aspect ratio depending on the display size.
-- An alternate colour of the book now button and miniture logo were used to stand out against the background.
+
+- An alternate colour of the book now button and miniature logo were used to stand out against the background.
 
 #### **Make A Booking**
 
@@ -680,9 +730,12 @@ All wireframes were created using Balsamiq for the following screen sizes:
 </details>
 
 - The booking input form laid out into two columns for wider desktop displays. This is reduced to a single column display on smaller tablet and phone displays. This provides the user with a visually appealing design regardless of the display used.
+
 - Labels are positioned above the input windows to avoid any confusion as to what information is required from the user.
+
 - A 'clear' button in provided as a fast re-set to any mistakes made by the user.
-- Upon successful sumbmission of the form the user will be taken to seperate page displaying a thank you message. This is to provide the user with feedback.
+
+- Upon successful submission of the form the user will be taken to separate page displaying a thank you message. This is to provide the user with feedback.
 
 #### **Contact Us**
 
@@ -719,6 +772,7 @@ All wireframes were created using Balsamiq for the following screen sizes:
 </details>
 
 - The relevant policy information is all contained in this window so a user can get additional information if required.
+
 - A scrolling window was used to display the information in a more visually appealing way.
 
 #### **Thank You Pages**
@@ -743,8 +797,10 @@ All wireframes were created using Balsamiq for the following screen sizes:
 
 </details>
 
-- The header background image was chose to be subtle and simple but reference the hexagonal design present throughout.
-- Three seperate Thank You pages where created. I wanted the design to be consistant across all pages but the measage to be unique. This is to give the user more accurate feedback on the task performed.
+- The header background image was chosen to be subtle and simple but reference the hexagonal design present throughout.
+
+- Three separate Thank You pages where created. I wanted the design to be consistent across all pages but the message to be unique. This is to give the user more accurate feedback on the task performed.
+
 - The navigation bar was placed so the user can return to the page of their choice.
 
 ---
@@ -753,9 +809,9 @@ All wireframes were created using Balsamiq for the following screen sizes:
 
 #### **Restaurant**
 
-The Restaurant was originally designed during my wireframes and was intended to be part of the Facilities page. However, as I began designing the website I felt that its inclusion was unnecessary for the projects scope.
+The Restaurant was originally designed during my wireframes and was intended to be part of the Facilities page. However, as I began designing the website, I felt that its inclusion was unnecessary for the projects scope.
 
-This would be a section I would add at a later stage and would feature images of the restautant as well as menu items and guests enjoying the experience. It would also contain a short descriptive paragraph, an opening time table and a button link to the menu.
+This would be a section I would add at a later stage and would feature images of the restaurant as well as menu items and guests enjoying the experience. It would also contain a short descriptive paragraph, an opening timetable and a button link to the menu.
 
 ![Wireframe images of the proposed restaurant section](assets/images/readme/restaurant.jpg)
 
@@ -765,7 +821,7 @@ I would like to include a Sign Up & Login section so that returning customers co
 
 #### **Members Page**
 
-As an extension of the Login feature I would like to implement a members page which would track their progress made along the Loyalty Reward system. This page would also allow members to select the VR experinces that they most enjoyed so recommendations could be made to them for future visits.
+As an extension of the Login feature, I would like to implement a member's page which would track their progress made along the Loyalty Reward system. This page would also allow members to select the VR experiences that they most enjoyed so recommendations could be made to them for future visits.
 
 ---
 
@@ -778,34 +834,44 @@ As an extension of the Login feature I would like to implement a members page wh
 
 ### **Frameworks, Libraries & Programs Used**
 
-1. **Bootstrap 5.3.1:**
+1.) **Bootstrap 5.3.1**
+
 Bootstrap was used to help with the layout of the website and also for responsive design.
 
-2. **Hover.css:**
+2.) **Hover.css**
+
 Hover.css was used on the Coming Soon section of the Home page. The swipe to bottom transition was placed on the upcoming event features to reveal the content in a stylised way.
 
-3. **Google Fonts:**
+3.) **Google Fonts**
+
 Google fonts was linked into the head section of the html pages. 'Orbitron' was the main font used throughout the project. 'Creepster' was also used in the Coming Soon section of the home page to provide a horror theme to upcoming content.
 
-4. **Font Awesome:**
+4.) **Font Awesome**
+
 Font Awesome was used on the navigation bar and footer of each page. It also features on the amenities sections of the Facilities page. It was used to compliment the content and provide a visual representation of the information to users.
 
-5. **Codeanywhere:**
+5.) **Codeanywhere**
+
 Codeanywhere was used for version control by utilizing the terminal to commit to and push to GitHub.
 
-6. **GitHub:**
+6.) **GitHub**
+
 GitHub is used to store the projects code after being pushed from Codeanywhere.
 
-7. **Pixlr:**
+7.) **Pixlr**
+
 Pixlr was used to create the website logo and adjust the colouring of images to better fit the colour scheme. It was also used to generate the various image shapes used throughout the website for creative design.
 
-8. **Balsamiq:**
+8.) **Balsamiq**
+
 The wireframes were created using Balsamiq during the designing stage of the project.
 
-9. **XnConvert:**
+9.) **XnConvert**
+
 XnConvert was used to convert all image files from JPEG and PNG to WebP.
 
-10. **TinyPNG:**
+10.) **TinyPNG**
+
 TinyPNG was used to compress all image files to improve performance.
 
 ---
@@ -816,38 +882,56 @@ TinyPNG was used to compress all image files to improve performance.
 
 The project was deployed to GitHub Pages. The following steps were used to achieve this:
 
-1. Log in to Github.
+1. Log in to GitHub.
+
 2. Locate the relevant repository for this project (VR-&-R-Hotel).
+
 3. Select the '**Settings**' tab for the chosen repository at the top of the page.
-4. Click on the '**Pages**' tab from the left hand navigation menu.
+
+4. Click on the '**Pages**' tab from the left-hand navigation menu.
+
 5. Under '**Source**' click the drop-down menu and select the option '**Deploy from a branch**'.
+
 6. In the '**Branch**' section, click the farthest left drop-down menu box and select the option 'main'. Select the drop-down menu box next to this and choose the option '**/(root)**'.
+
 7. Click the '**Save**' button.
+
 8. The live site address will display when successfully published.
 
 ### **Local Development**
 
 #### **How to Fork**
 
-Forking the the GutHub Repository allows for changes to be made without altering the original repository. To do this please follow the following steps:
+Forking the the GitHub Repository allows for changes to be made without altering the original repository. To do this please follow the following steps:
 
-1. Log in to Github.
+1. Log in to GitHub.
+
 2. Locate the relevant repository for this project (VR-&-R-Hotel).
+
 3. Select the '**Fork**' button located towards the top right of the repository.
-4. You should now have a copy of the original repository in your GutHub account.
+
+4. You should now have a copy of the original repository in your GitHub account.
 
 #### **How to Clone**
 
 To clone this project, please follow the steps below:
 
 1. Log in to GitHub.
+
 2. Locate the relevant repository for this project (VR-&-R-Hotel).
+
 3. Click on the green '**Code**' drop-down button.
+
 4. Select the '**Local**' tab in the window that appears.
+
 5. Select the option '**HTTPS**' and copy the link shown.
+
 6. Open the terminal in your IDE of choice.
+
 7. Change the current working directory to the location you want to use for the cloned directory.
+
 8. Type '**git clone**' into the terminal and then paste the link you copied in Step 5.
+
 9. Press enter.
 
 ---
@@ -906,7 +990,7 @@ To clone this project, please follow the steps below:
 
 </details>
 
-The initial validation for each page highlighted a consistant issue throught the website that needed correcting. As well as a few small issues in the Facilities and Booking page. The list of issues were as follows:
+The initial validation for each page highlighted a consistent issue throughout the website that needed correcting. As well as a few small issues in the Facilities and Booking page. The list of issues were as follows:
 
 - Nesting a `<button>` inside an `<a>` element.
 
@@ -928,7 +1012,7 @@ The initial validation for each page highlighted a consistant issue throught the
 
 ![Second Validation Result](assets/images/testing/html-validation.jpg)
 
-After implimenting the changes outlined above the second validation attempt showed no errors or warnings across all pages.
+After implementing the changes outlined above the second validation attempt showed no errors or warnings across all pages.
 
 ### **W3C CSS Validation**
 
@@ -936,9 +1020,9 @@ After implimenting the changes outlined above the second validation attempt show
 
 No errors were found when using the W3C CSS Validator.
 
-### **WCAG Color Contrast Checker**
+### **WCAG Colour Contrast Checker**
 
-I was mindful of having a high contrast when selecting the colour scheme for the website. Below are the results oor each of the background and foreground combinations used for this project.
+I was mindful of having a high contrast when selecting the colour scheme for the website. Below are the results of each of the background and foreground combinations used for this project.
 
 ![Grey Background, White Foreground](assets/images/testing/contrast-grey-white.jpg)
 
@@ -950,7 +1034,7 @@ This is the alternative colour scheme used in the navigation and footer section.
 
 ![White Background, Grey Foreground](assets/images/testing/contrast-white-grey.jpg)
 
-This is used in the sections with the white heaxagonal background and also the text boxes.
+This is used in the sections with the white hexagonal background and also the text boxes.
 
 ![Teal Background, White Foreground](assets/images/testing/contrast-teal-white.jpg)
 
@@ -961,8 +1045,6 @@ This is the alternative colour scheme used for teal background sections and text
 This is used in the Unrest Beyond Reality section of the home page.
 
 ### **Bugs & Fixes**
-
-</details>
 
 <details><summary>Navigation Bar Position Change</summary>
 
@@ -976,11 +1058,9 @@ This is used in the Unrest Beyond Reality section of the home page.
 
 </details>
 
-The reason for this issue was that the heading section of the home page contained the company logo and slogan header. Whereas the other pages were just a hero image. Because the logo and slogan were responsive the size of the home page heading was relative to the display width. This made it challenging to keep the navbar at a consistant position across all pages.
+The reason for this issue was that the heading section of the home page contained the company logo and slogan header. Whereas the other pages were just a hero image. Because the logo and slogan were responsive the size of the home page heading was relative to the display width. This made it challenging to keep the navbar at a consistent position across all pages.
 
-The fix I implemented was to include the logo image and slogan header across all heading sections of the website.However, on the facilities and booking page I applied the BootStrap 'invisible' class to the rows containing the content. This allows the headings sections to be consistant across all pages without displaying the unwanted content. `<div class="row h-50 invisible">`
-
-</details>
+The fix I implemented was to include the logo image and slogan header across all heading sections of the website. However, on the facilities and booking page I applied the BootStrap 'invisible' class to the rows containing the content. This allows the headings sections to be consistent across all pages without displaying the unwanted content. `<div class="row h-50 invisible">`
 
 <details><summary>Booking Form Input Alignment</summary>
 
@@ -994,9 +1074,9 @@ The fix I implemented was to include the logo image and slogan header across all
 
 </details>
 
-This bug was caused by having a single input within the top row of the form but all other rows having two inputs. Because of this it was difficult to align the 'Title' select box with the remaining inputs. With the spacing method of 'justify-content-evenly' being responsive. The alignment became more noticable on wider displays.
+This bug was caused by having a single input within the top row of the form but all other rows having two inputs. Because of this it was difficult to align the 'Title' select box with the remaining inputs. With the spacing method of 'justify-content-evenly' being responsive. The alignment became more noticeable on wider displays.
 
-The fix I implemented was similar to the previous bug fix. I added an additional input to the top row but added the 'invisible' class to prevent it being dispayed. This allowed me to apply the same spacing method of 'justift-content-evenly' to the row and have the alignment match the other content exactly.
+The fix I implemented was similar to the previous bug fix. I added an additional input to the top row but added the 'invisible' class to prevent it being displayed. This allowed me to apply the same spacing method of 'justify-content-evenly' to the row and have the alignment match the other content exactly.
 
 <details><summary>iPhone Text Decoration Not Displaying</summary>
 
@@ -1038,7 +1118,7 @@ Upon viewing the website on an iPhone held horizontally, the screen displays wit
 
 ![Mozilla Firefox](assets/images/testing/firefox.gif)
 
-The hexagonal containers used for the social media icons in the footer don't display correctly on firefox. It causes the border of the coantainer to be uneven. This is particularly noticable as the display is re-sized. I'm unsure of a possible fix to this.
+The hexagonal containers used for the social media icons in the footer don't display correctly on Firefox. It causes the border of the container to be uneven. This is particularly noticeable as the display is re-sized. I'm unsure of a possible fix to this.
 
 ### **Testing User Stories**
 
@@ -1058,8 +1138,10 @@ The hexagonal containers used for the social media icons in the footer don't dis
 
 </details>
 
-- The first section of the home page is the 'About Us' section. This was to allow users to imediately get a clear understanding of the websites purpose.
+- The first section of the home page is the 'About Us' section. This was to allow users to immediately get a clear understanding of the websites purpose.
+
 - The second section then goes into further detail of the 'VR Experience' offered.
+
 - This section also contains button links to allow users to easily navigate to specific information discussed in the text box.
 
 2.) Easily navigate the website and find the information required.
@@ -1081,9 +1163,12 @@ The hexagonal containers used for the social media icons in the footer don't dis
 </details>
 
 - To ensure that navigation of the website was intuitive I applied a colour changing hover effect to the navigation bar.
+
 - This was to provide feedback to user and imply that the feature was interactive.
-- The current page displays underlined text so the user is aware of their location within the website.
-- Call-to-action buttons have been placed throughout the website to allow easier navigation options to users. 
+
+- The current page displays underlined text, so the user is aware of their location within the website.
+
+- Call-to-action buttons have been placed throughout the website to allow easier navigation options to users.
 
 3.) Make a booking.
 
@@ -1099,11 +1184,11 @@ The hexagonal containers used for the social media icons in the footer don't dis
 
 <img src="assets/images/testing/nav-booking.jpg">
 
-*Bokking Page - Navbar*
+*Booking Page - Navbar*
 
 <img src="assets/images/readme/book-clear.gif">
 
-*Bokking Form - Clear*
+*Booking Form - Clear*
 
 <img src="assets/images/readme/book-submit.gif">
 
@@ -1112,12 +1197,18 @@ The hexagonal containers used for the social media icons in the footer don't dis
 </details>
 
 - The call-to-action 'Book Now!' button is placed at the top of each page to allow easy navigation.
+
 - Call-to-action buttons have also been placed in the Capsules section so users can make a booking after learning more about them.
-- 'Booking' was the tiltle given to the booking page to clearly communicate the purpose of the page to users.
+
+- 'Booking' was the title given to the booking page to clearly communicate the purpose of the page to users.
+
 - Labels have been added to each input of the booking form to make the required information clear.
+
 - The 'required' attribute has been applied to all necessary form inputs to prevent the user from missing information.
+
 - A 'Clear' button has been added to form to allow the user to re-set the form inputs.
-- Upon successful submission the user is re-directed to a page displaying a thank you meaasge. This is to provide the user with feedback and acknowledge the form has been completed correctly.
+
+- Upon successful submission the user is re-directed to a page displaying a thank you message. This is to provide the user with feedback and acknowledge the form has been completed correctly.
 
 #### **Returning Visitor Goals**
 
@@ -1140,13 +1231,21 @@ The hexagonal containers used for the social media icons in the footer don't dis
 </details>
 
 - The 'Become A Member' section was placed on the home page to allow easy discoverability.
+
 - The combination of text and imagery was designed to provide the user with the relevant information is a clear and understandable way.
-- The 'Join Us!' button was positioned centrally to draw the users eye.
+
+- The 'Join Us!' button was positioned centrally to draw the user's eye.
+
 - The hover effect was used to imply interactivity.
+
 - The modal was centralised for ease of use.
-- Labels were used to clearly indicate to the user, the informattion needed.
+
+- Labels were used to clearly indicate to the user, the information needed.
+
 - The 'required' attribute was applied to all form inputs to prevent the user from missing any details.
-- Upon successful submission the user is re-directed to a seperate page containing a thank you message.
+
+- Upon successful submission the user is re-directed to a separate page containing a thank you message.
+
 - This was to provide the user with feedback upon completing the sign up.
 
 2.) Sign up to the newsletter.
@@ -1167,11 +1266,16 @@ The hexagonal containers used for the social media icons in the footer don't dis
 
 </details>
 
-- The sign up the the newsletter section was added to the membership section to encourage users to do both.
-- The option to sign up to the newsletter also appears on the fotter of each page. This was to allow for discoverability.
+- The sign up to the newsletter section was added to the membership section to encourage users to do both.
+
+- The option to sign up to the newsletter also appears on the footer of each page. This was to allow for discoverability.
+
 - The email input contains a placeholder text to give the user details on the information needed.
-- The 'required' attraibute was applied to email input to ensure the correct information is provided.
-- Upon successful submission the user is re-directed to a seperate page containing a thank you message.
+
+- The 'required' attribute was applied to email input to ensure the correct information is provided.
+
+- Upon successful submission the user is re-directed to a separate page containing a thank you message.
+
 - This was to provide the user with feedback upon completing the sign up.
 
 3.) Follow the social media accounts.
@@ -1184,12 +1288,14 @@ The hexagonal containers used for the social media icons in the footer don't dis
 
 <img src="assets/images/readme/social-media.gif">
 
-*Sovial Media Icons*
+*Social Media Icons*
 
 </details>
 
-- The social media icons where placed centrally in the footer of each page for discoverability.
+- The social media icons were placed centrally in the footer of each page for discoverability.
+
 - A hover effect was used to imply interactivity.
+
 - The `target= _blank` attribute was applied to the link to prevent the user from losing their position within the website.
 
 #### **Frequent User Goals**
@@ -1205,9 +1311,13 @@ The hexagonal containers used for the social media icons in the footer don't dis
 </details>
 
 - The Loyalty Achievements image was designed to replicate a loyalty card for returning visitors.
+
 - This was to help associate the rewards being relative to the number of stays booked.
+
 - The 'Rewards Legend' was created to increase clarity to the user.
+
 - The imagery was themed on video games as a reference to the digital aspect of virtual reality.
+
 - The information was placed on the home page for easy navigation upon entering the website.
 
 2.) Discover new site content and updates.
@@ -1221,8 +1331,10 @@ The hexagonal containers used for the social media icons in the footer don't dis
 </details>
 
 - The 'Coming Soon' section was added to the home page to allow for easy navigation upon entering the website.
+
 - The content would be updated frequently to entice users to return to the website.
-- The upcoming event is advertised to build excitment and intrige.
+
+- The upcoming event is advertised to build excitement and intrigue.
 
 ### **Lighthouse Testing**
 
@@ -1276,7 +1388,7 @@ The initial results of Lighthouse testing for each page on both desktop and mobi
 
 </details>
 
-After addressing the sequential order of my headings throughout the site and increasing the font size used in the footer I retested all pages.
+After addressing the sequential order of my headings throughout the site and increasing the font size used in the footer, I retested all pages.
 
 #### **Home Page - Retest**
 
@@ -1315,7 +1427,7 @@ Full testing was performed on the following devices:
 - Mobile Device:
   - iPhone XR
 
-The following browsers were tested using each device:
+The following browsers were tested using each device: 
 
 - Laptop:
   - Google Chrome
@@ -1367,14 +1479,17 @@ Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 ### **Code Used**
 
 - [CSS Hexagon Image with Border by Muhammad Asif](https://codeconvey.com/css-hexagon-image-with-border/)
+
   - This code was used for the social media icons placed in the footer section of each page.
 
 - [Hamburger Icon Animation by Richard Richards](https://forum.bootstrapstudio.io/t/change-hamburger-icon/8990)
+
   - This code was used for the animation of the hamburger menu in the navigation bar.
 
 ### **Content**
 
 - [Cancellation & Refund Policy by setupmyhotel.com](https://setupmyhotel.com/formats/fo/378-resv-cancellation-deposit-policy.html?utm_content=cmp-true)
+
   - This content was used in the Terms & Conditions section of the booking page.
 
 - All other content for the website was written by Andrew Wright.
@@ -1382,6 +1497,7 @@ Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 ### **Media**
 
 All images used on the website we're obtained from the following websites:
+
 - Pngtree.com
 - Freepik.com
 - Pixabay.com
