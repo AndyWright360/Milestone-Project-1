@@ -90,6 +90,7 @@ This is the documentation for the VR & R Hotel website. A fictitious company off
     - [**Facilities Page - Retest**](#facilities-page---retest)
     - [**Booking Page - Retest**](#booking-page---retest)
     - [**Thank You Pages - Retest**](#thank-you-pages---retest)
+    - [**404 Page - Test**](#404-page---test)
   - [Full Testing](#full-testing)
 - [**Credits**](#credits)
   - [**Code Used**](#code-used)
@@ -776,7 +777,7 @@ All wireframes were created using Balsamiq for the following screen sizes:
 
 </details>
 
-- A Google Maps location widow will display the exact location of the hotel for ease of use.
+- A Google Maps location window displays the exact location of the hotel for ease of use.
 
 #### **Terms & Conditions**
 
@@ -822,7 +823,33 @@ All wireframes were created using Balsamiq for the following screen sizes:
 
 #### **404 Page**
 
+<details><summary>Screenshots</summary>
 
+<img src="assets/images/readme/404-header.jpg">
+
+*404 Page - Header*
+
+<img src="assets/images/readme/404-message.jpg">
+
+*404 Message - Booking*
+
+<img src="assets/images/header/glitch-logo.webp">
+
+*Glitched Logo*
+
+<img src="assets/images/header/spaceman.webp">
+
+*Spaceman*
+
+</details>
+
+- The 404 page was added as a final touch to keep a consistent theme through the website.
+
+- I modified the logo to give it a glitch effect to have a bit of fun with the page.
+
+- I wanted the message to relate back to the exploration of virtual realities advertised by the business.
+
+- The pixelated spaceman was used as a little joke. He symbolises a lost explorer.
 
 ---
 
@@ -1439,6 +1466,13 @@ After addressing the sequential order of my headings throughout the site and inc
 | Desktop | ![Thank You Pages Desktop Results](assets/images/testing/thankyou-retest-d.jpg) |
 | Mobile | ![Thank You Pages Mobile Results](assets/images/testing/thankyou-retest-m.jpg) |
 
+#### **404 Page - Test**
+
+|  |  |
+| --- | --- |
+| Desktop | ![Thank You Pages Desktop Results](assets/images/testing/404-test-d.jpg) |
+| Mobile | ![Thank You Pages Mobile Results](assets/images/testing/404-test-m.jpg) |
+
 ### Full Testing
 
 Full testing was performed on the following devices:
@@ -1492,6 +1526,8 @@ Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | Social Media Link (YouTube) | Opens YouTube link in a new tab | Clicked YouTube icon | New tabs opened to YouTube | Pass |
 | Newsletter Subscribe Button (no input) | User alerted of required input | Click button | User alerted of required input  | Pass |
 | Newsletter Subscribe Button (with input) | Redirect to Thank You newsletter page | Click button | Redirected to Thank You newsletter page  | Pass |
+| `404 Page` |
+| Return Home button | Redirects user to home page | Clicked the button | Redirected to home page | Pass |
 
 ---
 
@@ -1566,6 +1602,8 @@ All images used on the website we're obtained from the following websites:
 
 - [White Hexagon Background](https://www.freepik.com/free-vector/digital-technology-background-vector-with-hexagon-pattern-white-tone_16252232.htm#query=hex%20background&position=10&from_view=search&track=ais)
 - [Thank You Header Background Image](https://www.freepik.com/free-vector/digital-technology-background-with-hexagon-pattern-white-tone_16374757.htm#page=4&query=hex%20background&position=6&from_view=search&track=ais)
+- [Pixelated Spaceman](https://www.dreamstime.com/pixel-art-astronaut-spaceman-bit-objects-space-art-digital-icons-cosmonaut-whale-moon-wave-retro-assets-pixel-art-image220389741)
+- [404 Header Background Image](https://www.freepik.com/free-vector/pixel-rain-abstract-background_6193289.htm#&position=0&from_view=user)
 
 ### Acknowledgments
 
