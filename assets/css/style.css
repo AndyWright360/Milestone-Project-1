@@ -8,6 +8,7 @@
 body {
     font-family: 'Exo', sans-serif;
     font-weight: 500;
+    font-size: 1.125em;
 }
 
 h1,
@@ -18,7 +19,7 @@ h3 {
 
 h4 {
     font-family: 'Creepster', sans-serif;
-    font-size: 150%;
+    font-size: 135%;
     padding: 20px;
 }
 
@@ -38,6 +39,15 @@ h1 {
 
 .sign-up-head {
     margin-bottom: 20px;
+}
+
+#glitch-heading {
+    color: #f0f0f0;
+}
+
+#error-msg {
+    text-decoration: none;
+    font-size: 180%;
 }
 
 /*---------------------------------------------Header*/
@@ -61,6 +71,11 @@ h1 {
 
 #booking {
     background-image: url(../images/header/booking-hero.webp);
+}
+
+#glitch {
+    background-color: #055557;
+    background-image: url(../images/header/glitch.webp);
 }
 
 .thank-you {
@@ -121,7 +136,7 @@ h1 {
     box-shadow: none;
 }
 
-/* The code below for hamburger menu transformation was sourced from https://forum.bootstrapstudio.io/t/change-hamburger-icon/8990 */
+/* The code below for the hamburger menu transformation was sourced from https://forum.bootstrapstudio.io/t/change-hamburger-icon/8990 */
 
 .navbar-toggler-icon {
     background-image: none !important;
@@ -545,7 +560,7 @@ a {
 }
 
 .form-btn {
-    padding: 5px;
+    padding: 4px 12px;
     font-weight: 600;
 }
 
@@ -647,7 +662,7 @@ and modified to suit the site*/
 
 .footer-text {
     margin: 0;
-    font-size: 0.9em;
+    font-size: 0.85em;
 }
 
 .footer-address {
@@ -685,7 +700,7 @@ and modified to suit the site*/
 /*---------------------------------------------Media Queries*/
 
 @media screen and (max-width: 600px) {
-    
+
     .flex-container {
         display: block;
     }
@@ -702,7 +717,7 @@ and modified to suit the site*/
 }
 
 @media screen and (max-width: 768px) {
-    
+
     .amenities-list {
         font-size: 1em;
     }
@@ -725,7 +740,7 @@ and modified to suit the site*/
 }
 
 @media screen and (max-width: 991.5px) {
-    
+
     .fade-container {
         opacity: 1;
     }
