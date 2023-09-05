@@ -23,7 +23,7 @@ This is the documentation for the VR & R Hotel website. A fictitious company off
     - [**Additional Colours**](#additional-colours)
   - [**Typography**](#typography)
     - [**Glitch Inside**](#glitch-inside)
-    - [**Orbitron**](#orbitron)
+    - [**Exo**](#exo)
     - [**Creepster**](#creepster)
   - [**Imagery**](#imagery)
   - [**Wireframes**](#wireframes)
@@ -56,6 +56,7 @@ This is the documentation for the VR & R Hotel website. A fictitious company off
     - [**Where To Find Us**](#where-to-find-us)
     - [**Terms \& Conditions**](#terms--conditions)
     - [**Thank You Pages**](#thank-you-pages)
+    - [**404 Page**](#404-page)
   - [**Future Implementations**](#future-implementations)
     - [**Restaurant**](#restaurant)
     - [**Sign Up \& Login**](#sign-up--login)
@@ -161,11 +162,27 @@ These are the additional colours used. These were incorporated as a hover effect
 
 Glitch Inside was used for the company logo and the headings. It was chosen as a visual representation of the virtual reality element of the business.
 
-#### **Orbitron**
+#### **Exo**
 
-![Google Fonts Orbitron font used within the website](assets/images/readme/orbitron.jpg)
+![Google Fonts Exo font used within the website](assets/images/readme/exo.jpg)
 
-Google Fonts 'Orbitron' was the font used throughout the body of the website. It was chosen to evoke the idea that the concept is futuristic.
+Google Fonts 'Exo' was the font used throughout the body of the website. It was chosen to evoke the idea of futuristic technology.
+
+Originally, my font choice was 'Orbitron'. However, after receiving feedback from multiple people in the Slack community that this was a difficult font to read, I opted to make a change.
+
+Both fonts provided a similar aesthetic to the website. However, 'Exo' was far more legible when used as the main font for the body.
+
+<details><summary>Example Text</summary>
+
+<img src="assets/images/readme/exo-example.jpg">
+
+*Exo*
+
+<img src="assets/images/readme/orbitron-example.jpg">
+
+*Orbitron*
+
+</details>
 
 #### **Creepster**
 
@@ -802,6 +819,10 @@ All wireframes were created using Balsamiq for the following screen sizes:
 - Three separate Thank You pages where created. I wanted the design to be consistent across all pages but the message to be unique. This is to give the user more accurate feedback on the task performed.
 
 - The navigation bar was placed so the user can return to the page of their choice.
+
+#### **404 Page**
+
+
 
 ---
 
@@ -1547,3 +1568,7 @@ All images used on the website we're obtained from the following websites:
 - [Thank You Header Background Image](https://www.freepik.com/free-vector/digital-technology-background-with-hexagon-pattern-white-tone_16374757.htm#page=4&query=hex%20background&position=6&from_view=search&track=ais)
 
 ### Acknowledgments
+
+- My mentor [Jubril Akolade](https://github.com/Jubrillionaire) for all his encouragement and advice throughout the project.
+- Everyone at [Code Institute](https://codeinstitute.net/) for the incredible support.
+- The Code Institute Slack community for the feedback and help I recieved along the way.
