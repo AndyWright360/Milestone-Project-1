@@ -2,7 +2,9 @@
 
 ![VR & R Hotel website logo](assets/images/readme/readme-logo.png)
 
-This is the documentation for the VR & R Hotel website. A fictitious company offering its customers a budget capsule hotel experience with a unique virtual reality twist. The project was designed as part of the Code Institute Level 5 Diploma in Web Application Development course.
+This is the documentation for the VR & R Hotel website. A fictitious company offering its customers a budget capsule hotel experience with a unique virtual reality twist. The website has been designed to put forward the idea of technology being at the forefront of the business. Pushing virtual reality into an entirely new domain to offer its customers something fresh and innovative.
+
+As part of the design process, my aim was to establish a strong identity for the business that was echoed throughout the website. The project was created as part of the Code Institute Level 5 Diploma in Web Application Development course.
 
 ![VR & R Hotel website shown on various devices](assets/images/readme/responsive-design.jpg)
 
@@ -108,7 +110,7 @@ This is the documentation for the VR & R Hotel website. A fictitious company off
 
 ### **Initial Concept**
 
-The idea behind this project was to create a business website for a Capsule Hotel based in Cardiff Wales. The hotel offers its guests a virtual reality experience to provide a unique selling point. The design of the site is intended to highlight the technological side of the business. Selling the idea of a futuristic concept.
+The idea behind this project was to create a business website for a Capsule hotel based in Cardiff Wales. The hotel offers its guests a virtual reality experience to provide a unique selling point. The design of the site is intended to highlight the technological side of the business. Selling the idea of a futuristic concept.
 
 ### **User Stories**
 
@@ -122,7 +124,7 @@ The idea behind this project was to create a business website for a Capsule Hote
 
 - **First Time Visitor Goals**
 
-  1. Learn about the Hotel and VR experience offered.
+  1. Learn about the hotel and VR experience offered.
   2. Easily navigate the website and find the information required.
   3. Make a booking.
 
@@ -355,7 +357,7 @@ All wireframes were created using Balsamiq for the following screen sizes:
 
 - As a background image I wanted it to remain subtle and not distract the user form the page content.
 
-- The position fixed property was chosen to add a bit of stylistic flare to website.
+- The `position: fixed` property was chosen to add a bit of stylistic flare to the website.
 
 #### **Header**
 
@@ -455,7 +457,7 @@ All wireframes were created using Balsamiq for the following screen sizes:
 
 </details>
 
-- The content listed will advertise the unique selling element of the Hotel and help the user to visualise the experience offered.
+- The content listed will advertise the unique selling element of the hotel and help the user to visualise the experience offered.
 
 - The corresponding image will display a couple checking in at the reception desk. The happy expression of the receptionist will indicate to users that the check-in process is pleasant.
 
@@ -587,7 +589,7 @@ All wireframes were created using Balsamiq for the following screen sizes:
 
 - The hero image shows a row of the hotel capsules to give the user an indication of the futuristic design. This will reinforce the concept of technology being at the forefront of the companies branding.
 
-- Two header images were created at different aspect ratios to better suit the display size.
+- Two header images were created at different aspect ratios to better suit the display size of the user's chosen device.
 
 #### **The Hotel**
 
@@ -611,7 +613,7 @@ All wireframes were created using Balsamiq for the following screen sizes:
 
 </details>
 
-- The content will go into detail of the Hotels location and provide information of the local activities and transportation on offer. This will provide potential customers with ideas to help plan their itinerary.
+- The content will go into detail of the hotel's location and provide information of the local activities and transportation on offer. This will provide potential customers with ideas to help plan their itinerary.
 
 - A list of the hotel amenities will be displayed with accompanying icons to further reinforce the features.
 
@@ -667,7 +669,7 @@ All wireframes were created using Balsamiq for the following screen sizes:
 
 - The information about the double capsule offers a suggestion being suitable for both one and two guests. This allows a single guest to consider upgrading to the larger room size.
 
-- The accompanying image displays the interior of a double deb capsule. This will convey the difference between the two capsule sizes.
+- The accompanying image displays the interior of a double bed capsule. This will convey the difference between the two capsule sizes.
 
 #### **The VR Lounge**
 
@@ -747,7 +749,7 @@ All wireframes were created using Balsamiq for the following screen sizes:
 
 </details>
 
-- The booking input form laid out into two columns for wider desktop displays. This is reduced to a single column display on smaller tablet and phone displays. This provides the user with a visually appealing design regardless of the display used.
+- The booking input form is laid out into two columns for wider desktop displays. This is reduced to a single column display when viewed on tablets and phones. This provides the user with a visually appealing design regardless of the device used.
 
 - Labels are positioned above the input windows to avoid any confusion as to what information is required from the user.
 
@@ -817,7 +819,7 @@ All wireframes were created using Balsamiq for the following screen sizes:
 
 - The header background image was chosen to be subtle and simple but reference the hexagonal design present throughout.
 
-- Three separate Thank You pages where created. I wanted the design to be consistent across all pages but the message to be unique. This is to give the user more accurate feedback on the task performed.
+- Three separate 'thank you' pages were created. I wanted the design to be consistent across all pages but the message to be unique. This is to give the user more accurate feedback on the task performed.
 
 - The navigation bar was placed so the user can return to the page of their choice.
 
@@ -851,13 +853,15 @@ All wireframes were created using Balsamiq for the following screen sizes:
 
 - The pixelated spaceman was used as a little joke. He symbolises a lost explorer.
 
+- The 'Home' button was implemented as a convenient form of navigation for users.
+
 ---
 
 ### **Future Implementations**
 
 #### **Restaurant**
 
-The Restaurant was originally designed during my wireframes and was intended to be part of the Facilities page. However, as I began designing the website, I felt that its inclusion was unnecessary for the projects scope.
+The restaurant was originally designed during my wireframes and was intended to be part of the Facilities page. However, as I began designing the website, I felt that its inclusion was unnecessary for the projects scope.
 
 This would be a section I would add at a later stage and would feature images of the restaurant as well as menu items and guests enjoying the experience. It would also contain a short descriptive paragraph, an opening timetable and a button link to the menu.
 
@@ -865,11 +869,11 @@ This would be a section I would add at a later stage and would feature images of
 
 #### **Sign Up & Login**
 
-I would like to include a Sign Up & Login section so that returning customers could have a smoother experience when making a booking as their details could be remembered.
+I would like to include a sign up & login section so that returning customers could have a smoother experience when making a booking, as their details could be remembered.
 
 #### **Members Page**
 
-As an extension of the Login feature, I would like to implement a member's page which would track their progress made along the Loyalty Reward system. This page would also allow members to select the VR experiences that they most enjoyed so recommendations could be made to them for future visits.
+As an extension of the login feature, I would like to implement a member's page which would track their progress made along the Loyalty Reward system. This page would also allow members to select the VR experiences that they most enjoyed so recommendations could be made to them for future visits.
 
 ---
 
@@ -892,7 +896,7 @@ Hover.css was used on the Coming Soon section of the Home page. The swipe to bot
 
 3.) **Google Fonts**
 
-Google fonts was linked into the head section of the html pages. 'Orbitron' was the main font used throughout the project. 'Creepster' was also used in the Coming Soon section of the home page to provide a horror theme to upcoming content.
+Google fonts was linked into the head section of the html pages. 'Exo' was the main font used throughout the project. 'Creepster' was also used in the Coming Soon section of the home page to provide a horror theme to upcoming content.
 
 4.) **Font Awesome**
 
@@ -900,7 +904,7 @@ Font Awesome was used on the navigation bar and footer of each page. It also fea
 
 5.) **Codeanywhere**
 
-Codeanywhere was used for version control by utilizing the terminal to commit to and push to GitHub.
+Codeanywhere was used for version control by utilising the terminal to commit to and push to GitHub.
 
 6.) **GitHub**
 
@@ -940,7 +944,7 @@ The project was deployed to GitHub Pages. The following steps were used to achie
 
 5. Under '**Source**' click the drop-down menu and select the option '**Deploy from a branch**'.
 
-6. In the '**Branch**' section, click the farthest left drop-down menu box and select the option 'main'. Select the drop-down menu box next to this and choose the option '**/(root)**'.
+6. In the '**Branch**' section, click the farthest left drop-down menu box and select the option '**main**'. Select the drop-down menu box next to this and choose the option '**/(root)**'.
 
 7. Click the '**Save**' button.
 
@@ -1048,9 +1052,9 @@ The initial validation for each page highlighted a consistent issue throughout t
 
   - Two anchor elements had a duplication of the `<a>` within the tag, so it displayed `<a a>`. This issue was also resolved by changing the `<button>` elements nested inside an `<a>` element.
 
-- Booking Page: Unnecessary 'required' attribute inside select type `<input>` elements.
+- Booking Page: Unnecessary 'required' attribute inside 'select' type `<input>` elements.
 
-  - As the select type inputs used in the booking form had a value associated to each of the options. The 'required' attribute wasn't needed, as the first selectable option was chosen by default. My fix for this issue was to remove the 'required' attribute from these inputs.
+  - As the 'select' type inputs used in the booking form had a value associated to each of the options. The 'required' attribute wasn't needed, as the first selectable option was chosen by default. My fix for this issue was to remove the 'required' attribute from these inputs.
 
 - Booking Page: 'Required' attribute applied to `<label>` element.
 
@@ -1106,9 +1110,9 @@ This is used in the Unrest Beyond Reality section of the home page.
 
 </details>
 
-The reason for this issue was that the heading section of the home page contained the company logo and slogan header. Whereas the other pages were just a hero image. Because the logo and slogan were responsive the size of the home page heading was relative to the display width. This made it challenging to keep the navbar at a consistent position across all pages.
+The reason for this issue was that the heading section of the home page contained the company logo and slogan header. Whereas the other pages were just a hero image. Because the logo and slogan were responsive the height of the home page heading was relative to the display width. This made it challenging to keep the navbar at a consistent position across all pages.
 
-The fix I implemented was to include the logo image and slogan header across all heading sections of the website. However, on the facilities and booking page I applied the BootStrap 'invisible' class to the rows containing the content. This allows the headings sections to be consistent across all pages without displaying the unwanted content. `<div class="row h-50 invisible">`
+The fix I implemented was to include the logo image and slogan header across all heading sections of the website. However, on the Facilities and Booking page I applied the BootStrap 'invisible' class to the rows containing the content. This allows the headings sections to be consistent across all pages without displaying the unwanted content. `<div class="row h-50 invisible">`
 
 <details><summary>Booking Form Input Alignment</summary>
 
@@ -1122,9 +1126,9 @@ The fix I implemented was to include the logo image and slogan header across all
 
 </details>
 
-This bug was caused by having a single input within the top row of the form but all other rows having two inputs. Because of this it was difficult to align the 'Title' select box with the remaining inputs. With the spacing method of 'justify-content-evenly' being responsive. The alignment became more noticeable on wider displays.
+This bug was caused by having a single input within the top row of the form but all other rows having two inputs. Because of this it was difficult to horizontally align the 'Title' select box with the remaining inputs. With the spacing method of 'justify-content-evenly' being responsive. The alignment not being identical became more noticeable on wider displays.
 
-The fix I implemented was similar to the previous bug fix. I added an additional input to the top row but added the 'invisible' class to prevent it being displayed. This allowed me to apply the same spacing method of 'justify-content-evenly' to the row and have the alignment match the other content exactly.
+The fix I implemented was similar to the previous bug fix. I added an additional input to the top row but added the 'invisible' class to prevent it being displayed. This allowed me to apply the same spacing method of 'justify-content-evenly' to the row and have the alignment match the other inputs exactly.
 
 <details><summary>iPhone Text Decoration Not Displaying</summary>
 
@@ -1172,7 +1176,7 @@ The hexagonal containers used for the social media icons in the footer don't dis
 
 #### **First Time Visitor Goals**
 
-1.) Learn about the Hotel and VR experience offered.
+1.) Learn about the hotel and VR experience offered.
 
 <details><summary>Screenshots</summary>
 
@@ -1212,7 +1216,7 @@ The hexagonal containers used for the social media icons in the footer don't dis
 
 - To ensure that navigation of the website was intuitive I applied a colour changing hover effect to the navigation bar.
 
-- This was to provide feedback to user and imply that the feature was interactive.
+- This was to provide feedback to users and imply that the feature was interactive.
 
 - The current page displays underlined text, so the user is aware of their location within the website.
 
@@ -1280,7 +1284,7 @@ The hexagonal containers used for the social media icons in the footer don't dis
 
 - The 'Become A Member' section was placed on the home page to allow easy discoverability.
 
-- The combination of text and imagery was designed to provide the user with the relevant information is a clear and understandable way.
+- The combination of text and imagery was designed to provide the user with the relevant information in a clear and understandable way.
 
 - The 'Join Us!' button was positioned centrally to draw the user's eye.
 
@@ -1496,13 +1500,13 @@ Friends and family also tested the website using a variety of devices. No issues
 Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | --- | --- | --- | --- | --- |
 | `Heading` |
-| Mini Logo | Redirects to the home page | Click mini logo |  Redirects to home page | Pass |
-| Book Now! Button | Redirects to booking form | Click button | Redirects to booking form | Pass |
+| Mini Logo | Redirect to the home page | Click mini logo |  Redirected to home page | Pass |
+| Book Now! Button | Redirect to booking form | Click button | Redirected to booking form | Pass |
 | `Navbar` |
-| Home Link | Redirects to home page | Click home link | Redirects to home page | Pass |
+| Home Link | Redirect to home page | Click home link | Redirected to home page | Pass |
 | Facilities Link | Redirect to facilities page | Click facilities link | Redirected to facilities page | Pass |
 | Booking Link  | Redirect to booking page | Click booking link | Redirected to booking page | Pass |
-| Hamburger Menu (Open) | Reveal navbar list | Click hamburger menu | Reveal navbar list | Pass |
+| Hamburger Menu (Open) | Reveal navbar list | Click hamburger menu | Revealed navbar list | Pass |
 | Hamburger Menu (Close) | Hide navbar list | Click hamburger menu | Hide navbar list | Pass |
 | `Home Page` |
 | Our Capsules! Button | Redirect to capsules section | Click button | Redirected to the capsules section | Pass |
@@ -1513,8 +1517,8 @@ Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | Newsletter Subscribe Button (no input) | User alerted of required input | Click button | User alerted of required input  | Pass |
 | Newsletter Subscribe Button (with input) | Redirect to Thank You newsletter page | Click button | Redirected to Thank You newsletter page  | Pass |
 | `Facilities Page` |
-| Book Now! Button (Single Capsule) | Redirects to booking form | Click button | Redirects to booking form | Pass |
-| Book Now! Button (Double Capsule) | Redirects to booking form | Click button | Redirects to booking form | Pass |
+| Book Now! Button (Single Capsule) | Redirect to booking form | Click button | Redirected to booking form | Pass |
+| Book Now! Button (Double Capsule) | Redirect to booking form | Click button | Redirected to booking form | Pass |
 | `Booking Page` |
 | Booking Form Submit (no inputs) | User alerted of required input | Click button | User alerted of first required input  | Pass |
 | Booking Form Submit (all inputs) | Redirect to Thank You booking page | Click button | Redirected to Thank You booking page  | Pass |
@@ -1527,7 +1531,7 @@ Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | Newsletter Subscribe Button (no input) | User alerted of required input | Click button | User alerted of required input  | Pass |
 | Newsletter Subscribe Button (with input) | Redirect to Thank You newsletter page | Click button | Redirected to Thank You newsletter page  | Pass |
 | `404 Page` |
-| Return Home button | Redirects user to home page | Clicked the button | Redirected to home page | Pass |
+| Return Home button | Redirect user to home page | Clicked the button | Redirected to home page | Pass |
 
 ---
 
@@ -1549,7 +1553,7 @@ Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 
   - This content was used in the Terms & Conditions section of the booking page.
 
-- All other content for the website was written by Andrew Wright.
+- All other content for the website was written by the developer Andrew Wright.
 
 ### **Media**
 
@@ -1608,5 +1612,5 @@ All images used on the website we're obtained from the following websites:
 ### Acknowledgments
 
 - My mentor [Jubril Akolade](https://github.com/Jubrillionaire) for all his encouragement and advice throughout the project.
-- Everyone at [Code Institute](https://codeinstitute.net/) for the incredible support.
+- Everyone at [Code Institute](https://codeinstitute.net/) for their incredible support.
 - The Code Institute Slack community for the feedback and help I recieved along the way.
